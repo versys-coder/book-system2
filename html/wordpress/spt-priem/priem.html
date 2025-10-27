@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Разделы: Спортивная школа / Аквастарт / Центр раннего развития</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- <link href="https://fonts.cdnfonts.com/css/bebas-neue" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" /> -->
+  <style>
+    @font-face {
+      font-family: 'Bebas Neue';
+      src: url('/spt-priem/fonts/bebas-neue/BebasNeue Regular.woff2') format('woff2'),
+           url('/spt-priem/fonts/bebas-neue/BebasNeue Bold.woff') format('woff');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Roboto';
+      src: url('/spt-priem/fonts/roboto/Roboto-Regular.woff2') format('woff2'),
+           url('/spt-priem/fonts/roboto/Roboto-Regular.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Roboto';
+      src: url('/spt-priem/fonts/roboto/Roboto-Bold.woff2') format('woff2'),
+           url('/spt-priem/fonts/roboto/Roboto-Bold.woff') format('woff');
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Roboto';
+      src: url('/spt-priem/fonts/roboto/Roboto-Medium.woff2') format('woff2'),
+           url('/spt-priem/fonts/roboto/Roboto-Medium.woff') format('woff');
+      font-weight: 500;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root{
+      --text:#26334b;
+      --text-2:#425064;
+      --para:#3e4e5e;
+      --muted:#616a78;
+      --chip-bg:#e6e9f0;
+      --chip-active:#e2f5ff;
+      --block-bg:#f5f6fa;
+      --accent-grad:linear-gradient(90deg,#b13cff 0%, #4d68ff 100%);
+      --link-main:#4a68ff;
+      --link-hover:#b13cff;
+      --shadow-main:0 8px 24px rgba(208,210,218,.12);
+      --shadow-lift:0 14px 40px rgba(77,104,255,.18), 0 8px 22px rgba(60,72,97,.12);
+      --radius-xl:32px;
+      --radius-md:18px;
+      --border:#e7edf5;
+      --acc-arrow:#39f;
+      --acc-bg-open:#f5f6fa;
+      --lh-main: 1.3;
+      --slider-focus-y: 30%;
+    }
+
+    *{box-sizing:border-box}
+    html, body { min-height:auto; }
+    body{
+      margin:0; color:var(--para); background:#fff;
+      font-family:'Roboto', Arial, sans-serif; line-height:var(--lh-main); font-size:14px;
+      font-synthesis: none; /* запрещаем “фальшивый” bold/italic */
+    }
+    p, li, .info p, .info li, .accordion-body p, .accordion-body li{ line-height: inherit; }
+
+    .topbar{ display:flex; align-items:center; justify-content:space-between; margin:24px 36px; }
+    .back-btn{
+      display:none; background:#fff; border:1.5px solid #c9d6e2; color:#26334b;
+      padding:7px 22px 7px 16px; font-weight:600; font-size:16px; border-radius:12px;
+      cursor:pointer; display:flex; align-items:center; gap:6px; transition:background .15s,color .15s,border-color .15s, box-shadow .14s;
+    }
+    .back-btn:hover{ background:#f5faff; color:#2196f3; border-color:#2196f3; box-shadow:0 2px 12px rgba(165,185,214,.2); }
+
+    .tabs{
+      display:none; gap:18px; justify-content:flex-end; overflow-x:auto; flex-wrap:nowrap;
+    }
+    .tabs button{
+      background:#e6e9f0; color:#606a76; border:none; font-size:14px; border-radius:999px;
+      padding:10px 32px; cursor:pointer; letter-spacing:.05em; white-space:nowrap; flex:0 0 auto;
+    }
+    .tabs button.active{ background:var(--chip-active); color:#26334b; font-weight:700; }
+
+    #main{ padding:0 36px 28px 36px; position:relative; }
+    #main::after{ content:''; display:block; height:24px; }
+    #main.updating{ opacity:0.001; transition:opacity .12s ease; }
+    #main.ready{ opacity:1; transition:opacity .18s ease; }
+
+    .cards{ display:grid; grid-template-columns:repeat(3,1fr); gap:32px; }
+    .card{
+      appearance:none; display:flex; flex-direction:column; width:100%; background:#fff; border:1px solid var(--border); padding:0; margin:0;
+      border-radius:var(--radius-xl); box-shadow:0 2px 11px rgba(0,0,0,.06); cursor:pointer; transition:box-shadow .14s, transform .14s; overflow:hidden; text-align:left;
+    }
+    .card:hover{ box-shadow:0 8px 24px rgba(136,136,136,.33); transform:translateY(-2px); }
+    .card-cover{ width:100%; aspect-ratio:2.4/1; min-height:180px; border-radius:var(--radius-xl) var(--radius-xl) 0 0; overflow:hidden; background:#eee; position:relative; }
+    .card-cover img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center; }
+    .card-title-row{ display:flex; align-items:center; justify-content:space-between; min-height:64px; padding:0 20px; background:#fff; border-radius:0 0 var(--radius-xl) var(--radius-xl); }
+    .card-title{
+      font-family:'Bebas Neue', Arial, sans-serif; letter-spacing:.04em; text-transform:uppercase;
+      font-size:1.5em; color:var(--text-2); font-weight:700; margin:0; /* Bebas Neue — только 400 */
+    }
+    .card-chip{ background:var(--chip-bg); color:var(--muted); font-size:1.08em; border-radius:999px; padding:7px 20px; font-weight:500; }
+
+    .section{ margin-top:8px; }
+    .section-title{
+      font-family:'Bebas Neue', Arial, sans-serif; letter-spacing:.04em; text-transform:uppercase;
+      font-size:2.1em; color:var(--text-2); margin:0 0 8px 0; font-weight:700;
+    }
+
+    .slider{ position:relative; width:100%; height:320px; overflow:hidden; border-radius:20px; box-shadow:0 2px 11px rgba(0,0,0,.06); background:#eee; margin:10px 0 22px 0; }
+    .slide{ position:absolute; inset:0; opacity:0; transition:opacity .5s ease; }
+    .slide.active{ opacity:1; }
+    .slider img{ width:100%; height:100%; object-fit:cover; display:block; object-position: center var(--slider-focus-y); }
+
+    .two-col{ display:grid; grid-template-columns:1fr 1fr; gap:20px; align-items:stretch; }
+    .two-col > .info{ display:flex; flex-direction:column; height:100%; }
+
+    .info{
+      background:var(--block-bg); border-radius:var(--radius-md); padding:20px 22px; color:var(--para);
+      box-shadow:var(--shadow-main); transition:box-shadow .18s, transform .18s; will-change:box-shadow,transform;
+    }
+    .info:hover{ box-shadow:var(--shadow-lift); transform:translateY(-3px); }
+    .info h2{
+      margin: 6px 0 14px 0;
+      font-size: 2.0em;
+      color: #2f3a4d;
+      letter-spacing: .03em;
+      font-family: 'Bebas Neue', Arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: 700; /* было 700 */
+    }
+    .info h3{ margin:14px 0 10px 0; font-size:1.05em; color:#2f3a4d; }
+    .info p{ margin:8px 0; }
+    .info ul{ margin:8px 0 8px 18px; padding:0; }
+    .info li{ margin:6px 0; }
+    .push-bottom{ margin-top:auto; }
+
+    .info a, .accordion-body a {
+      color: var(--link-main); text-decoration: none;
+      font-weight: 500; font-size: 14px; font-family: 'Roboto', Arial, sans-serif;
+      letter-spacing: 0; transition: color .15s;
+      display: inline; vertical-align: baseline; line-height: inherit;
+    }
+    .info a:hover, .accordion-body a:hover { color: var(--link-hover); }
+
+    .accordion-block{ margin-top:24px; width:100%; box-sizing:border-box; margin-left:0 !important; }
+    .accordion-head{
+      display:flex; align-items:center; justify-content:space-between;
+      min-height:10px; padding:3px 32px; margin:0; cursor:pointer; user-select:none;
+      background:transparent; color:#2f3a4d; border-radius:12px;
+      border-bottom:1px solid var(--border);
+      font-family:'Bebas Neue', Arial, sans-serif; letter-spacing:.04em; text-transform:uppercase; font-size:1.9em; font-weight:600; /* было 600 */
+      transition:background .18s, color .18s, border-color .18s;
+    }
+    .accordion-head:hover{ background:var(--accent-grad); color:#fff; border-bottom-color:transparent; }
+    .accordion-head:hover .accordion-arrow{ color:#fff; transform:none; }
+    .accordion-head.open{ background:var(--accent-grad); color:#fff; border-bottom-color:transparent; }
+    .accordion-head .accordion-arrow{
+      color:var(--acc-arrow); font-size:28px; line-height:1; margin-left:16px;
+      transition:transform .2s,color .2s;
+      display:inline-block; vertical-align:middle; font-family:Arial,sans-serif;
+    }
+    .accordion-head.open .accordion-arrow{ color:#fff; transform:rotate(180deg); }
+
+    .accordion-body{
+      display:none;
+      border-radius:24px; background:var(--acc-bg-open); color:var(--para);
+      padding:28px; margin-top:8px; box-shadow:0 2px 18px rgba(76,103,255,.07);
+      font-size:14px; line-height:inherit; font-family:'Roboto', Arial, sans-serif;
+      width:100%; box-sizing:border-box;
+    }
+
+    .phone-banner{
+      display:grid; grid-template-columns:2fr 1fr; gap:20px;
+      background:#f7f9fc; border-radius:18px; padding:22px; margin:22px 0 36px 0;
+      box-shadow:var(--shadow-main); transition:box-shadow .18s, transform .18s; will-change:box-shadow,transform;
+    }
+    .phone-banner:hover{ box-shadow:var(--shadow-lift); transform:translateY(-3px); }
+    .phone-banner h3{
+      margin:0 0 14px 0; font-size:1.6em; color:#2f3a4d;
+      font-family:'Bebas Neue', Arial, sans-serif; letter-spacing:.03em; text-transform:uppercase; font-weight:400;
+    }
+    .phone-banner img{ width:100%; height:220px; object-fit:cover; border-radius:12px; display:block; background:#eee; }
+
+    .center-bottom-row{
+      display:flex; gap:20px; align-items:center; justify-content:space-between;
+      margin-top:20px; flex-wrap:wrap;
+    }
+    .center-logo{
+      background:var(--block-bg); border-radius:18px; box-shadow:var(--shadow-main);
+      transition:box-shadow .18s, transform .18s; will-change:box-shadow,transform;
+      flex:0 0 260px; max-width:220px; display:flex; align-items:center; justify-content:center; padding:8px;
+    }
+    .center-logo:hover{ box-shadow:var(--shadow-lift); transform:translateY(-3px); }
+    .center-logo img{ width:100%; height:auto; max-height:220px; object-fit:contain; display:block; }
+
+    .aquastart-btns{
+      display:flex; align-items:center; justify-content:center;
+      gap:18px; margin-top:22px; flex-wrap:wrap;
+    }
+    .aquastart-btns .cta{
+      background:var(--accent-grad) !important; color:#fff !important;
+      font-family:'Bebas Neue', Arial, sans-serif !important; font-size:1.2em !important; font-weight:700 !important; /* было 700 */
+      letter-spacing:.02em; text-transform:uppercase; border:none !important; outline:none !important;
+      padding:14px 32px !important; border-radius:44px !important;
+      box-shadow:0 6px 24px rgba(77,104,255,.11) !important; cursor:pointer; line-height:1 !important;
+      display:inline-block; transition:filter .18s;
+    }
+    .aquastart-btns .cta:hover{ filter:brightness(1.04); }
+    .aquastart-btns .cta:disabled{ opacity:.7; }
+
+    @media (max-width:1200px){
+      .cards{ grid-template-columns:repeat(2,1fr); gap:20px; }
+      .phone-banner{ grid-template-columns:1fr; }
+    }
+    @media (max-width:900px){
+      .cards{ grid-template-columns:1fr; gap:20px; }
+      .two-col{ grid-template-columns:1fr; }
+      .center-bottom-row{ justify-content:center; }
+      .slider{ height:38vw; min-height:120px; max-height:220px; }
+    }
+    @media (max-width:680px){
+      .topbar{
+        margin:10px 4vw;
+        flex-direction:column;
+        gap:10px;
+        align-items:flex-start;
+      }
+      .back-btn{
+        display:inline-flex;
+        align-self:flex-start;
+        font-size:14px;
+        padding:8px 14px 8px 10px;
+        border-radius:10px;
+        line-height:1.1;
+      }
+      #main{ padding:0 2vw 20px 2vw; }
+      .tabs{
+        width:100%;
+        justify-content:flex-start;
+        gap:10px;
+        padding:6px 2vw;
+        overflow-x:auto !important;
+        -webkit-overflow-scrolling:touch;
+        scroll-snap-type:x proximity;
+        touch-action: pan-x;
+      }
+      .tabs::-webkit-scrollbar{ display:none; }
+      .tabs button{
+        flex:0 0 auto;
+        font-size:12.5px;
+        padding:8px 14px;
+        border-radius:999px;
+        scroll-snap-align:start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <button id="backBtn" class="back-btn"><span>&larr;</span> Назад</button>
+    <div id="tabs" class="tabs">
+      <button data-key="school">СПОРТИВНАЯ ШКОЛА</button>
+      <button data-key="aquastart">ФОГ «АКВАСТАРТ»</button>
+      <button data-key="early">ЦЕНТР РАННЕГО ФИЗИЧЕСКОГО РАЗВИТИЯ</button>
+    </div>
+  </div>
+
+  <div id="main" class="ready"></div>
+
+  <script>
+  (function () {
+    'use strict';
+    function calcHeightPrecise() {
+      try {
+        var tb = document.querySelector('.topbar');
+        var main = document.getElementById('main');
+        var hTop = tb ? tb.offsetHeight : 0;
+        if (!main) return hTop;
+        var rect = main.getBoundingClientRect();
+        var hMain = Math.max(main.scrollHeight, main.offsetHeight, rect.height || 0);
+        return Math.ceil(hTop + hMain + 1);
+      } catch (e) { return 0; }
+    }
+    var lastSentH = 0, lastAt = 0;
+    function postHeight(force) {
+      try {
+        var h = calcHeightPrecise();
+        if (!h) return;
+        var now = Date.now();
+        if (!force && Math.abs(h - lastSentH) < 4 && (now - lastAt) < 180) return;
+        lastSentH = h; lastAt = now;
+        window.parent && window.parent.postMessage({ source: 'dvvs-priem', height: h }, '*');
+      } catch (err) {}
+    }
+    function burst(){ postHeight(true); [80,200,450,900].forEach(t=>setTimeout(()=>postHeight(true),t)); }
+    try { window.__dvvs_priem_sendHeight = postHeight; window.forceResize = ()=>postHeight(true); } catch(e){}
+    function onParentRequest(d){ return d=== 'dvvs-priem:get-height' || (d && typeof d==='object' && d.type==='dvvs-priem:get-height'); }
+    function onLoad(){ burst(); }
+    try { if (window.ResizeObserver){ var ro=new ResizeObserver(()=>postHeight()); var m=document.getElementById('main'); if(m) ro.observe(m);} } catch(e){}
+    try { var mo=new MutationObserver(()=>setTimeout(()=>postHeight(),40)); var m2=document.getElementById('main'); if(m2) mo.observe(m2,{childList:true,subtree:true,attributes:true,characterData:true}); } catch(e){}
+    document.addEventListener('load', e=>{ var t=e && e.target; if(t && t.tagName==='IMG') setTimeout(()=>postHeight(true),40); }, true);
+    window.addEventListener('message', e=>{ var d=e && e.data; if(onParentRequest(d)) burst(); }, false);
+    if (document.readyState==='loading') document.addEventListener('DOMContentLoaded', onLoad); else onLoad();
+    window.addEventListener('load', onLoad);
+  })();
+  </script>
+
+  <script>
+    const BASE = '/gallery';
+    const SECTION_CHIPS = { school:'спортсменам', aquastart:'детям', early:'детям' };
+
+    const FIXED_MODE = 'min';
+    const FIXED_SECTION_HEIGHT = { };
+
+    const SECTIONS = [
+      { key:'school', title:'Спортивная школа', cover: BASE + '/Отделения/DSC00490.jpg',
+        slider:[ BASE + '/Отделения/DSC00490.jpg', BASE + '/Отделения/DSC02223.jpg', BASE + '/Отделения/DSC07090.jpg' ],
+        content: renderSchool },
+      { key:'aquastart', title:'ФОГ «Аквастарт»',
+        cover:'https://дввс.рф/storage/sport-school/slider-bottom/1727511335/DSC08250%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg',
+        slider:[
+          'https://дввс.рф/storage/sport-school/slider-bottom/1727511335/DSC08250%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg',
+          'https://дввс.рф/storage/sport-school/slider-bottom/1727511652/DSC08119%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg'
+        ],
+        content: renderAquastart },
+      { key:'early', title:'Центр раннего физического развития детей',
+        cover: BASE + '/Отделения/DSC04068.jpg',
+        slider:[
+          BASE + '/Отделения/DSC04068.jpg',
+          BASE + '/Отделения/DSC04068.jpg',
+          BASE + '/Отделения/DSC04068.jpg'
+        ],
+        content: renderEarly }
+    ];
+
+    const main = document.getElementById('main');
+    const backBtn = document.getElementById('backBtn');
+    const tabsEl = document.getElementById('tabs');
+    const state = { opened:null };
+    const cleanups = [];
+
+    const debounce = (fn,ms)=>{ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
+
+    function runCleanups(){ while (cleanups.length){ try{ cleanups.pop()(); }catch(e){} } }
+
+    function observeImages(scope){
+      scope.querySelectorAll('img').forEach(img=>{
+        if (!img.complete) img.addEventListener('load', ()=>{ syncHeights(); }, {once:true});
+      });
+    }
+
+    function heightBurst(){
+      try { window.forceResize && window.forceResize(); } catch(e){}
+      setTimeout(()=>{ try { window.forceResize && window.forceResize(); } catch(e){} }, 120);
+    }
+
+    function swapContent(renderFn){
+      const prevH = main.offsetHeight || 0;
+      main.classList.add('updating');
+      if (prevH) main.style.minHeight = prevH + 'px';
+      renderFn();
+      requestAnimationFrame(()=>{
+        main.classList.remove('updating');
+        main.classList.add('ready');
+        main.style.minHeight = '';
+        syncHeights();
+        heightBurst();
+      });
+    }
+
+    function applySectionHeight(key){
+      const h = FIXED_SECTION_HEIGHT[key];
+      if (h){
+        if (FIXED_MODE === 'exact'){ main.style.height = h + 'px'; main.style.minHeight=''; main.style.overflow='visible'; }
+        else { main.style.minHeight = h + 'px'; main.style.height=''; main.style.overflow=''; }
+      } else {
+        main.style.minHeight=''; main.style.height=''; main.style.overflow='';
+      }
+    }
+
+    function init(){
+      const hash = location.hash;
+      if (hash.startsWith('#section=')) openSection(decodeURIComponent(hash.split('=')[1]||''), 'replace');
+      else renderList('replace');
+
+      if (window.self !== window.top) { document.documentElement.style.overflow = 'hidden'; document.body.style.overflow = 'hidden'; }
+
+      const mo = new MutationObserver(()=>{ syncHeights(); });
+      mo.observe(main, {childList:true, subtree:true});
+
+      tabsEl.querySelectorAll('button').forEach(b => b.addEventListener('click', ()=>openSection(b.dataset.key,'push')));
+      backBtn.addEventListener('click', ()=>renderList('push'));
+    }
+
+    window.onpopstate = () => {
+      const hash = location.hash;
+      if (hash.startsWith('#section=')) openSection(decodeURIComponent(hash.split('=')[1]||''), 'replace');
+      else renderList('replace');
+    };
+
+    function renderList(historyAction='replace'){
+      runCleanups();
+      applySectionHeight(null);
+
+      swapContent(()=>{
+        main.innerHTML = '';
+        const list = document.createElement('div');
+        list.className = 'cards';
+
+        [SECTIONS[0], SECTIONS[1], SECTIONS[2]].forEach(sec=>{
+          const card = document.createElement('button');
+          card.className = 'card';
+          card.innerHTML = `
+            <div class="card-cover"><img src="${sec.cover}" alt="${sec.title}" loading="lazy"></div>
+            <div class="card-title-row">
+              <span class="card-title">${sec.title}</span>
+              <span class="card-chip">${SECTION_CHIPS[sec.key]}</span>
+            </div>`;
+          card.addEventListener('click', ()=>openSection(sec.key,'push'));
+          list.appendChild(card);
+        });
+
+        main.appendChild(list);
+        observeImages(main);
+
+        backBtn.style.display = 'none';
+        tabsEl.style.display = 'none';
+        state.opened = null;
+        markActiveTab();
+      });
+
+      const base = location.pathname;
+      (historyAction==='push' ? history.pushState : history.replaceState).call(history, {opened:null}, '', base+'#list');
+    }
+
+    function openSection(key, historyAction='push'){
+      const sec = SECTIONS.find(s=>s.key===key);
+      if(!sec) return;
+      state.opened = key;
+
+      runCleanups();
+      applySectionHeight(key);
+
+      swapContent(()=>{
+        main.innerHTML = '';
+
+        const header = document.createElement('div');
+        header.className = 'section';
+        header.innerHTML = `<h1 class="section-title">${sec.title}</h1>`;
+        main.appendChild(header);
+
+        main.appendChild(buildSlider(sec.slider||[]));
+
+        const contentWrap = document.createElement('div');
+        sec.content(contentWrap);
+        main.appendChild(contentWrap);
+
+        if (key === 'school') {
+          main.appendChild(buildAccordionBlock('Углубленное медицинское обследование', `
+            <p><b>Справку для зачисления в спортивную школу можно получить:</b></p>
+            <p>• по месту жительства;<br>
+               • в городском центре спортивной медицины, ул. Буторина, 10, тел. +7 (343) 305-30-18;<br>
+               • в иных медицинских организациях, имеющих лицензию на осуществление медицинской деятельности по спортивной медицине,
+                 или лечебной физкультуре/спортивной медицине.</p>
+            <p>Обращаем внимание, что медицинская справка имеет три печати: штамп учреждения, треугольная или круглая печать регистратуры и печать врача
+               (штамп учреждения может не ставиться, если в справке указано наименование учреждения).</p>
+            <p><a href="https://дввс.рф/storage/documents/1760097932/med.pdf" target="_blank" rel="noopener"><b>Требования к медицинскому заключению для зачисления в спортивную школу и алгоритм получения заключения</b></a></p>
+          `));
+          main.appendChild(buildAccordionBlock('Полезные ссылки', `
+            <ul>
+              <li><a href="https://www.minsport.gov.ru/" target="_blank">Министерство спорта Российской Федерации</a></li>
+              <li><a href="https://fcpsr.ru/" target="_blank">Федеральный центр подготовки спортивного резерва</a></li>
+              <li><a href="https://minsport.midural.ru/" target="_blank">Министерство физической культуры и спорта Свердловской области</a></li>
+            </ul>
+          `));
+          main.appendChild(buildPhoneBanner());
+        }
+
+        observeImages(main);
+
+        backBtn.style.display = '';
+        tabsEl.style.display = 'flex';
+        markActiveTab();
+        heightBurst();
+      });
+
+      const base = location.pathname;
+      (historyAction==='push' ? history.pushState : history.replaceState).call(history, {opened:key}, '', base+'#section='+encodeURIComponent(key));
+    }
+
+    function buildSlider(images){
+      const root = document.createElement('div');
+      root.className = 'slider';
+
+      if (!images.length) {
+        root.innerHTML = `<div class="slide active"><img src="${BASE}/Отделения/DSC00490.jpg" alt="Слайд 1"></div>`;
+        return root;
+      }
+      root.innerHTML = images.map((src,i)=>`
+        <div class="slide${i===0?' active':''}">
+          <img src="${src}" alt="Слайд ${i+1}" loading="lazy"
+               onerror="this.onerror=null; this.src='${BASE}/Отделения/DSC00490.jpg';">
+        </div>
+      `).join('');
+
+      let i = 0, timer = null, hovering = false;
+      const all = ()=> Array.from(root.querySelectorAll('.slide'));
+      const show = (idx)=>{
+        const slides = all();
+        if (!slides.length) return;
+        slides[i].classList.remove('active');
+        i = (idx+slides.length)%slides.length;
+        slides[i].classList.add('active');
+        syncHeights();
+        heightBurst();
+      };
+      const start = ()=>{ stop(); timer = setInterval(()=>{ if(!hovering) show(i+1); }, 3500); };
+      const stop = ()=>{ if(timer){ clearInterval(timer); timer=null; } };
+      root.addEventListener('mouseenter', ()=>hovering=true);
+      root.addEventListener('mouseleave', ()=>hovering=false);
+      start();
+      cleanups.push(()=>{ stop(); root.replaceChildren(); });
+      return root;
+    }
+
+    function buildAccordionBlock(title, html){
+      const wrap = document.createElement('div');
+      wrap.className = 'accordion-block';
+      wrap.innerHTML = `
+        <div class="accordion-head" role="button" aria-expanded="false">
+          <span>${title}</span><span class="accordion-arrow">↓</span>
+        </div>
+        <div class="accordion-body" style="display:none;">${html}</div>`;
+      const head = wrap.querySelector('.accordion-head');
+      const body = wrap.querySelector('.accordion-body');
+      const arrow = head.querySelector('.accordion-arrow');
+
+      const toggle = ()=>{
+        const open = body.style.display === 'block';
+        body.style.display = open ? 'none' : 'block';
+        head.classList.toggle('open', !open);
+        head.setAttribute('aria-expanded', String(!open));
+        arrow.textContent = open ? '↓' : '↑';
+        syncHeights();
+        heightBurst();
+      };
+      head.addEventListener('click', toggle);
+      return wrap;
+    }
+
+    function buildPhoneBanner(){
+      const wrap = document.createElement('div');
+      wrap.className = 'phone-banner';
+      wrap.innerHTML = `
+        <div>
+          <h3>По всем вопросам обращайтесь по телефонам:</h3>
+          <p>Отделение «Плавание»: +7 (343) 222-22-33 (61-58)</p>
+          <p>Отделение «Прыжки в воду»: +7 (343) 222-22-33 (63-86)</p>
+          <p>Отделение «Синхронное плавание»: +7 (343) 222-22-33 (63-20)</p>
+          <p>По вопросам приема документов: +7 (343) 222-22-33 (61-57)</p>
+          <p>Эл. почта: <a href="mailto:sport@dvvs-ekb.ru">sport@dvvs-ekb.ru</a></p>
+        </div>
+        <div><img src="banner.jpg" alt="Телефонный баннер"></div>`;
+      return wrap;
+    }
+
+    function buildEarlyBottomRow(){
+      const row = document.createElement('div');
+      row.className = 'center-bottom-row';
+      row.innerHTML = `
+        <div class="info" style="flex:1 1 300px;">
+          <h2>Информация для поступающих</h2>
+          <p>Количество вакантных мест на 2026 год – 20 человек</p>
+          <p>По вопросам приема документов обращайтесь по телефонам:<br>
+          +7 (343) 222-22-33 (63-20), +7 (343) 222-22-33 (63-85).</p>
+          <p>Адрес электронной почты: <a href="mailto:sport@dvvs-ekb.ru">sport@dvvs-ekb.ru</a></p>
+        </div>
+        <div class="center-logo"><img src="/spt-priem/centr/logo-center.png" alt="Центр раннего развития — логотип"></div>`;
+      return row;
+    }
+
+    /* Спортивная школа — контент по вашему фрагменту */
+    function renderSchool(root){
+      root.innerHTML = `
+        <div class="two-col">
+          <div class="info">
+            <h2>Порядок приема на бюджетные места</h2>
+
+            <p><strong>1 этап. Прием документов<br></strong>Сроки приема документов: <strong>с 6 по 31 октября 2025 года</strong> (включительно)</p>
+            <p><strong>2 этап. Индивидуальный отбор<br></strong>
+              <p></p>
+              <a href="https://дввс.рф/storage/documents/1757065511/%D0%93%D1%80%D0%B0%D1%84%D0%B8%D0%BA%20%D0%B8%D0%BD%D0%B4%D0%B8%D0%B2%D0%B8%D0%B4%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BE%D1%82%D0%B1%D0%BE%D1%80%D0%B0.pdf" target="_blank" rel="noopener">График индивидуального отбора</a>​<br>
+              <em><strong>Результаты индивидуального отбора будут размещены на сайте путём размещения пофамильного списка-рейтинга в соответствии с количеством вакантных бюджетных мест</strong></em>
+            </p>
+            <p><strong>3 этап. Зачисление</strong><br></p>
+            <p><strong>Зачисление с 1.01.2026 года</strong></p>
+            <p>Зачисление в учреждение осуществляется только при наличии полного пакета документов и результатов индивидуального отбора.</p>
+            <p>При зачислении приоритет имеют дети участников СВО (при наличии справки из воинской части).​</p>
+
+            <p>
+              <strong>Информация для поступающих:<br></strong><br>
+              -&nbsp;<a href="https://дввс.рф/storage/documents/1757668423/%D0%9A%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE%20%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82%D0%BD%D1%8B%D1%85%20%D0%BC%D0%B5%D1%81%D1%82%20%D0%BD%D0%B0%202026%20%D0%B3%D0%BE%D0%B4%20(1).pdf" target="_blank" rel="noopener">количество вакантных мест</a>​<br>
+              -&nbsp;<a href="https://disk.yandex.ru/d/BxhiUChiDy-seA" target="_blank" rel="noopener">критерии отбора для зачисления</a><br>
+              -&nbsp;<a target="_blank" href="https://дввс.рф/storage/documents/1760097932/med.pdf">требования к медицинскому заключению</a>​<br><br>
+              -&nbsp;Подать заявление можно через <a href="https://www.gosuslugi.ru/" target="_blank" rel="noopener">Единый портал государственных и муниципальных услуг</a>. В течение 5 рабочих дней с момента подачи заявления необходимо предоставить оригиналы документов.<br><br>
+
+              <strong>График работы приемной комиссии:&nbsp;</strong><br>
+              Понедельник - пятница&nbsp; с 09:00 до 12:00, с 13:00 до 17:00<br><br>
+
+              <strong>График работы апелляционной комиссии:</strong><br>
+              Вторник - с 09:00 до 12.00, с 13:00 до 17:00<br><br>
+
+              <strong>Прием документов осуществляется по адресу:</strong><br>
+              ул. Универсиады, стр. 11, вход № 9
+            </p>
+          </div>
+
+          <div class="info">
+            <h2>ДОКУМЕНТЫ ДЛЯ ЗАЧИСЛЕНИЯ</h2>
+
+            <p>
+              <strong>заявление родителя/поступающего&nbsp;</strong><br>
+              - <a href="https://дввс.рф/storage/documents/1757067429/%D0%97%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C%20%D0%B2%20%D1%81%D0%BF%D0%BE%D1%80%D1%82%D1%88%D0%BA%D0%BE%D0%BB%D1%83%20%D0%BE%D1%82%20%D1%80%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8F.docx" target="_blank" rel="noopener"> бланк заявления до 14 лет</a>;<br>
+              - <a href="https://дввс.рф/storage/documents/1757067505/%D0%97%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D1%8C%20%D0%B2%20%D1%81%D0%BF%D0%BE%D1%80%D1%82%D1%88%D0%BA%D0%BE%D0%BB%D1%83%20%D0%BE%D1%82%20%D0%BE%D0%B1%D1%83%D1%87%D0%B0%D1%8E%D1%89%D0%B5%D0%B3%D0%BE%D1%81%D1%8F%2014%20%D0%BB%D0%B5%D1%82.docx" target="_blank" rel="noopener"> бланк заявления старше 14 лет.</a><br><br>
+
+              <strong>копия паспорта родителя</strong><br><br>
+
+              <strong>копия свидетельства о рождении (копия паспорта поступающего старше 14 лет)</strong>
+            </p>
+
+            <p>
+              <strong>справка от спортивного врача</strong><br>
+              - <a href="https://дввс.рф/storage/sport-school/links/1730263800/%D0%9C%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F%20%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BA%D0%B0%20-%20%D1%84%D0%BE%D1%80%D0%BC%D0%B0.pdf" target="_blank" rel="noopener"> бланк справки</a><br><br>
+
+              <strong>фотография поступающего (4 шт. размером 3*4)</strong><br><br>
+
+              <strong>согласие на обработку персональных данных</strong><br>
+              - <a href="https://дввс.рф/storage/sport-school/links/1730263866/%D0%A1%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%B8%D0%B5%20%D0%9F%D0%94%20%D0%B4%D0%BE%2014%20%D0%BB%D0%B5%D1%82.pdf" target="_blank" rel="noopener"> бланк согласия до 14 лет;</a><br>
+              - <a href="https://дввс.рф/storage/sport-school/links/1730268039/%D0%A1%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%B8%D0%B5%20%D0%9F%D0%94%20%D1%81%D1%82%D0%B0%D1%80%D1%88%D0%B5%2014%20%D0%BB%D0%B5%D1%82.pdf" target="_blank" rel="noopener"> бланк согласия старше 14 лет.</a><br><br>
+
+              <strong>согласие на фото- и видеосъемку</strong><br>
+              - <a href="https://дввс.рф/storage/sport-school/links/1730263981/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BE%D0%B1%D1%80%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%84%D0%BE%D1%82%D0%BE-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D1%81%D1%8A%D0%B5%D0%BC%D0%BA%D1%83%20%D0%B4%D0%BE%2014%20%D0%BB%D0%B5%D1%82.pdf" target="_blank" rel="noopener"> бланк согласия до 14 лет;</a><br>
+              - <a href="https://дввс.рф/storage/documents/1758691741/%D0%A1%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%84%D0%BE%D1%82%D0%BE_%D0%B8_%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE%D1%81%D1%8A%D0%B5%D0%BC%D0%BA%D1%83_%D1%81%D1%82%D0%B0%D1%80%D1%88%D0%B5_14_new.pdf" target="_blank" rel="noopener"> бланк согласия старше 14 лет.</a><br><br>
+
+              - <a download="- бланк согласия на медицинское вмешательство" href="https://дввс.рф/storage/sport-school/links/1744269658/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BE%D0%B1%D1%80%D0%BE%D0%B2%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D1%81%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B5%20%D0%B2%D0%BC%D0%B5%D1%88%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE.pdf" target="_blank" rel="noopener">бланк согласия на медицинское вмешательство</a>​<br>
+              - <a download="- бланк согласия специальной категории персональных данных" href="https://xn--b1aae8c.xn--p1ai/storage/sport-school/links/1744269737/%D0%A1%D0%BE%D0%B3%D0%BB%D0%B0%D1%81%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D1%83,%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D1%83,%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9%20%20%D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D0%B8%20%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85%20(%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8%20%D0%BE%20%D1%81%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BD%D0%B8%D0%B8%20%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%8C%D1%8F).pdf" target="_blank" rel="noopener">бланк согласия специальной категории персональных данных</a>​
+            </p>
+
+            <p>
+              <strong>По вопросам приема документов обращайтесь по телефонам:</strong><br>
+              отделение "плавание" + 7 (343) 222-22-33 (61-58)<br>
+              отделение "прыжки в воду" + 7 (343) 222-22-33 (63-86)<br>
+              по вопросам приема документов +7 (343) 222-22-33 (61-57)&nbsp;<br>
+              адрес электронной почты:
+              <a href="mailto:sport@dvvs-ekb.ru">sport@dvvs-ekb.ru</a>​<br>
+            </p>
+            <div><br></div>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderEarly(root){
+      root.innerHTML = `
+        <div class="two-col">
+          <div class="info">
+            <h2>О центре</h2>
+            <p>Обучение детей по дополнительной общеразвивающей программе в области физической культуры и спорта «Раннее физическое развитие детей».</p>
+            <p><b>Возраст детей</b> — 5–7 лет (2019–2020 г.р.).</p>
+            <p><b>Группа</b> — 5 человек.</p>
+            <p><b>Обучение бесплатное.</b></p>
+            <p>Программа направлена на формирование и развитие физических способностей детей, удовлетворение их индивидуальных потребностей в интеллектуальном, нравственном и физическом совершенствовании, формирование культуры здорового и безопасного образа жизни, укрепление здоровья, а также на&nbsp;организацию их свободного времени. Программа обеспечивает адаптацию детей к&nbsp;жизни в обществе, профессиональную ориентацию, а также выявление и&nbsp;поддержку детей, проявивших выдающиеся способности.</p>
+            <div class="push-bottom"></div>
+          </div>
+
+          <div class="info">
+            <h2>Документы для зачисления</h2>
+            <ul>
+              <li><a href="/spt-priem/centr/1. заявление родителя (законного представителя) поступающего.docx" target="_blank" rel="noopener">заявление родителя (законного представителя) поступающего</a></li>
+              <li>копия паспорта родителя</li>
+              <li>копия свидетельства о рождении</li>
+              <li><a href="/spt-priem/centr/blank.pdf" target="_blank" rel="noopener">медицинское заключение о принадлежности несовершеннолетнего к медицинской группе для занятий физической культурой</a></li>
+              <li>фотография поступающего (2 шт. размером 3×4)</li>
+              <li><a href="/spt-priem/centr/3. согласие на обработку персональных данных.pdf" target="_blank" rel="noopener">согласие на обработку персональных данных</a></li>
+              <li><a href="/spt-priem/centr/4. согласие на фото-и видеосъемку.pdf" target="_blank" rel="noopener">согласие на фото- и видеосъёмку</a></li>
+              <li><a href="/spt-priem/centr/5. бланк согласия на медицинское вмешательство.pdf" target="_blank" rel="noopener">согласие на медицинское вмешательство</a></li>
+              <li><a href="/spt-priem/centr/6. бланк согласия специальной категории персональных данных.pdf" target="_blank" rel="noopener">согласие специальной категории персональных данных</a></li>
+            </ul>
+
+            <h3>Информация для поступающих на 2026 год</h3>
+            <p><b>Сроки приема документов:</b> с 10 ноября по 20 ноября 2025 года (включительно).</p>
+            <p><b>График работы приемной комиссии:</b> понедельник — пятница: 09:00–12:00, 13:00–17:00.</p>
+            <p><b>Прием заявлений и документов осуществляется по адресу:</b> г. Екатеринбург, ул. Универсиады, 11, вход № 9.</p>
+            <p><b>Срок зачисления:</b> с 01.01.2026.</p>
+            <p>При зачислении приоритет имеют дети участников СВО (при наличии справки о подтверждении факта участия в специальной военной операции).</p>
+            <div class="push-bottom"></div>
+          </div>
+        </div>
+      `;
+      root.appendChild(buildEarlyBottomRow());
+    }
+
+    function renderAquastart(root){
+      root.innerHTML = `
+        <div class="two-col">
+          <div class="info">
+            <h2>О ГРУППАХ</h2>
+            <p>Физкультурно-оздоровительные группы «АкваСтарт» – это подготовительная ступень для поступления в спортивную школу на обучение по программам спортивной подготовки по видам спорта «плавание», «прыжки в воду», «синхронное плавание», возможность для ребёнка 5–7 лет сделать первые шаги к спортивным достижениям. Обучение ведётся по направлению «Общая физическая подготовка с элементами водных видов спорта»</p>
+            <p>Освоение водной среды, формирование плавательных навыков, развитие общей физической подготовки проходит в режиме 2-х разовых занятий в неделю, одно из которых на воде, другое на суше.</p>
+
+            <p><strong>Занятия проводятся</strong> в чаше детского бассейна и зале сухого плавания.</p>
+            <p><strong>Возраст детей</strong> – 5–7 лет.</p>
+            <p><strong>Группа</strong> – 8 человек.</p>
+            <p><strong>Продолжительность</strong> – 45 мин.</p>
+            <p><strong>Стоимость 1 занятия в чаше детского бассейна</strong> – 950 руб.</p>
+            <p><strong>Стоимость 1 занятия в зале сухого плавания</strong> – 700 руб.</p>
+            <p><strong>Расписание занятий</strong>: уточняется администратором.</p>
+            <p>Стоимость абонемента (1 месяц) варьируется, зависит от количества занятий в календарном месяце.</p>
+
+            <div class="push-bottom"></div>
+          </div>
+
+          <div class="info">
+            <h2>Список документов</h2>
+            <ul>
+              <li>оригинал паспорта родителя/законного представителя;</li>
+              <li>оригинал свидетельства о рождении;</li>
+              <li>справка от педиатра с указанием группы здоровья, с формулировкой разрешающей занятия плаванием;</li>
+              <li>отрицательный результат анализа на энтеробиоз и гименолепидоз (действителен для детей до 12 лет – 3 месяца);</li>
+              <li>согласие по принятию оферты;</li>
+              <li>согласие на обработку персональных данных;</li>
+              <li>согласие родителей на занятия несовершеннолетних.</li>
+            </ul>
+            <div class="aquastart-btns push-bottom">
+              <button id="aquastart-form-btn" type="button" class="cta">Записаться в «АкваСтарт»</button>
+              <button type="button" class="cta" onclick="window.open('https://дввс.рф/storage/documents/1757334852/%D0%A0%D0%B0%D1%81%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5.xlsx','_blank')">Расписание</button>
+            </div>
+          </div>
+        </div>
+      `;
+
+      const btn = root.querySelector('#aquastart-form-btn');
+      btn?.addEventListener('click', ()=>{
+        if (document.getElementById('aquastart-popup-overlay')) return;
+        const overlay = document.createElement('div');
+        overlay.id = 'aquastart-popup-overlay';
+        overlay.style = 'display:flex;position:fixed;z-index:9999;inset:0;background:rgba(0,0,0,.55);justify-content:center;align-items:center;';
+        overlay.innerHTML = `
+          <div style="background:#fff;padding:24px 24px 8px;border-radius:12px;box-shadow:0 6px 32px rgba(0,0,0,.15);max-width:96vw;max-height:92vh;position:relative;display:flex;flex-direction:column;">
+            <button id="aquastart-popup-close" style="position:absolute;top:8px;right:12px;font-size:28px;color:#888;background:transparent;border:none;cursor:pointer;">×</button>
+            <iframe src="https://price.dvvs-ekb.ru/aquastart/form.html" style="border:none;width:600px;max-width:90vw;height:88vh;border-radius:8px;background:#fff;" loading="lazy"></iframe>
+          </div>`;
+        document.body.appendChild(overlay);
+        const close = ()=>{ overlay.remove(); syncHeights(); heightBurst(); };
+        overlay.addEventListener('click', e=>{ if (e.target===overlay) close(); });
+        overlay.querySelector('#aquastart-popup-close')?.addEventListener('click', close);
+      });
+    }
+
+    function markActiveTab(){ tabsEl.querySelectorAll('button').forEach(b=>b.classList.toggle('active', state.opened===b.dataset.key)); }
+
+    function syncHeights(){
+      const pairs = main.querySelectorAll('.two-col');
+      pairs.forEach(grid=>{
+        const items = Array.from(grid.children).filter(el=>el.classList.contains('info'));
+        items.forEach(el=>ел.style.minHeight='');
+        if (items.length > 1) {
+          const max = Math.max(...items.map(el=>el.offsetHeight));
+          items.forEach(el=> el.style.minHeight = max + 'px');
+        }
+      });
+      heightBurst();
+    }
+
+    init();
+    window.addEventListener('resize', debounce(()=>{ syncHeights(); }, 150));
+    window.addEventListener('load', ()=>{ syncHeights(); });
+  </script>
+</body>
+</html>

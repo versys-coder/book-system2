@@ -1,0 +1,151 @@
+2025-08-22 10:24:10 INFO ===== Старт export_to_xls.py =====
+2025-08-22 10:24:10 INFO Using config: /opt/aquastart/config.json
+2025-08-22 10:24:10 INFO ClickHouse client params (masked): {'host': 'clickhouse.dvvs-ekb.ru', 'port': 8443, 'username': 'versys', 'password': '***', 'database': 'spt', 'secure': True}
+2025-08-22 10:24:10 INFO Выполняем ClickHouse запрос...
+2025-08-22 10:24:10 INFO ClickHouse: query_df вернул 1 строк
+2025-08-22 10:24:10 INFO ClickHouse DataFrame: 1 строк, 8 колонок
+2025-08-22 10:24:10 INFO Колонка created_at: timezone-aware, приводим к Asia/Yekaterinburg и делаем naive
+2025-08-22 10:24:10 INFO DataFrame types:
+created_at     datetime64[s]
+name          string[python]
+phone         string[python]
+email         string[python]
+birth         string[python]
+parent        string[python]
+wishes        string[python]
+ip            string[python]
+dtype: object
+2025-08-22 10:24:10 INFO Первые строки:
+           created_at             name         phone                       email       birth   parent   wishes            ip
+0 2025-08-22 15:05:58  волч словы выол  +79226161698  stanislav.volchkov@urfu.ru  02.11.1981  авыфавы  dDSADSA  10.18.15.226
+2025-08-22 10:24:10 INFO Столбец created_at приводится к строке для Excel
+2025-08-22 10:24:10 ERROR Ошибка сохранения Excel (попытка 1/3):
+[Errno 13] Permission denied: '/mnt/volchkov/.tmp_export_qgo4wuo9.xlsx'
+
+Traceback (most recent call last):
+  File "/var/www/html/wordpress/aquastart/export_to_xls.py", line 288, in main
+    save_to_excel_atomic(df, excel_path, engine='openpyxl')
+  File "/var/www/html/wordpress/aquastart/export_to_xls.py", line 207, in save_to_excel_atomic
+    fd, tmpname = tempfile.mkstemp(prefix='.tmp_export_', dir=dirpath, suffix='.xlsx')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 496, in mkstemp
+    return _mkstemp_inner(dir, prefix, suffix, flags, output_type)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 395, in _mkstemp_inner
+    fd = _os.open(file, flags, 0o600)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/mnt/volchkov/.tmp_export_qgo4wuo9.xlsx'
+
+2025-08-22 10:24:15 ERROR Ошибка сохранения Excel (попытка 2/3):
+[Errno 13] Permission denied: '/mnt/volchkov/.tmp_export_fi2plql_.xlsx'
+
+Traceback (most recent call last):
+  File "/var/www/html/wordpress/aquastart/export_to_xls.py", line 288, in main
+    save_to_excel_atomic(df, excel_path, engine='openpyxl')
+  File "/var/www/html/wordpress/aquastart/export_to_xls.py", line 207, in save_to_excel_atomic
+    fd, tmpname = tempfile.mkstemp(prefix='.tmp_export_', dir=dirpath, suffix='.xlsx')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 496, in mkstemp
+    return _mkstemp_inner(dir, prefix, suffix, flags, output_type)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 395, in _mkstemp_inner
+    fd = _os.open(file, flags, 0o600)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/mnt/volchkov/.tmp_export_fi2plql_.xlsx'
+
+2025-08-22 10:24:20 ERROR Ошибка сохранения Excel (попытка 3/3):
+[Errno 13] Permission denied: '/mnt/volchkov/.tmp_export_bldtokjk.xlsx'
+
+Traceback (most recent call last):
+  File "/var/www/html/wordpress/aquastart/export_to_xls.py", line 288, in main
+    save_to_excel_atomic(df, excel_path, engine='openpyxl')
+  File "/var/www/html/wordpress/aquastart/export_to_xls.py", line 207, in save_to_excel_atomic
+    fd, tmpname = tempfile.mkstemp(prefix='.tmp_export_', dir=dirpath, suffix='.xlsx')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 496, in mkstemp
+    return _mkstemp_inner(dir, prefix, suffix, flags, output_type)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 395, in _mkstemp_inner
+    fd = _os.open(file, flags, 0o600)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/mnt/volchkov/.tmp_export_bldtokjk.xlsx'
+
+2025-08-22 10:24:21 ERROR Не удалось сохранить файл после всех попыток.
+2025-08-22 10:25:46 INFO ===== Старт export_to_xls.py =====
+2025-08-22 10:25:46 INFO Using config: /opt/aquastart/config.json
+2025-08-22 10:25:46 INFO ClickHouse client params (masked): {'host': 'clickhouse.dvvs-ekb.ru', 'port': 8443, 'username': 'versys', 'password': '***', 'database': 'spt', 'secure': True}
+2025-08-22 10:25:46 INFO Выполняем ClickHouse запрос...
+2025-08-22 10:25:46 INFO ClickHouse: query_df вернул 1 строк
+2025-08-22 10:25:46 INFO ClickHouse DataFrame: 1 строк, 8 колонок
+2025-08-22 10:25:46 INFO Колонка created_at: timezone-aware, приводим к Asia/Yekaterinburg и делаем naive
+2025-08-22 10:25:46 INFO DataFrame types:
+created_at     datetime64[s]
+name          string[python]
+phone         string[python]
+email         string[python]
+birth         string[python]
+parent        string[python]
+wishes        string[python]
+ip            string[python]
+dtype: object
+2025-08-22 10:25:46 INFO Первые строки:
+           created_at             name         phone                       email       birth   parent   wishes            ip
+0 2025-08-22 15:05:58  волч словы выол  +79226161698  stanislav.volchkov@urfu.ru  02.11.1981  авыфавы  dDSADSA  10.18.15.226
+2025-08-22 10:25:46 INFO Столбец created_at приводится к строке для Excel
+2025-08-22 10:25:46 INFO Сохраняем Excel во временный файл: /mnt/volchkov/.tmp_export_tmz_faoc.xlsx
+2025-08-22 10:25:49 INFO Замещаем временный файл целевым Excel файлом
+2025-08-22 10:25:49 INFO Файл успешно записан: /mnt/volchkov/data.xlsx
+2025-08-22 10:25:49 INFO Экспорт завершён: /mnt/volchkov/data.xlsx
+2025-08-22 10:25:49 INFO ===== Завершение export_to_xls.py =====
+2025-08-22 10:26:42 INFO ===== Старт export_to_xls.py =====
+2025-08-22 10:26:42 INFO Using config: /opt/aquastart/config.json
+2025-08-22 10:26:42 INFO ClickHouse client params (masked): {'host': 'clickhouse.dvvs-ekb.ru', 'port': 8443, 'username': 'versys', 'password': '***', 'database': 'spt', 'secure': True}
+2025-08-22 10:26:42 INFO Выполняем ClickHouse запрос...
+2025-08-22 10:26:42 INFO ClickHouse: query_df вернул 1 строк
+2025-08-22 10:26:42 INFO ClickHouse DataFrame: 1 строк, 8 колонок
+2025-08-22 10:26:42 INFO Колонка created_at: timezone-aware, приводим к Asia/Yekaterinburg и делаем naive
+2025-08-22 10:26:42 INFO DataFrame types:
+created_at     datetime64[s]
+name          string[python]
+phone         string[python]
+email         string[python]
+birth         string[python]
+parent        string[python]
+wishes        string[python]
+ip            string[python]
+dtype: object
+2025-08-22 10:26:42 INFO Первые строки:
+           created_at             name         phone                       email       birth   parent   wishes            ip
+0 2025-08-22 15:05:58  волч словы выол  +79226161698  stanislav.volchkov@urfu.ru  02.11.1981  авыфавы  dDSADSA  10.18.15.226
+2025-08-22 10:26:42 INFO Столбец created_at приводится к строке для Excel
+2025-08-22 10:26:42 INFO Сохраняем Excel во временный файл: /mnt/volchkov/.tmp_export_edxzwrsm.xlsx
+2025-08-22 10:26:42 INFO Замещаем временный файл целевым Excel файлом
+2025-08-22 10:26:42 INFO Файл успешно записан: /mnt/volchkov/data.xlsx
+2025-08-22 10:26:42 INFO Экспорт завершён: /mnt/volchkov/data.xlsx
+2025-08-22 10:26:43 INFO ===== Завершение export_to_xls.py =====
+2025-08-22 10:29:38 INFO ===== Старт export_to_xls.py =====
+2025-08-22 10:29:38 INFO Using config: /opt/aquastart/config.json
+2025-08-22 10:29:38 INFO ClickHouse client params (masked): {'host': 'clickhouse.dvvs-ekb.ru', 'port': 8443, 'username': 'versys', 'password': '***', 'database': 'spt', 'secure': True}
+2025-08-22 10:29:39 INFO Выполняем ClickHouse запрос...
+2025-08-22 10:29:39 INFO ClickHouse: query_df вернул 1 строк
+2025-08-22 10:29:39 INFO ClickHouse DataFrame: 1 строк, 8 колонок
+2025-08-22 10:29:39 INFO Колонка created_at: timezone-aware, приводим к Asia/Yekaterinburg и делаем naive
+2025-08-22 10:29:39 INFO DataFrame types:
+created_at     datetime64[s]
+name          string[python]
+phone         string[python]
+email         string[python]
+birth         string[python]
+parent        string[python]
+wishes        string[python]
+ip            string[python]
+dtype: object
+2025-08-22 10:29:39 INFO Первые строки:
+           created_at             name         phone                       email       birth   parent   wishes            ip
+0 2025-08-22 15:05:58  волч словы выол  +79226161698  stanislav.volchkov@urfu.ru  02.11.1981  авыфавы  dDSADSA  10.18.15.226
+2025-08-22 10:29:39 INFO Столбец created_at приводится к строке для Excel
+2025-08-22 10:29:39 INFO Сохраняем Excel во временный файл: /mnt/volchkov/.tmp_export_2gpg7o4g.xlsx
+2025-08-22 10:29:39 INFO Замещаем временный файл целевым Excel файлом
+2025-08-22 10:29:39 INFO Файл успешно записан: /mnt/volchkov/data.xlsx
+2025-08-22 10:29:39 INFO Экспорт завершён: /mnt/volchkov/data.xlsx
+2025-08-22 10:29:39 INFO ===== Завершение export_to_xls.py =====

@@ -1,0 +1,84 @@
+# Translation of Plugins - Fullwidth Templates for Any Theme &amp; Page Builder - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Fullwidth Templates for Any Theme &amp; Page Builder - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-10 08:45:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Fullwidth Templates for Any Theme &amp; Page Builder - Stable (latest release)\n"
+
+#. translators: %s Product title
+#: admin/bsf-analytics/class-bsf-analytics.php:408
+msgid "Allow %s products to track non-sensitive usage tracking data."
+msgstr "Разрешить продуктам %s отслеживать неконфиденциальные данные отслеживания использования."
+
+#: admin/notices/class-astra-notices.php:120
+msgid "WordPress Nonce not validated."
+msgstr "Одноразовый номер (nonce) WordPress не прошел проверку."
+
+#: admin/bsf-analytics/class-bsf-analytics.php:416
+msgid "Learn More."
+msgstr "Узнать больше."
+
+#: admin/bsf-analytics/class-bsf-analytics.php:411
+msgid " This will be applicable for all sites from the network."
+msgstr " Это будет применимо для всех сайтов из сети."
+
+#: admin/bsf-analytics/class-bsf-analytics.php:364
+msgid "Usage Tracking"
+msgstr "Отслеживание использования"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:260
+msgid "No Thanks"
+msgstr "Нет, спасибо"
+
+#: admin/bsf-analytics/class-bsf-analytics.php:251
+msgid "Yes! Allow it"
+msgstr "Да! Разрешить"
+
+#. translators: %s usage doc link
+#: admin/bsf-analytics/class-bsf-analytics.php:243
+msgid " Know More."
+msgstr "Узнать больше. "
+
+#: admin/bsf-analytics/class-bsf-analytics.php:219
+msgid "This will be applicable for all sites from the network."
+msgstr "Это будет применимо ко всем сайтам сети."
+
+#. translators: %s product name
+#: admin/bsf-analytics/class-bsf-analytics.php:216
+msgid "Want to help make <strong>%1s</strong> even more awesome? Allow us to collect non-sensitive diagnostic data and usage information. "
+msgstr "Хотите помочь сделать <strong>%1s</strong> еще более удивительным? Позволяет собирать нечувствительные диагностические данные и информацию об использовании. "
+
+#. Author of the plugin
+msgid "Brainstorm Force"
+msgstr "Brainstorm Force"
+
+#. Description of the plugin
+msgid "Create Full width landing pages with any theme."
+msgstr "Создавайте целевые страницы во всю ширину с любой темой."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.brainstormforce.com"
+msgstr "https://www.brainstormforce.com"
+
+#. Plugin Name of the plugin
+msgid "Fullwidth Page Templates"
+msgstr "Fullwidth Page Templates"
+
+#: class-fullwidth-page-templates.php:23
+msgid "FW Fullwidth No Header Footer"
+msgstr "FW Во всю ширину без заголовка и подвала"
+
+#: class-fullwidth-page-templates.php:22
+msgid "FW Fullwidth"
+msgstr "FW Во всю ширину"
+
+#: class-fullwidth-page-templates.php:21
+msgid "FW No Sidebar"
+msgstr "FW без боковой панели"

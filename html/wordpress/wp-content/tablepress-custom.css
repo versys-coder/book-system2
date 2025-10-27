@@ -1,0 +1,48 @@
+@import  "https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap";
+/* Подключение шрифта (добавьте в самое начало CSS) */
+/* Общие стили таблиц */
+.tablepress thead th,
+.tablepress tfoot th {
+	background-color: #d7d7d7;
+	font-family: 'Roboto Condensed', sans-serif !important;
+	font-size: 17px;
+	color: #0a3166;
+	font-weight: 700; /* Явное указание насыщенности */
+}
+
+/* Стили сортировки */
+.tablepress thead .dt-ordering-asc,
+.tablepress thead .dt-ordering-desc,
+.tablepress thead .dt-orderable-asc:hover,
+.tablepress thead .dt-orderable-desc:hover {
+	background-color: #d7d7d7;
+	color: #0a3166;
+}
+
+/* Стили для таблиц */
+.tablepress-id-1 tbody td,
+.tablepress-id-2 tbody td {
+	font-family: 'Roboto Condensed', sans-serif; /* Добавлены кавычки и fallback */
+	font-size: 17px;
+	color: #0a3166;
+	font-weight: 400; /* Явное указание насыщенности */
+}
+
+/* Медиа-запрос для мобильных */
+@media (max-width: 767px) {
+	.tablepress {
+		font-size: 15px; /* Уменьшение размера для мобильных */
+	}
+
+	.tablepress thead th,
+	.tablepress tfoot th {
+		font-size: 15px;
+	}
+}
+
+@font-face {
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto Condensed'), local('RobotoCondensed-Regular'), url('/wp-content/fonts/roboto-condensed.woff2') format("woff2");
+}

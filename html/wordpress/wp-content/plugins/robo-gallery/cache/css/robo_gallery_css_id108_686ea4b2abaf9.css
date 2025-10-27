@@ -1,0 +1,24 @@
+/* dsfsdf */
+.robo-gallery-wrap-id108:not(#no-robo-galery) .image-with-dimensions {
+  background-color: white;
+}
+.robo-gallery-wrap-id108:not(#no-robo-galery) .rbs-img-container {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+.robo-gallery-wrap-id108:not(#no-robo-galery) .thumbnail-overlay {
+  background: rgba(7, 7, 7, 0.5);
+}
+.robo-lightbox-id108:not(#no-robo-galery) .mfp-bottom-bar .mfp-title, .robo-lightbox-id108:not(#no-robo-galery) .mfp-bottom-bar .mfp-counter {
+  color: #f3f3f3;
+}
+.robo-lightbox-id108:not(#no-robo-galery) .mfp-container .mfp-close {
+  display: none;
+}
+.robo-lightbox-id108:not(#no-robo-galery) .mfp-container .mfp-arrow {
+  display: none;
+}
+.robo-lightbox-id108:not(#no-robo-galery) .mfp-ready.mfp-bg {
+  background-color: rgba(11, 11, 11, 0.8);
+}

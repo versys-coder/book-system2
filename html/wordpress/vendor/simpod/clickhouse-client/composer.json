@@ -1,0 +1,67 @@
+{
+    "name": "simpod/clickhouse-client",
+    "type": "library",
+    "description": "PHP ClickHouse Client",
+    "keywords": [
+        "clickhouse",
+        "client",
+        "php",
+        "http",
+        "HTTP client"
+    ],
+    "homepage": "https://github.com/simPod/ClickHouseClient",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Podlipsky",
+            "email": "simon@podlipsky.net"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "composer/package-versions-deprecated": true,
+            "infection/extension-installer": true,
+            "phpstan/extension-installer": true
+        },
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/promises": "^2.0",
+        "guzzlehttp/psr7": "^2.6",
+        "php-http/client-common": "^2.0",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^2.0",
+        "psr/log": "^3"
+    },
+    "require-dev": {
+        "cdn77/coding-standard": "^7.0",
+        "infection/infection": "^0.29.0",
+        "kafkiansky/phpclick": "dev-bump",
+        "nyholm/psr7": "^1.2",
+        "php-http/message-factory": "^1.1",
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan": "^2.0.0",
+        "phpstan/phpstan-phpunit": "^2.0.0",
+        "phpstan/phpstan-strict-rules": "^2.0.0",
+        "phpunit/phpunit": "^11.0",
+        "symfony/http-client": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimPod\\ClickHouseClient\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SimPod\\ClickHouseClient\\Tests\\": "tests/"
+        }
+    },
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/simPod/PHPClick"
+    }]
+}

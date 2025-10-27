@@ -1,0 +1,12 @@
+2025-08-22T07:02:06+00:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T07:02:06+00:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T07:02:06+00:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u043c\u0432\u044b\u044b\u0432 \u0430\u0444 \u0430\u0444\u044b","child_birthdate":"02.11.1982","parent_name":"\u0432\u044b\u0432\u0444 \u0430\u0444\u0432 \u0430\u044b \u0444","phone":"+79226161698","email":"stanislav.volchkov@urfu.ru","wishes":"\u0432\u0444\u044b \u0432\u044b\u0444 \u0444","js_token":"==gM4YDMycTN1gTN1cTM","agreement":"on"}
+2025-08-22T07:02:06+00:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T07:02:06+00:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T07:02:06+00:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T07:06:52+00:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T07:06:52+00:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T07:06:52+00:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0441\u043c\u0444\u0432\u044b \u0430\u0444\u0432\u044b\u0430\u0432 \u044b","child_birthdate":"02.11.1982","parent_name":"\u0432\u0444\u044b\u0432 \u0430\u044b\u0444\u044b \u0430\u0444\u0430\u044b\u0432","phone":"+79226161698","email":"stanislav.volchkov@urfu.ru","wishes":"\u0432\u044b\u0444\u0432 \u0444","js_token":"==gNxMDO0QzM1gTN1cTM","agreement":"on"}
+2025-08-22T07:06:52+00:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T07:06:52+00:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T07:06:52+00:00 | Config loaded from: /opt/aquastart/config.json

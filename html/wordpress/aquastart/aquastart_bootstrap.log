@@ -1,0 +1,463 @@
+2025-08-22T07:11:56+00:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T07:11:56+00:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T07:11:56+00:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0430\u043c\u0444\u0432 \u0432\u0430\u0444\u044b\u0430","child_birthdate":"02.11.1982","parent_name":"\u0432\u044b\u0444\u0432 \u0432\u0430\u044b\u0444\u0444\u0432 \u0430\u0444\u044b\u0432\u0430\u0444\u044b","phone":"+79226161698","email":"stanislav.volchkov@urfu.ru","wishes":"\u0432\u044b\u0424\u0412\u042b\u0424","js_token":"==AMxAjMwEzN2gTN1cTM","agreement":"on"}
+2025-08-22T07:11:56+00:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T07:11:56+00:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T07:11:56+00:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T07:18:10+00:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T07:18:10+00:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T07:18:10+00:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0430\u0444\u044b\u0432 \u0430\u044b\u0444\u0430\u0432\u0444","child_birthdate":"02.11.1982","parent_name":"\u0432\u0444\u044b\u0432\u044b\u0444 \u0430\u0444\u0432\u0430\u0441\u0444\u044b \u044b\u0441\u0444\u044b\u0441\u0444\u044b","phone":"+79226161698","email":"stanislav.volchkov@urfu.ru","wishes":"\u0432\u044b\u0444","js_token":"==gNyMDMzIDOzkTN1cTM","agreement":"on"}
+2025-08-22T07:18:10+00:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T07:18:10+00:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T07:18:10+00:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T07:20:16+00:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T07:20:16+00:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T07:20:16+00:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0432\u0444\u044b\u0432 \u0432\u0444\u044b\u0430\u044b\u0444\u0432\u0444\u044b","child_birthdate":"02.11.1982","parent_name":"\u0432\u044b\u0432\u044b\u0444 \u0430\u0444\u0432\u0432\u0444 \u0430\u0444\u0432\u0430\u0444","phone":"+79226161698","email":"stanislav.volchkov@urfu.ru","wishes":"\u0444\u0432\u044b \u044b","js_token":"==AO3QTN4MDO4gTN1cTM","agreement":"on"}
+2025-08-22T07:20:16+00:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T07:20:16+00:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T07:20:16+00:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T07:44:16+00:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T07:44:16+00:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T07:44:16+00:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0430\u0444\u044b\u0444 \u0430\u0444\u044b\u0432\u044b\u0444","child_birthdate":"02.11.1982","parent_name":"\u0432\u0432\u044b\u0444\u0432 \u0444\u0430\u0430  \u0432\u0444","phone":"+79226161698","email":"stanislav.volchkov@urfu.ru","wishes":"\u0432\u044b\u0444\u0432\u044b\u0444","js_token":"==wN4QjNxETNwkTN1cTM","agreement":"on"}
+2025-08-22T07:44:16+00:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T07:44:16+00:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T07:44:16+00:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T07:48:58+00:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T07:48:58+00:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T07:48:58+00:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0430\u044b\u0432\u0430 \u0430\u0444 \u044b\u0430\u0432","child_birthdate":"02.11.1982","parent_name":"\u0432\u044b\u0444\u0432\u044b\u0444 \u0444\u0432\u044b \u0430\u0444\u044b\u0432","phone":"+79226161698","email":"stanislav.volchkov@urfu.ru","wishes":"dassa","js_token":"==QO0EzM0kTNxkTN1cTM","agreement":"on"}
+2025-08-22T07:48:58+00:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T07:48:58+00:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T07:48:58+00:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T07:56:58+00:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T07:56:58+00:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T07:56:58+00:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0432\u0444\u044b\u0432 \u0430\u0444\u044b","child_birthdate":"02.11.1982","parent_name":"\u0432\u044b\u0444\u0432 \u0430\u0444\u0432\u0444 \u0430\u0444","phone":"+79226161698","email":"stanislav.volchkov@urfu.ru","wishes":"\u0441\u044b\u0444\u0432\u044b\u0444","js_token":"==QM0IDO5gTN0kTN1cTM","agreement":"on"}
+2025-08-22T07:56:58+00:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T07:56:58+00:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T07:56:58+00:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T08:02:18+00:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T08:02:18+00:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T08:02:18+00:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u043c\u0432\u044b \u0430\u0444\u0430\u0432\u044b","child_birthdate":"02.11.1982","parent_name":"\u0441\u0444\u0432\u044b \u0430\u0444\u0432 \u0430\u0432\u0444\u044b","phone":"+79226161698","email":"stanislav.volchkov@urfu.ru","wishes":"csadcsa","js_token":"==wNzcTO5kDMwkTN1cTM","agreement":"on"}
+2025-08-22T08:02:18+00:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T08:02:18+00:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T08:02:18+00:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T08:25:43+00:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T08:25:43+00:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T08:25:43+00:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0410\u0412\u042b\u0444\u0438\u0430\u0444 \u044b\u0432\u0430\u043e\u043b  \u0430\u044b\u0432\u0448\u0434\u043b ","child_birthdate":"02.17.1982","parent_name":"\u0432\u0441\u0444\u044b \u0430\u044b\u0432 \u044b\u0432\u043c","phone":"+79226161698","email":"stanislav.volchkov@urfu.ru","wishes":"\u0432\u044b\u0444\u0432\u044b\u0444","js_token":"==wM1UzNyATMwkTN1cTM","agreement":"on"}
+2025-08-22T08:25:43+00:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T08:25:43+00:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T08:25:43+00:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T09:32:43+00:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T09:32:43+00:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T09:32:43+00:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0412\u043e\u043b\u0447\u043a\u043e\u0432 \u0441\u0442\u0430\u043d\u0438\u0441\u043b\u0430\u0432 ","child_birthdate":"02.11.1982","parent_name":"\u0412\u043e\u043b\u0447\u043a\u043e\u0432\u0430 \u0418\u0440\u0438\u043d\u0430 \u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432\u043d\u0430","phone":"+79226161698","email":"stanislav.volchkov@urfu.ru","wishes":"\u0432\u044b\u0444\u0430\u0444\u0432\u044b\u0432\u0441\u0444\u044b","js_token":"==AM5QTNxATNykTN1cTM","agreement":"on"}
+2025-08-22T09:32:43+00:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T09:32:43+00:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T09:32:43+00:00 | Invalid JSON in /opt/aquastart/config.json: Syntax error
+2025-08-22T09:32:43+00:00 | Config not found in known locations; using empty config
+2025-08-22T09:38:15+00:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T09:38:15+00:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T09:38:15+00:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0412\u043e\u043b\u0447\u043a\u043e\u0432 \u0421\u0442\u0430\u043d\u0438\u0441\u043b\u0430\u0432","child_birthdate":"02.11.1982","parent_name":"\u0412\u043e\u043b\u0447\u043a\u043e\u0432\u0430 \u0418\u0440\u0438\u043d\u0430 \u041c\u0438\u0445\u0430\u0439\u043b\u043e\u043d\u0432\u0430","phone":"+79226161698","email":"stanislav.volchkov@urfu.ru","wishes":"\u044b\u0444\u0432\u044b\u0444\u0432\u0444","js_token":"==QN2AjMxYjMykTN1cTM","agreement":"on"}
+2025-08-22T09:38:15+00:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T09:38:15+00:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T09:38:15+00:00 | Invalid JSON in /opt/aquastart/config.json: Syntax error
+2025-08-22T09:38:15+00:00 | Config not found in known locations; using empty config
+2025-08-22T09:44:06+00:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T09:44:06+00:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T09:44:06+00:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0412\u0430\u044b\u0437\u0430\u044b \u0430\u043c\u044b\u0448\u0449\u0430\u043e\u0432","child_birthdate":"02.11.1923","parent_name":"\u044b\u0432\u0430\u0432\u044b \u043c\u043e\u0432\u0430 \u043c\u0432\u043e\u0434\u043b\u0432\u0430","phone":"+79226161698","email":"stanislav.volchkov@urfu.ru","wishes":"czxcxz","js_token":"==AN0gTM3gTOykTN1cTM","agreement":"on"}
+2025-08-22T09:44:06+00:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T09:44:06+00:00 | Config loaded from: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T09:53:10+00:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T09:53:10+00:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T09:53:10+00:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0430\u044b\u0444\u0432\u0432\u044b \u0441\u0444\u044b\u0432\u043b\u043e\u0430\u0441\u044b\u0432","child_birthdate":"02.11.1982","parent_name":"\u0440\u0430\u043b\u043e\u0432\u044b \u0430\u044b\u0432\u043e\u043b\u0434 \u043f\u0432\u0430\u044b\u043e","phone":"+79226161698","email":"stanislav.volchkov@urfu.ru","wishes":"\u0441\u0447\u042f\u0421\u0447\u044f","js_token":"==AM1kzNzYDMwkTN1cTM","agreement":"on"}
+2025-08-22T09:53:10+00:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T09:53:10+00:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T09:53:10+00:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T14:58:42+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T14:58:42+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T14:58:42+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0432\u043e\u043b\u0447\u043a\u043e\u0432 \u0441\u0442\u0430\u043d\u0438\u0441\u043b\u0430\u0432 ","child_birthdate":"02.11.1982","parent_name":"\u0412\u043e\u0447\u043b\u043a\u043e\u0432\u0441 \u0418\u0440\u0438\u043d\u0430 \u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432\u043d\u0430","phone":"+79226161698","email":"stanislav.volchkov@urfu.ru","wishes":"dasdsa","js_token":"==wM3IDOzgTM5gTN1cTM","agreement":"on"}
+2025-08-22T14:58:42+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T14:58:42+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T14:58:42+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T15:05:58+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T15:05:58+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T15:05:58+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0432\u043e\u043b\u0447 \u0441\u043b\u043e\u0432\u044b \u0432\u044b\u043e\u043b ","child_birthdate":"02.11.1981","parent_name":"\u0430\u0432\u044b\u0444\u0430\u0432\u044b","phone":"+79226161698","email":"stanislav.volchkov@urfu.ru","wishes":"dDSADSA","js_token":"==gN4kzMwYTN0kTN1cTM","agreement":"on"}
+2025-08-22T15:05:58+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T15:05:58+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T15:05:58+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T15:54:10+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T15:54:10+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T15:54:10+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0412\u043e\u043b\u0447\u043a\u043e\u0432 \u0421\u0442\u0430\u043d\u0438\u0441\u043b\u0430\u0432","child_birthdate":"02.11.1982","parent_name":"\u0412\u043e\u043b\u0447\u043a\u043e\u0432\u0430 \u0418\u0440\u0438\u043d\u0430 \u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432\u043d\u0430","phone":"+7 (922) 6161698","email":"stanislav.volchkov@urfu.ru","wishes":"\u0447\u0441\u044b\u0444\u0432\u0444\u044b","js_token":"==QN0ATMzEDOwkTN1cTM","agreement":"on"}
+2025-08-22T15:54:10+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T15:54:10+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T15:54:10+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T17:27:39+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T17:27:39+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T17:27:39+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0412\u043e\u043b\u0447\u043a\u043e\u0432 \u0421\u0442\u0430\u0441","child_birthdate":"02.11.1982","parent_name":"\u0412\u043e\u043b\u0447\u043a\u043e\u0432\u0430 \u0418\u0440\u0438\u043d\u0430 \u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432\u043d\u0430","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"dsadsa","js_token":"==QMyYDOwATOykTN1cTM","agreement":"on"}
+2025-08-22T17:27:39+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T17:27:39+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T17:27:39+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T17:37:16+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T17:37:16+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T17:37:16+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0441\u044b\u0444 \u043f\u0430\u0432\u044b\u044f","child_birthdate":"02.11.1982","parent_name":"\u0441\u0444\u044b \u0444\u044b\u0430 \u0430\u0443\u0447\u0444\u044b\u0432\u0444","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"dasdadf","js_token":"==wMxIjNyIjM2kTN1cTM","agreement":"on"}
+2025-08-22T17:37:16+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T17:37:16+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T17:37:16+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T17:39:07+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T17:39:07+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T17:39:07+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"das vds","child_birthdate":"02.11.1982","parent_name":"\u0441\u0432\u0444\u044b \u0430\u044b\u0432 \u044b\u043c\u0432","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"dsadsa","js_token":"==AM4ADM3ADOwkTN1cTM","agreement":"on"}
+2025-08-22T17:39:07+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T17:39:07+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T17:39:07+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T17:41:16+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T17:41:16+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T17:41:16+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0444\u044b\u0432\u043f \u043f\u044b \u043f\u0430\u0432","child_birthdate":"02.11.1982","parent_name":"\u0432\u0430\u0444\u044b \u0430\u0432\u0444\u044b \u044b\u043f\u0430","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"xZXz","js_token":"==AN0MjN0MTN5gTN1cTM","agreement":"on"}
+2025-08-22T17:41:16+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T17:41:16+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T17:41:16+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T18:02:03+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T18:02:03+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T18:02:03+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0412\u043e\u043b\u0447\u043a\u043e\u0432 \u0421\u0442\u0430\u0441","child_birthdate":"02.11.1982","parent_name":"\u0412\u043e\u043b\u0447\u043a\u043e\u0432\u0430 \u0418\u0440\u0438\u043d\u0430 \u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432\u043d\u0430","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"cascscxz\u0440\u043f\u0434\u0433\u043f\u0440\u044c\u043d\u0448\u0437\u0435\u0436\u0442\u0433\u044c\u043c\u0448\u0449\u0437\u0442\u0435\u043a\u044c\u043c\u0442\u043a9\u0443\u043c\u0438\u0434\u043b\u0440\u043e\u043b\u0434\u0430\u0440\u043f\u0448\u0449\u043a\u0443\u0440\u043f\u0448\u0449\u0443\u043a\u043d\u044c\u0442\u043d\u043f\u0435\u0447\u044c\u0449\u0437\u0441\u0441\u043f\u044c\u0433\u0435\u0441\u0442\u0440\u0449\u0445\u0433\u044c\u0435\u0449\u0441\u0433\u0442\u044c\u0447\u0449\u043a\u0443\u0433\u0442\u044c0\u0443\u0449\u0448\u0433\u043f\u0441\u0442\u0447\u044c\u0437\u0449\u0442\u043a\u0439\u0443\u0442\u043d\u044c\u04468\u0447\u0433\u044a\u0439\u043a\u04479\u0442\u0435\u0441\u044c\u043309\u0447\u0435\u0445\u044c0\u0449\u0441\u043f\u0443\u044c","js_token":"==AM5MDN2YDN4gTN1cTM","agreement":"on"}
+2025-08-22T18:02:03+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T18:02:03+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T18:02:03+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T18:46:47+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T18:46:47+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T18:46:47+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0412\u043e\u043b\u0447\u043a\u043e\u0432 \u0421\u0442\u0430\u0441","child_birthdate":"02.11.1982","parent_name":"\u0412\u043e\u043b\u0447\u043a\u043e\u0432\u0430 \u0418\u0440\u0438\u043d\u0430 \u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432\u043d\u0430","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"dsadsX","js_token":"==AOwIDN4YjN0kTN1cTM","agreement":"on"}
+2025-08-22T18:46:47+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T18:46:47+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T18:46:47+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-22T19:09:51+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-22T19:09:51+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-22T19:09:51+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0412\u043e\u043b\u0447\u043a\u043e\u0432 \u0441\u0442\u0430\u0441","child_birthdate":"02.11.1982","parent_name":"\u0412\u043e\u043b\u0447\u043a\u043e\u0432\u0430 \u0438\u0440\u0438\u043d\u0430 \u043c\u0438\u0445\u0430\u0439\u043b\u043e\u0432\u043d\u0430","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"Bdbdbdb","js_token":"==wNxgDOycDOwkTN1cTM","agreement":"on"}
+2025-08-22T19:09:51+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-22T19:09:51+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-22T19:09:51+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-25T11:46:23+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-25T11:46:23+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-25T11:46:23+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0432\u0444\u044b \u0430\u0444\u0432\u044b\u0430\u0444","child_birthdate":"02.11.1982","parent_name":"\u0432\u044b\u0444 \u0432\u044b\u0444 \u0430\u0444\u044b","phone":"+792261616198","email":"s.volchkov@dvvs-ekb.ru","wishes":"sdaSA","js_token":"==QO2kDO4EjN3EjN1cTM","agreement":"on"}
+2025-08-25T11:46:23+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-25T11:46:23+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-25T11:46:23+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-25T11:56:57+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-25T11:56:57+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-25T11:56:57+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0438\u0432\u0430\u043d\u043e\u0432 \u0438\u0432\u0430\u043d","child_birthdate":"24.11.2020","parent_name":"\u0418\u0432\u0430\u043d\u043e\u0432\u0430 \u041c\u0430\u0440\u0438\u044f \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u043d\u0430","phone":"+7 950 2838546","email":"a.shcherbakova@egov66.ru","wishes":"\u0432\u0435\u0447\u0435\u0440\u043e\u043c","js_token":"==wM2IzN4MjN1EjN1cTM","agreement":"on"}
+2025-08-25T11:56:57+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-25T11:56:57+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-25T11:56:57+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-25T13:45:13+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-25T13:45:13+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-25T13:45:13+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0414\u0430\u0432\u043b\u0435\u0442\u043e\u0432\u0430 \u0412\u0438\u043a\u0442\u043e\u0440\u0438\u044f ","child_birthdate":"18.11.2016","parent_name":"\u041e\u0440\u0438\u043d\u0438\u0447\u0435\u0432\u0430 \u041e\u043b\u044c\u0433\u0430 \u0418\u0433\u043e\u0440\u0435\u0432\u043d\u0430 ","phone":"+79122051181","email":"oorinicheva@gmail.com","wishes":"\u0437\u0430\u043d\u044f\u0442\u0438\u044f \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0434\u043d\u0438 ","js_token":"==QM2EDMxAzMzEjN1cTM","agreement":"on"}
+2025-08-25T13:45:13+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-25T13:45:13+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-25T13:45:13+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-26T11:06:27+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-26T11:06:27+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-26T11:06:27+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041b\u0435\u0433\u0438\u0441\u0442\u0430\u0435\u0432 \u0420\u043e\u0431\u0435\u0440\u0442 ","child_birthdate":"04.05.2019","parent_name":"\u041a\u0430\u043b\u0430\u0448\u043d\u0438\u043a\u043e\u0432\u0430 \u0417\u043e\u044f ","phone":"+79126296132","email":"trij@mail.ru","wishes":"\u0423\u0434\u043e\u0431\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u0437\u0430\u043d\u044f\u0442\u0438\u0439 \u0431\u0443\u0434\u043d\u0442 \u0432\u0435\u0447\u0435\u0440 \/ \u0432\u044b\u0445","js_token":"==wNzkDO3czM2IjN1cTM","agreement":"on"}
+2025-08-26T11:06:27+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-26T11:06:27+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-26T11:06:27+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-26T11:06:37+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-26T11:06:37+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-26T11:06:37+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0415\u043d\u0431\u0430\u0435\u0432 \u0422\u0438\u043c\u0443\u0440 \u041e\u043b\u0435\u0433\u043e\u0432\u0438\u0447","child_birthdate":"17.12.2018","parent_name":"\u0415\u043d\u0431\u0430\u0435\u0432\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0438\u044f \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u043d\u0430","phone":"89126202699","email":"nastiqe@gmail.com","wishes":"\u0413\u043e\u0442\u043e\u0432\u044b \u043d\u0430\u0447\u0430\u0442\u044c \u0445\u043e\u0434\u0438\u0442\u044c \u0441 \u0441\u0435\u0440\u0435\u0434\u0438\u043d\u044b \u0441\u0435\u043d\u0442\u044f\u0431\u0440\u044f, \u0436\u0434\u0435\u043c \u0443\u0441\u043b\u043e\u0432\u0438\u044f \u0438 \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u044c. \u0412\u0440\u0435\u043c\u044f \u043e\u0431\u0441\u0443\u0436\u0434\u0430\u0435\u0442\u0441\u044f","js_token":"==wN2UTO1ITMxIjN1cTM","agreement":"on"}
+2025-08-26T11:06:37+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-26T11:06:37+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-26T11:06:37+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-26T11:23:15+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-26T11:23:15+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-26T11:23:15+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0425\u0430\u0440\u043b\u043e\u0432 \u0421\u0435\u043c\u0451\u043d ","child_birthdate":"31.05.2019","parent_name":"\u0425\u0430\u0440\u043b\u043e\u0432\u0430 \u0418\u0440\u0438\u043d\u0430 \u041e\u043b\u0435\u0433\u043e\u0432\u043d\u0430 ","phone":"+79041732064","email":"harlova-io@maul.ru","wishes":"\u0417\u0430\u043d\u044f\u0442\u0438\u044f \u043f\u043e\u0441\u043b\u0435 19:00","js_token":"==AOwIzM3EDMxIjN1cTM","agreement":"on"}
+2025-08-26T11:23:15+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-26T11:23:15+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-26T11:23:15+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-26T11:24:50+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-26T11:24:50+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-26T11:24:50+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0432\u0444\u044b \u0430\u0432\u0444\u0449\u0437\u044b","child_birthdate":"02.11.1982","parent_name":"\u0432\u0444\u044b \u0430\u0432\u044b  \u043f\u044b","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"dsadsadsa","js_token":"==QNwETN3IDM1IjN1cTM","agreement":"on"}
+2025-08-26T11:24:50+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-26T11:24:50+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-26T11:24:50+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-26T11:30:32+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-26T11:30:32+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-26T11:30:32+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041d\u0430\u0441\u0435\u0434\u043a\u0438\u043d\u0430 \u041c\u0430\u0440\u0438\u044f ","child_birthdate":"24.09.2019 ","parent_name":"\u041d\u0430\u0441\u0435\u0434\u043a\u0438\u043d\u0430 \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0438\u044f \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u043d\u0430 ","phone":"+79221205092 ","email":"89221205092@mail.ru","wishes":"\u0423\u0434\u043e\u0431\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u0437\u0430\u043d\u044f\u0442\u0438\u0439 - \u043f\u043e\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u0438\u043a, \u0432\u0442\u043e\u0440\u043d\u0438\u043a, \u0447\u0435\u0442\u0432\u0435\u0440\u0433, \u0441\u0443\u0431\u0431\u043e\u0442\u0430 \u0438 \u0432\u043e\u0441\u043a\u0440\u0435\u0441\u0435\u043d\u044c\u0435. ","js_token":"==QN5YjN1EzMwIjN1cTM","agreement":"on"}
+2025-08-26T11:30:32+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-26T11:30:32+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-26T11:30:32+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-26T11:37:13+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-26T11:37:13+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-26T11:37:13+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041a\u0430\u043b\u0430\u0447\u0435\u0432 \u041c\u0430\u0440\u043a \u0410\u043d\u0442\u043e\u043d\u043e\u0432\u0438\u0447","child_birthdate":"04.11.2017","parent_name":"\u041a\u0430\u043b\u0430\u0447\u0435\u0432 \u0410\u043d\u0442\u043e\u043d \u0410\u043b\u0435\u043a\u0441\u0435\u0435\u0432\u0438\u0447 ","phone":"+79193388229","email":"morel.85@mail.ru","wishes":"1","js_token":"==AOzgDN4QTO5EjN1cTM","agreement":"on"}
+2025-08-26T11:37:13+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-26T11:37:13+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-26T11:37:13+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-26T11:44:46+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-26T11:44:46+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-26T11:44:46+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0413\u0435\u043d\u0435\u0440\u0430\u043b\u044c\u0447\u0438\u043a \u041c\u0438\u0440\u043e\u0441\u043b\u0430\u0432\u0430 \u0418\u0432\u0430\u043d\u043e\u0432\u043d\u0430","child_birthdate":"17.01.2020","parent_name":"\u0413\u0435\u043d\u0435\u0440\u0430\u043b\u044c\u0447\u0438\u043a \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0438\u044f \u0410\u043d\u0430\u0442\u043e\u043b\u044c\u0435\u0432\u043d\u0430 ","phone":"+79068088400","email":"a.generalchik@mail.ru","wishes":"\u041f\u043e\u043a\u0430 \u043d\u0435\u0442 \u043d\u0438\u043a\u0430\u043a\u0438\u0445 \u043f\u043e\u0436\u0435\u043b\u0430\u043d\u0438\u0439. \u0425\u043e\u0447\u0443 \u0443\u0437\u043d\u0430\u0442\u044c \u043f\u043e\u0434\u0440\u043e\u0431\u043d\u0443\u044e \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044e,\u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u044c \u0438 \u0437\u0430\u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043e\u0432\u0430\u043d\u0430 \u0432 \u0437\u0430\u043d\u044f\u0442\u0438\u044f\u0445 ","js_token":"==QO0YDNyMDOyIjN1cTM","agreement":"on"}
+2025-08-26T11:44:46+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-26T11:44:46+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-26T11:44:46+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-26T14:45:37+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-26T14:45:37+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-26T14:45:37+05:00 | SCRIPT START, REQUEST_METHOD=GET, POST=[]
+2025-08-26T14:45:37+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-26T14:45:37+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-26T14:45:37+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-26T15:28:02+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-26T15:28:02+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-26T15:28:02+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041c\u0443\u0445\u0430\u0431\u0430\u0442\u043e\u0432 \u041d\u0438\u043a\u0438\u0442\u0430","child_birthdate":"15.07.2020 ","parent_name":"\u0415\u0436\u043e\u0432\u0430 \u041d\u0430\u0434\u0435\u0436\u0434\u0430 \u0415\u0432\u0433\u0435\u043d\u044c\u0435\u0432\u043d\u0430 ","phone":"+79827084487","email":"nadya-zlato@mail.ru","wishes":"\u0412\u0435\u0447\u0435\u0440\u043e\u043c \u0443\u0434\u043e\u0431\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u0434\u043b\u044f \u0437\u0430\u043d\u044f\u0442\u0438\u0439","js_token":"==QNwATMycDOxIjN1cTM","agreement":"on"}
+2025-08-26T15:28:02+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-26T15:28:02+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-26T15:28:02+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-26T15:31:31+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-26T15:31:31+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-26T15:31:31+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0421\u0430\u043f\u0443\u043d\u043e\u0432\u0430 \u0418\u0432\u0430\u043d\u043a\u0430","child_birthdate":"24.11.2019","parent_name":"\u0421\u0430\u043f\u0443\u043d\u043e\u0432\u0430 \u0420\u0438\u043d\u0430 \u0420\u0438\u043d\u0430\u0442\u043e\u0432\u043d\u0430","phone":"79126784388","email":"son-32@yandex.ru","wishes":"\u0423\u0434\u043e\u0431\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u0437\u0430\u043d\u044f\u0442\u0438\u0439 \u0432\u043e \u0432\u0442\u043e\u0440\u043e\u0439 \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0435 \u0434\u043d\u044f","js_token":"==AO3MzMzITM2IjN1cTM","agreement":"on"}
+2025-08-26T15:31:31+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-26T15:31:31+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-26T15:31:31+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-26T16:00:08+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-26T16:00:08+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-26T16:00:08+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0410\u0445\u043c\u0430\u0442\u0434\u0438\u043d\u043e\u0432 \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 ","child_birthdate":"26.05.2018","parent_name":"\u0410\u0445\u043c\u0430\u0442\u0434\u0438\u043d\u043e\u0432\u0430 \u0415\u0432\u0433\u0435\u043d\u0438\u044f \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u043d\u0430 ","phone":"+79655436746","email":"tauseneva-evgeni@mail.ru","wishes":"\u0414\u043b\u044f \u0437\u0430\u043d\u044f\u0442\u0438\u044f \u0443\u0434\u043e\u0431\u043d\u0430 \u0441\u0443\u0431\u0431\u043e\u0442\u0430 , \u0432\u0442\u043e\u0440\u043e\u0439 \u043d\u0430 \u043d\u0435\u0434\u0435\u043b\u0435 . \u0421 1 \u0441\u043c\u0435\u043d\u044b \u0440\u0435\u0431\u0451\u043d\u043e\u043a . \r\n\u0422\u043e\u043b\u044c\u043a\u043e \u043d\u0435 \u0432\u0435\u0447\u0435\u0440 .","js_token":"==wN0IDMxgDN1IjN1cTM","agreement":"on"}
+2025-08-26T16:00:08+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-26T16:00:08+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-26T16:00:08+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-27T09:02:44+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-27T09:02:44+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-27T09:02:44+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u0430 \u0410\u043b\u0438\u0441\u0438\u044f ","child_birthdate":"03.04.2020","parent_name":"\u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u0430 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 \u041c\u0430\u043a\u0441\u0438\u043c\u043e\u0432\u043d\u0430","phone":"+79049846462","email":"vasileva.a.m91@gmail.com","wishes":"\u041f\u043b\u0430\u0432\u0430\u043d\u0438\u0435. \u0423\u0434\u043e\u0431\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u0434\u043b\u044f \u0437\u0430\u043d\u044f\u0442\u0438\u0439 - \u043f\u043e\u0441\u043b\u0435 17\u0447 \u0432 \u0431\u0443\u0434\u043d\u0438\u0435 \u0434\u043d\u0438, \u0443\u0442\u0440\u043e\u043c - \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435. \u0423\u043c\u0435\u0435\u0442 \u0434\u0435\u0440\u0436\u0430\u0442\u044c\u0441\u044f \u043d\u0430 \u0432\u043e\u0434\u0435 \u0438 \u043f\u043b\u044b\u0442\u044c \u0432 \u043d\u0430\u0440\u0443\u043a\u0430\u0432\u043d\u0438\u043a\u0430\u0445","js_token":"==QN1gzNwcTOyMjN1cTM","agreement":"on"}
+2025-08-27T09:02:44+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-27T09:02:44+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-27T09:02:44+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-27T13:45:44+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-27T13:45:44+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-27T13:45:44+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0415\u0432\u0434\u043e\u043a\u0438\u043c\u043e\u0432\u0430 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u043d\u0430 ","child_birthdate":"21.04.2020","parent_name":"\u0415\u0432\u0434\u043e\u043a\u0438\u043c\u043e\u0432\u0430 \u0422\u0430\u0442\u044c\u044f\u043d\u0430 \u042e\u0440\u044c\u0435\u0432\u043d\u0430 ","phone":"89502021209","email":"Yakovlevaze@mail.ru","wishes":"\u0423\u0434\u043e\u0431\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u0437\u0430\u043d\u044f\u0442\u0438\u0439 : \u0441 13-00 \u0434\u043e 15-00 ","js_token":"==QNycDNxcDMzMjN1cTM","agreement":"on"}
+2025-08-27T13:45:44+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-27T13:45:44+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-27T13:45:44+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-27T16:52:42+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-27T16:52:42+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-27T16:52:42+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0410\u043b\u0430\u0435\u0432\u0430 \u0423\u043b\u044c\u044f\u043d\u0430","child_birthdate":"30.11.2020","parent_name":"\u0410\u043b\u0430\u0435\u0432\u0430 \u0418\u0440\u0438\u043d \u0413\u0435\u043d\u043d\u0430\u0434\u044c\u0435\u0432\u043d\u0430 ","phone":"+79326174440","email":"golden.age.01@mail.ru","wishes":"\u0412\u0435\u0447\u0435\u0440\u043d\u0435\u0435 \u0432\u0440\u0435\u043c\u044f \u0437\u0430\u043d\u044f\u0442\u0438\u0439, \u0436\u0435\u043b\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u043a\u0440\u043e\u043c\u0435 \u0432\u0442 \u0438 \u043f\u0442","js_token":"==QN2UTOwATM1MjN1cTM","agreement":"on"}
+2025-08-27T16:52:42+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-27T16:52:42+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-27T16:52:42+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-27T23:56:06+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-27T23:56:06+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-27T23:56:06+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":" \u0432\u044b\u0430 \u0432\u044b\u0430","child_birthdate":"02.11.1982","parent_name":"\u0432\u044b\u0444 \u0432\u0444\u044b \u0432\u0444\u044b \u0432","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"xzvcdscds","js_token":"==AM4MzM5QjM5MjN1cTM","agreement":"on"}
+2025-08-27T23:56:06+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-27T23:56:06+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-27T23:56:06+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-28T17:55:22+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-28T17:55:22+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-28T17:55:22+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0417\u0430\u0445\u0430\u0440\u043e\u0432 \u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d ","child_birthdate":"21.12.2019","parent_name":"\u0417\u0430\u0445\u0430\u0440\u043e\u0432\u0430 \u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0430 ","phone":"89126146989","email":"89126146989@ya.ru","wishes":"\u0423\u0434\u043e\u0431\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u0437\u0430\u043d\u044f\u0442\u0438\u0439 \u043f\u043d, \u0441\u0440, \u043f\u0442, \u0432\u0435\u0447\u0435\u0440, \u0441\u0431,   \u0423\u0442\u0440\u043e ","js_token":"==gN4EjM1gzMxQjN1cTM","agreement":"on"}
+2025-08-28T17:55:22+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-28T17:55:22+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-28T17:55:22+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-29T11:27:20+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-29T11:27:20+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-29T11:27:20+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041a\u0438\u0441\u0435\u043b\u0435\u0432 \u0418\u0433\u043e\u0440\u044c ","child_birthdate":"01.06.2020","parent_name":"\u041a\u0438\u0441\u0435\u043b\u0435\u0432\u0430 \u041d\u0430\u0442\u0430\u043b\u0438\u044f \u042d\u0434\u0443\u0430\u0440\u0434\u043e\u0432\u043d\u0430 ","phone":"89827060504","email":"89827060504@mail.ru","wishes":"\u0420\u0435\u0431\u0435\u043d\u043e\u043a \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u044b\u0439, \u0433\u043e\u0434 \u0437\u0430\u043d\u0438\u043c\u0430\u043b\u0441\u044f \u0432 \u043c\u0430\u043b\u043e\u0439 \u0447\u0430\u0448\u0435 \u0432 \u0431\u0430\u0441\u0441\u0435\u0439\u043d\u0435 \u0433.\u0410\u0440\u0430\u043c\u0438\u043b\u044c, \u0433\u043e\u0442\u043e\u0432 \u043a \u0431\u043e\u043b\u044c\u0448\u043e\u0439 \u0447\u0430\u0448\u0435. \r\n\r\n+\u0445\u043e\u043a\u043a\u0435\u0439 (\u0433\u043e\u0434)\r\n+ \u0442\u0430\u043d\u0446\u044b\r\n+\u0441\u043a\u0430\u043b\u043e\u0434\u0440\u043e\u043c","js_token":"==wM0kTMyEjN5QjN1cTM","agreement":"on"}
+2025-08-29T11:27:20+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-29T11:27:20+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-29T11:27:20+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-29T18:04:00+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-29T18:04:00+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-29T18:04:00+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041f\u043e\u0434\u0433\u043e\u0440\u043d\u043e\u0432\u0430 \u041a\u0441\u0435\u043d\u0438\u044f","child_birthdate":"14.08.2020","parent_name":"\u041f\u043e\u0434\u0433\u043e\u0440\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439 \u041e\u043b\u0435\u0433\u043e\u0432\u0438\u0447","phone":"89220231221","email":"podgornova.2011@yandex.ru","wishes":"\u041a\u0441\u0435\u043d\u0438\u044f \u043f\u043b\u0430\u0432\u0430\u0435\u0442 \u0441 \u0440\u043e\u0436\u0434\u0435\u043d\u0438\u044f. \u0423\u0432\u0435\u0440\u0435\u043d\u043d\u043e \u0434\u0435\u0440\u0436\u0438\u0442\u0441\u044f \u043d\u0430 \u0432\u043e\u0434\u0435. \u0413\u043e\u0434 \u0443\u0436\u0435 \u0445\u043e\u0434\u0438\u043c \u0432 \u0434\u0432\u0432\u0441 ","js_token":"==wM3MjNxUTM5QjN1cTM","agreement":"on"}
+2025-08-29T18:04:00+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-29T18:04:00+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-29T18:04:00+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-29T18:18:41+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-29T18:18:41+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-29T18:18:41+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041c\u043e\u043a\u0435\u0435\u0432 \u0410\u0440\u0441\u0435\u043d\u0438\u0439 \u0410\u043d\u0442\u043e\u043d\u043e\u0432\u0438\u0447","child_birthdate":"28.12.2019","parent_name":"\u041c\u043e\u043a\u0435\u0435\u0432\u0430 \u041e\u043b\u044c\u0433\u0430 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u043d\u0430","phone":"+79090131577","email":"mokeevaolgaS@yandex.ru","wishes":"\u0412\u0435\u0447\u0435\u0440\u043d\u0435\u0435 \u0432\u0440\u0435\u043c\u044f \u0437\u0430\u043d\u044f\u0442\u0438\u0439","js_token":"==wN1MTMxAjNyUjN1cTM","agreement":"on"}
+2025-08-29T18:18:41+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-29T18:18:41+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-29T18:18:41+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-29T18:32:00+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-29T18:32:00+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-29T18:32:00+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0421\u0435\u043b\u0435\u043d\u0441\u043a\u0438\u0445 \u0422\u0438\u043c\u043e\u0444\u0435\u0439 ","child_birthdate":"11.07.2019","parent_name":"\u0421\u0435\u043b\u0435\u043d\u0441\u043a\u0438\u0445 \u0410\u043d\u043d\u0430 \u0410\u043d\u0430\u0442\u043e\u043b\u044c\u0435\u0432\u043d\u0430 ","phone":"+79126249949","email":"Anuta07@list.ru","wishes":"\u0414\u043d\u0435\u0432\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u0437\u0430\u043d\u044f\u0442\u0438\u0439 ","js_token":"==AM5QDO0QzMyUjN1cTM","agreement":"on"}
+2025-08-29T18:32:00+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-29T18:32:00+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-29T18:32:00+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-29T19:11:47+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-29T19:11:47+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-29T19:11:47+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0421\u0435\u043b\u0435\u043d\u0441\u043a\u0438\u0445 \u0422\u0438\u043c\u043e\u0444\u0435\u0439 ","child_birthdate":"11.07.2019","parent_name":"\u0421\u0435\u043b\u0435\u043d\u0441\u043a\u0438\u0445 \u0410\u043d\u043d\u0430 \u0410\u043d\u0430\u0442\u043e\u043b\u044c\u0435\u0432\u043d\u0430 ","phone":"+79126249949","email":"Anuta07@list.ru","wishes":"\u0414\u043d\u0435\u0432\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f ","js_token":"==gN0QjNyMDNxUjN1cTM","agreement":"on"}
+2025-08-29T19:11:47+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-29T19:11:47+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-29T19:11:47+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-29T19:12:41+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-29T19:12:41+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-29T19:12:41+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u043f\u044b\u0432\u0432 \u0430\u0432\u043f\u0434\u043b \u0430\u043c\u044b\u0432","child_birthdate":"02.11.1982","parent_name":"\u0430\u0444\u0430 \u043f\u044b\u0432\u0430 \u043f\u043a\u0443","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"dasdasdsa","js_token":"==AO4gTO1UzN0UjN1cTM","agreement":"on"}
+2025-08-29T19:12:41+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-29T19:12:41+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-29T19:12:41+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-29T19:22:50+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-29T19:22:50+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-29T19:22:50+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041a\u043e\u0441\u0442\u043e\u0443\u0441\u043e\u0432\u0430 \u041f\u043e\u043b\u0438\u043d\u0430 ","child_birthdate":"16.06.2020","parent_name":"\u041c\u0430\u043b\u044c\u0446\u0435\u0432\u0430 \u0414\u0430\u0440\u044c\u044f \u041a\u043e\u043d\u0441\u0442\u0430\u043d\u0442\u0438\u043d\u043e\u0432\u043d\u0430 ","phone":"+79221325886","email":"d-malceva@list.ru","wishes":"\u041b\u044e\u0431\u043e\u0435 ","js_token":"==QN3cTNwYTM4QjN1cTM","agreement":"on"}
+2025-08-29T19:22:50+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-29T19:22:50+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-29T19:22:50+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-29T21:23:44+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-29T21:23:44+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-29T21:23:44+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u0430 \u0412\u0430\u0441\u0438\u043b\u0438\u043d\u0430","child_birthdate":"19.12.2019","parent_name":"\u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u0430 \u041e\u043b\u044c\u0433\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u043d\u0430","phone":"89025848299","email":"singing1@rambler.ru","wishes":"\u0438\u043d\u0442\u0435\u0440\u0435\u0441\u0443\u0435\u0442 \u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u044c \u0438 \u0440\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u0435","js_token":"==AN4YTNzIjM5QjN1cTM","agreement":"on"}
+2025-08-29T21:23:44+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-29T21:23:44+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-29T21:23:44+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-30T19:32:07+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-30T19:32:07+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-30T19:32:07+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0432\u0432\u044b\u0444 \u0430\u0432\u0444\u0430\u0432\u044b","child_birthdate":"02.11.1982","parent_name":"\u044b\u0444\u0432\u0432\u0444\u044b \u0430\u0444\u044b\u0432\u0430 \u0444\u0432\u0430\u0444\u0432\u0444","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"cxzcxz","js_token":"==QOzkTOwkzMwYjN1cTM","agreement":"on"}
+2025-08-30T19:32:07+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-30T19:32:07+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-30T19:32:07+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-08-31T14:14:08+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-08-31T14:14:08+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-08-31T14:14:08+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0421\u0442\u0440\u0435\u043b\u044c\u043d\u0438\u043a\u043e\u0432\u0430 \u041c\u0430\u0440\u0438\u0430\u043d\u043d\u0430 \u0410\u043b\u0435\u043a\u0441\u0435\u0435\u0432\u043d\u0430","child_birthdate":"07.11.2020","parent_name":"\u0421\u0442\u0440\u0435\u043b\u044c\u043d\u0438\u043a\u043e\u0432\u0430 \u0410\u043d\u043d\u0430 \u041c\u0438\u0445\u0430\u0439\u043b\u043e\u0432\u043d\u0430 ","phone":"+79122465678","email":"strelnikova.anna.84@mail.ru","wishes":"\u0412\u0435\u0447\u0435\u0440 \u0431\u0443\u0434\u043d\u0438 \u0438 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0441 17:00 ","js_token":"==wN3QDM0YDO5YjN1cTM","agreement":"on"}
+2025-08-31T14:14:08+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-08-31T14:14:08+05:00 | Checking config path: /opt/aquastart/config.json
+2025-08-31T14:14:08+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-01T10:40:35+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-01T10:40:35+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-01T10:40:35+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0432\u0444\u044b\u0432\u0444 \u0430\u0444\u0432\u044b\u0444","child_birthdate":"02.11.1192","parent_name":"\u0432\u0444\u0432 \u0430\u0432\u0432\u0446 \u0430\u0443\u0426","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"sxdcdsa","js_token":"==AM0ATMxkjN2cjN1cTM","agreement":"on"}
+2025-09-01T10:40:35+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-01T10:40:35+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-01T10:40:35+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-01T10:42:22+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-01T10:42:22+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-01T10:42:22+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0441\u0432\u0444\u044b \u0430\u0444\u0430\u0443\u0446","child_birthdate":"02.11.1982","parent_name":"\u0432\u0444\u044b\u0432\u0444\u044b \u0430\u0444\u0432\u0444\u044b \u0430\u0443\u0444\u0432\u0430\u0444\u0432","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"csadas","js_token":"==QN4AzNyATMycjN1cTM","agreement":"on"}
+2025-09-01T10:42:22+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-01T10:42:22+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-01T10:42:22+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-01T10:44:10+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-01T10:44:10+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-01T10:44:10+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"feaf ffafs","child_birthdate":"02.11.1982","parent_name":"dasd afds fad","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"xXdscdscs","js_token":"==AN0kTMyQzN5cjN1cTM","agreement":"on"}
+2025-09-01T10:44:10+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-01T10:44:10+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-01T10:44:10+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-01T10:44:40+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-01T10:44:40+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-01T10:44:40+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"fcsf wfewaf wfs","child_birthdate":"02.11.1982","parent_name":"dasd dcaF fdfds","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"dasdas","js_token":"==QM2QDM5kjM2cjN1cTM","agreement":"on"}
+2025-09-01T10:44:40+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-01T10:44:40+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-01T10:44:40+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-01T10:45:48+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-01T10:45:48+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-01T10:45:48+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"fsd fds","child_birthdate":"02.11.1982","parent_name":"dcasd faDFas fdsfdsa","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"fdsfsdaf","js_token":"==wN5cTM0QTMxcjN1cTM","agreement":"on"}
+2025-09-01T10:45:48+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-01T10:45:48+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-01T10:45:48+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-01T10:48:53+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-01T10:48:53+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-01T10:48:53+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0432\u0441\u0444\u044b \u0430\u044b\u043c\u0443","child_birthdate":"02.11.1982","parent_name":"\u0432\u0444\u044b\u0432 \u0444\u0430\u0432 \u0444\u0432\u0430\u0430\u0444\u0432","phone":"+79226161698","email":"s.volchkov@dvvs-ekb.ru","wishes":"dasdsa","js_token":"==AO4ATNwcTOxcjN1cTM","agreement":"on"}
+2025-09-01T10:48:53+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-01T10:48:53+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-01T10:48:53+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-01T12:50:13+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-01T12:50:13+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-01T12:50:13+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0411\u043e\u0440\u043e\u0434\u0443\u043b\u0438\u043d\u0430 \u0421\u043e\u0444\u0438\u044f","child_birthdate":"15.09.2020","parent_name":"\u0411\u043e\u0440\u043e\u0434\u0443\u043b\u0438\u043d\u0430 \u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0430 \u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432\u043d\u0430","phone":"89126488430","email":"afkate@yandex.ru","wishes":"\u0414\u043e\u0431\u0440\u044b\u0439 \u0434\u0435\u043d\u044c,\u043c\u043e\u0439 \u0440\u0435\u0431\u0435\u043d\u043e\u043a \u0443\u0436\u0435 \u043f\u043e\u0441\u0435\u0449\u0430\u0435\u0442 \u0432\u0430\u0448 \u0434\u0435\u0442\u0441\u043a\u0438\u0439 \u0431\u0430\u0441\u0441\u0435\u0439\u043d,\u0445\u043e\u0442\u0435\u043b\u0430 \u0431\u044b \u0443\u0442\u043e\u0447\u043d\u0438\u0442\u044c \u043a\u0430\u043a \u043c\u043e\u0436\u043d\u043e \u043f\u043e\u043f\u0430\u0441\u0442\u044c \u0432 \u0433\u0440\u0443\u043f\u043f\u0443 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u043c\u0443 \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u044e.","js_token":"==AN5ITMyEzNwgjN1cTM","agreement":"on"}
+2025-09-01T12:50:13+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-01T12:50:13+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-01T12:50:13+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-02T11:39:20+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-02T11:39:20+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-02T11:39:20+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041f\u0435\u0442\u0440\u0438\u043a\u043e\u0432\u0430 \u0415\u0432\u0430","child_birthdate":"16.09.2018","parent_name":"\u041f\u0435\u0442\u0440\u0438\u043a\u043e\u0432 \u041d\u0438\u043a\u043e\u043b\u0430\u0439 \u041b\u044c\u0432\u043e\u0432\u0438\u0447","phone":"79630491889","email":"columbia.89@mail.ru","wishes":"\u0425\u043e\u0434\u0438\u043c \u0432 1 \u043a\u043b\u0430\u0441\u0441 \u043d\u0430 \u041a\u043e\u043c\u043f\u0440\u0435\u0441\u0441\u043e\u0440\u043d\u043e\u043c, \u043e\u0441\u0432\u043e\u0431\u043e\u0436\u0434\u0430\u0435\u043c\u0441\u044f \u0432 14:00. \u0413\u043e\u0434 \u043d\u0430\u0437\u0430\u0434 \u0445\u043e\u0434\u0438\u043b\u0438 \u0432 \u0432\u0430\u0448\u0443 \u0441\u043f\u043e\u0440\u0442. \u0448\u043a\u043e\u043b\u0443 \u043d\u0430 \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043a\u0443, \u0431\u044b\u043b\u0438 \u0432 \u0437\u0430\u043f\u0430\u0441\u0435, \u043f\u0440\u043e\u0445\u043e\u0434\u0438\u043b\u0438 \u043c\u0435\u0441\u044f\u0446. \u041f\u043e\u0442\u043e\u043c \u0445\u043e\u0434\u0438\u043b\u0438 \u043d\u0430 \u043f\u043b\u0430\u0442\u043d\u044b\u0435 \u0437\u0430\u043d\u044f\u0442\u0438\u0435 \u043f\u043e \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043a\u0435 \u043a \u0442\u0440\u0435\u043d\u0435\u0440\u0443 \u0432 \u0414\u0412\u0412\u0421 \u041d\u0430\u0442\u0430\u043b\u044c\u0435 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u043d\u0435. \u041b\u0435\u0442\u043e\u043c \u0431\u044b\u043b \u043e\u0442\u043f\u0443\u0441\u043a \u0443 \u0442\u0440\u0435\u043d\u0435\u0440\u043e\u0432 \u0414\u0412\u0412\u0421, \u0441\u0435\u0439\u0447\u0430\u0441 \u0432\u0440\u043e\u0434\u0435 \u043a\u0430\u043a \u043e\u043d\u0438 \u0441\u0438\u043d\u0445\u0440\u043e\u043d\u043d\u043e\u0435 \u043d\u0435 \u043d\u0430\u0431\u0438\u0440\u0430\u044e\u0442, \u0432\u043e\u0442 \u0440\u0435\u0448\u0438\u043b\u0438 \u043a \u0432\u0430\u043c. \u0415\u0432\u0430 \u0443\u0432\u0435\u0440\u0435\u043d\u043d\u043e \u0434\u0435\u0440\u0436\u0438\u0442\u0441\u044f \u043d\u0430 \u0432\u043e\u0434\u0435, \u043f\u043b\u0430\u0432\u0430\u0435\u0442, \u043f\u0440\u044b\u0433\u0430\u0435\u0442 \u0441 \u0442\u0443\u043c\u0431\u043e\u0447\u043a\u0438. ","js_token":"==wM0MDMxQTM1gjN1cTM","agreement":"on"}
+2025-09-02T11:39:20+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-02T11:39:20+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-02T11:39:20+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-02T12:22:31+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-02T12:22:31+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-02T12:22:31+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041f\u0430\u0445\u043e\u043c\u043e\u0432\u0430 \u0410\u043d\u043d\u0430 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u043d\u0430","child_birthdate":"25.10.2018","parent_name":"\u0425\u043e\u043b\u043a\u0438\u043d\u0430 \u041e\u043b\u044c\u0433\u0430 \u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432\u043d\u0430","phone":"+79086305658","email":"distant1997@gmail.com","wishes":"\u0412\u0440\u0435\u043c\u044f \u0437\u0430\u043d\u044f\u0442\u0438\u0439 \u0441 17\/00","js_token":"==QM0kjNxcTO2gjN1cTM","agreement":"on"}
+2025-09-02T12:22:31+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-02T12:22:31+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-02T12:22:31+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-02T14:32:54+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-02T14:32:54+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-02T14:32:54+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0411\u043e\u043a\u043e\u0432 \u0410\u0440\u0442\u0451\u043c","child_birthdate":"07.11.2019","parent_name":"\u0411\u043e\u043a\u043e\u0432\u0430 \u041a\u0440\u0438\u0441\u0442\u0438\u043d\u0430 \u0410\u043d\u0434\u0440\u0435\u0435\u0432\u043d\u0430","phone":"+79122076447","email":"zotovakris1990@mail.ru","wishes":"\u0423\u0434\u043e\u0431\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u0434\u043b\u044f \u0437\u0430\u043d\u044f\u0442\u0438\u0439 \u0431\u0443\u0434\u043d\u0438\u0435 \u0438\u043b\u0438 \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435.","js_token":"==wN0MzNzYjN0gjN1cTM","agreement":"on"}
+2025-09-02T14:32:54+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-02T14:32:54+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-02T14:32:54+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-02T18:21:03+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-02T18:21:03+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-02T18:21:03+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0421\u0442\u0430\u0440\u0438\u0446\u044b\u043d\u0430 \u0412\u0430\u043b\u0435\u0440\u0438\u044f","child_birthdate":"17.08.2020","parent_name":"\u0421\u0442\u0430\u0440\u0438\u0446\u044b\u043d\u0430 \u041a\u0441\u0435\u043d\u0438\u044f \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u043d\u0430 ","phone":"+79506459497","email":"kseniya.shipitsyna@mail.ru","wishes":"-","js_token":"==AO5cDO3ATN0gjN1cTM","agreement":"on"}
+2025-09-02T18:21:03+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-02T18:21:03+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-02T18:21:03+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-02T22:34:15+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-02T22:34:15+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-02T22:34:15+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041f\u0440\u043e\u043a\u043e\u043f\u043d\u0451\u0432 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 ","child_birthdate":"08.08.2019","parent_name":"\u041f\u0440\u043e\u043a\u043e\u043f\u043d\u0451\u0432 \u0410\u043b\u0435\u043a\u0441\u0435\u0439 \u0412\u0430\u043b\u0435\u0440\u044c\u0435\u0432\u0438\u0447 ","phone":"+79823040004","email":"prokopneva@gmail.com","wishes":"\u0423\u0434\u043e\u0431\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f : \r\n\u0412\u0442\u043e\u0440\u043d\u0438\u043a, \u0447\u0435\u0442\u0432\u0435\u0440\u0433","js_token":"==gM0ETOxYzNykjN1cTM","agreement":"on"}
+2025-09-02T22:34:15+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-02T22:34:15+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-02T22:34:15+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-03T23:44:22+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-03T23:44:22+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-03T23:44:22+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041d\u0430\u0437\u0430\u0440\u043e\u0432 \u0418\u0433\u043d\u0430\u0442\u0438\u0439 ","child_birthdate":"05.11.2018","parent_name":"\u041d\u0430\u0437\u0430\u0440\u043e\u0432\u0430 \u0415\u043b\u0435\u043d\u0430 \u0412\u043b\u0430\u0434\u0438\u0441\u043b\u0430\u0432\u043e\u0432\u043d\u0430 ","phone":"+79961866357","email":"elena.v.nazarova2022@mail.ru","wishes":"\u0423\u0434\u043e\u0431\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f - \u0434\u043d\u0451\u043c \u0434\u043e 16:00.\r\n\u0410\u043a\u0442\u0438\u0432\u043d\u043e \u0444\u0438\u0437\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043e\u0439 \u043d\u0435 \u0437\u0430\u043d\u0438\u043c\u0430\u043b\u0441\u044f.\r\n\u0415\u0441\u0442\u044c \u0438\u043d\u0442\u0435\u0440\u0435\u0441 \u043a \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u044e. ","js_token":"==QM2gzM0YTO5kjN1cTM","agreement":"on"}
+2025-09-03T23:44:22+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-03T23:44:22+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-03T23:44:22+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-04T12:06:12+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-04T12:06:12+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-04T12:06:12+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041c\u0430\u0440\u0442\u044e\u0448\u0435\u0432\u0430 \u0410\u043b\u0438\u0441\u0430 ","child_birthdate":"30.09.2019","parent_name":"\u041c\u0430\u0440\u0442\u044e\u0448\u0435\u0432\u0430 \u0410\u043d\u043d\u0430 \u0410\u043b\u0435\u043a\u0441\u0435\u0435\u0432\u043d\u0430 ","phone":"+79222219485","email":"igmart170@gmail.com","wishes":"\u0432\u0435\u0447\u0435\u0440\u043d\u0435\u0435 \u0432\u0440\u0435\u043c\u044f ","js_token":"==gN1cTNzMDNzAzN1cTM","agreement":"on"}
+2025-09-04T12:06:12+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-04T12:06:12+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-04T12:06:12+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-05T09:05:25+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-05T09:05:25+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-05T09:05:25+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041f\u043e\u0434\u0431\u043e\u043b\u043e\u0442\u043e\u0432 \u0410\u043d\u0430\u0442\u043e\u043b\u0438\u0439","child_birthdate":"24.01.2018","parent_name":"\u041a\u0430\u0440\u0435\u043b\u0438\u043d\u0430 \u0418\u0440\u0438\u043d\u0430 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u043d\u0430","phone":"\u00b179222245733","email":"karelinais@bk.ru","wishes":".. ","js_token":"==AOzUTN4IDMxEzN1cTM","agreement":"on"}
+2025-09-05T09:05:25+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-05T09:05:25+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-05T09:05:25+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-05T09:07:19+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-05T09:07:19+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-05T09:07:19+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041f\u043e\u0434\u0431\u043e\u043b\u043e\u0442\u043e\u0432\u0430 \u0412\u0435\u0440\u0430","child_birthdate":"24.01.2018","parent_name":"\u041a\u0430\u0440\u0435\u043b\u0438\u043d\u0430 \u0418\u0440\u0438\u043d\u0430 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u043d\u0430","phone":"+79222245733","email":"karelinais@bk.ru","wishes":".. ","js_token":"==QN3ITM4kzM1AzN1cTM","agreement":"on"}
+2025-09-05T09:07:19+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-05T09:07:19+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-05T09:07:19+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-05T10:01:41+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-05T10:01:41+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-05T10:01:41+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0428\u0438\u0440\u043e\u043a\u043e\u0432\u0430 \u0410\u043d\u043d\u0430","child_birthdate":"15.06.2016","parent_name":"\u0421\u0442\u0435\u043f\u0430\u043d\u043e\u0432\u0430 \u041d\u0430\u0442\u0430\u043b\u044c\u044f \u0412\u0438\u043a\u0442\u043e\u0440\u043e\u0432\u043d\u0430","phone":"+79089085037","email":"natikz1979@mail.ru","wishes":"\u0423\u0434\u043e\u0431\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u0434\u043b\u044f \u0437\u0430\u043d\u044f\u0442\u0438\u0439 \u0432\u0435\u0447\u0435\u0440\u043e\u043c \u0432 \u0431\u0443\u0434\u043d\u0438\u0435 \u0434\u043d\u0438 \u0441 18:30","js_token":"==AN4UzN0gDMzEzN1cTM","agreement":"on"}
+2025-09-05T10:01:41+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-05T10:01:41+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-05T10:01:41+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-05T22:14:49+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-05T22:14:49+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-05T22:14:49+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041a\u043b\u0435\u0449\u0435\u0432\u0430 \u0415\u0441\u0435\u043d\u0438\u044f","child_birthdate":"09.02.2020","parent_name":"\u041a\u043b\u0435\u0449\u0435\u0432\u0430 \u0415\u0441\u0435\u043d\u0438\u044f \u0410\u043b\u0435\u043a\u0441\u0435\u0435\u0432\u043d\u0430","phone":"89193771963","email":"k.lym@yandex.ru","wishes":"\u041f\u043d, \u0441\u0440, \u043f\u0442 - \u0443\u0434\u043e\u0431\u043d\u044b\u0435 \u0434\u043d\u0438 \r\n\u0412\u0442 \u0438 \u0447\u0442 \u043c\u043e\u0436\u0435\u043c \u0432 \u043f\u0435\u0440\u0432\u043e\u0439 \u043f\u043e\u043b\u043e\u0432\u0438\u043d\u0435 \u0434\u043d\u044f (\u0432\u0435\u0447\u0435\u0440\u043e\u043c - \u043b\u0435\u0433\u043a\u0430\u044f \u0430\u0442\u043b\u0435\u0442\u0438\u043a\u0430)","js_token":"==QO3IDNyMTM1EzN1cTM","agreement":"on"}
+2025-09-05T22:14:49+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-05T22:14:49+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-05T22:14:49+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-07T13:10:30+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-07T13:10:30+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-07T13:10:30+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0411\u0443\u0440\u044f\u043a \u0415\u0432\u0433\u0435\u043d\u0438\u0439 ","child_birthdate":"23.12.2020","parent_name":"\u0418\u0440\u0438\u043d\u0430 \u0412\u0438\u043a\u0442\u043e\u0440\u043e\u0432\u043d\u0430 ","phone":"+79630546880","email":"krinica2012@mail.ru","wishes":"\u0417\u0430\u043d\u044f\u0442\u0438\u044f \u0432\u0435\u0447\u0435\u0440\u043e\u043c \u0438 \u043f\u043e \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u043c \u0434\u043d\u044f\u043c ","js_token":"==AN3ATM1EDM3IzN1cTM","agreement":"on"}
+2025-09-07T13:10:30+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-07T13:10:30+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-07T13:10:30+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-07T19:12:54+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-07T19:12:54+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-07T19:12:54+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0413\u0430\u043b\u0438\u0443\u043b\u0438\u043d \u041b\u0435\u0432\u0414\u043c\u0438\u0442\u0440\u0438\u0435\u0432\u0438\u0447 ","child_birthdate":"17.07.2015","parent_name":"\u0413\u0430\u043b\u0438\u0443\u043b\u0438\u043d\u0430 \u041e\u043b\u044c\u0433\u0430 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u043d\u0430 ","phone":"+79226047851","email":"lego2000@list.ru","wishes":"\u0412\u0442\u043e\u0440\u043d\u0438\u043a,\u0447\u0435\u0442\u0432\u0435\u0440\u0433 19.00","js_token":"==AO1UTN2MjM2IzN1cTM","agreement":"on"}
+2025-09-07T19:12:54+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-07T19:12:54+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-07T19:12:54+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-08T10:38:26+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-08T10:38:26+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-08T10:38:26+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0413\u0443\u0441\u0435\u0432 \u0418\u0433\u043e\u0440\u044c ","child_birthdate":"22.05.2018","parent_name":"\u0413\u0443\u0441\u0435\u0432\u0430 \u0412\u0435\u0440\u043e\u043d\u0438\u043a\u0430 \u0413\u043b\u0435\u0431\u043e\u0432\u043d\u0430","phone":"+79655412380","email":"st.nika93@mail.ru","wishes":"\u043f\u0440\u043e\u0448\u0443 \u0441\u0432\u044f\u0437\u0430\u0442\u044c\u0441\u044f \u043f\u043e \u0443\u0442\u043e\u0447\u043d\u0435\u043d\u0438\u044e \u0440\u0430\u0441\u043f\u0438\u0441\u0430\u043d\u0438\u044f \u0438 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u044b\u043c \u0442\u0440\u0435\u043d\u0435\u0440\u0430\u043c.  ","js_token":"==gN5cDN3cDOzMzN1cTM","agreement":"on"}
+2025-09-08T10:38:26+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-08T10:38:26+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-08T10:38:26+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-08T14:53:55+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-08T14:53:55+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-08T14:53:55+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0415\u0432\u0434\u043e\u043a\u0438\u043c\u043e\u0432\u0430 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u0430 ","child_birthdate":"21.04.2020","parent_name":"\u0415\u0432\u0434\u043e\u043a\u0438\u043c\u043e\u0432\u0430 \u0422\u0430\u0442\u044c\u044f\u043d\u0430 \u042e\u0440\u044c\u0435\u0432\u043d\u0430 ","phone":"89502021209","email":"Yakovlevaze@mail.ru","wishes":".","js_token":"==QN0ITM0gDOzMzN1cTM","agreement":"on"}
+2025-09-08T14:53:55+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-08T14:53:55+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-08T14:53:55+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-08T15:03:58+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-08T15:03:59+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-08T15:03:59+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u041f\u0430\u043d\u043a\u043e\u0432 \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440","child_birthdate":"12.10.2018","parent_name":"\u041f\u0430\u043d\u043a\u043e\u0432 \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440","phone":"89221646494","email":"pvo@lobbysteel.ru","wishes":"\u0412\u0442 \u0427\u0442 \u0441 18","js_token":"==AOzgzMxYDN0MzN1cTM","agreement":"on"}
+2025-09-08T15:03:59+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-08T15:03:59+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-08T15:03:59+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-08T17:49:43+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-08T17:49:43+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-08T17:49:43+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0424\u0438\u0440\u0441\u0442\u043e\u0432 \u0418\u0432\u0430\u043d \u041e\u043b\u0435\u0433\u043e\u0432\u0438\u0447 ","child_birthdate":"27.07.2018","parent_name":"\u0424\u0438\u0440\u0441\u0442\u043e\u0432\u0430 \u041a\u0430\u0440\u0438\u043d\u0430 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u043d\u0430","phone":"+7-900-038-38-68","email":"shpiga96@mail.ru","wishes":"\u0423\u0434\u043e\u0431\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u0434\u043b\u044f \u0437\u0430\u043d\u044f\u0442\u0438\u0439 \u043f\u043e\u0441\u043b\u0435 13:00","js_token":"==gMwATO3EzNwQzN1cTM","agreement":"on"}
+2025-09-08T17:49:43+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-08T17:49:43+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-08T17:49:43+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-09T11:05:11+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-09T11:05:11+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-09T11:05:11+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0414\u0430\u043c\u0431\u0435\u0440\u0433 \u041d\u0438\u043a\u043e\u043b\u0430\u0439 ","child_birthdate":"05.07.2020","parent_name":"\u0414\u0430\u043c\u0431\u0435\u0440\u0433 \u041d\u0430\u0434\u0435\u0436\u0434\u0430 \u041f\u0435\u0442\u0440\u043e\u0432\u043d\u0430 ","phone":"+79122266428","email":"ndamberg@mail.ru","wishes":"\u041d\u0438\u043a\u043e\u043b\u0430\u0439 \u0432\u0442\u043e\u0440\u043e\u0439 \u0433\u043e\u0434 \u0437\u0430\u043d\u0438\u043c\u0430\u0435\u0442\u0441\u044f \u0432 \u0433\u0440\u0443\u043f\u043f\u0435 \u0441 \u0442\u0440\u0435\u043d\u0435\u0440\u043e\u043c \u0432 \u0414\u0412\u0412\u0421.\r\n\u0416\u0435\u043b\u0430\u0435\u043c\u043e\u0435 \u0432\u0440\u0435\u043c\u044f: \u0432\u0435\u0447\u0435\u0440\u043d\u0435\u0435 \u0432\u0440\u0435\u043c\u044f \u0432\u0442\u043e\u0440\u043d\u0438\u043a, \u0447\u0435\u0442\u0432\u0435\u0440\u0433, \u0443\u0442\u0440\u0435\u043d\u043d\u0435\u0435 \u0432\u0440\u0435\u043c\u044f \u0432 \u0432\u044b\u0445\u043e\u0434\u043d\u044b\u0435 \u0434\u043d\u0438.","js_token":"==wMykTM1gjM3QzN1cTM","agreement":"on"}
+2025-09-09T11:05:11+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-09T11:05:11+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-09T11:05:11+05:00 | Config loaded from: /opt/aquastart/config.json
+2025-09-09T11:25:02+05:00 | REAL SCRIPT: /var/www/html/wordpress/aquastart/save-form.php
+2025-09-09T11:25:02+05:00 | REAL CWD: /var/www/html/wordpress/aquastart
+2025-09-09T11:25:02+05:00 | SCRIPT START, REQUEST_METHOD=POST, POST={"child_name":"\u0424\u0438\u0440\u0441\u0442\u043e\u0432\u0430 \u0410\u0440\u0438\u043d\u0430","child_birthdate":"16.02.2017","parent_name":"\u041c\u0430\u0440\u0438\u044f \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u043d\u0430 \u0424\u0438\u0440\u0441\u0442\u043e\u0432\u0430","phone":"+79630503321","email":"vadaria13@mail.ru","wishes":"\u0420\u0435\u0431\u0451\u043d\u043e\u043a \u043e\u0447\u0435\u043d\u044c \u0445\u043e\u0447\u0435\u0442 \u0437\u0430\u043d\u0438\u043c\u0430\u0442\u044c\u0441\u044f \u043f\u043b\u0430\u0432\u0430\u043d\u0438\u0435\u043c","js_token":"==gN2gTMzcjN2QzN1cTM","agreement":"on"}
+2025-09-09T11:25:02+05:00 | Checking config path: /var/www/html/wordpress/aquastart/config.json
+2025-09-09T11:25:02+05:00 | Checking config path: /opt/aquastart/config.json
+2025-09-09T11:25:02+05:00 | Config loaded from: /opt/aquastart/config.json

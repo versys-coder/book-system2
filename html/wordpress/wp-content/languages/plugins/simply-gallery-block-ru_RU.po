@@ -1,0 +1,221 @@
+# Translation of Plugins - Gallery Blocks with Lightbox. Image Gallery, (HTML5 video , YouTube, Vimeo) Video Gallery and Lightbox for native gallery - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Gallery Blocks with Lightbox. Image Gallery, (HTML5 video , YouTube, Vimeo) Video Gallery and Lightbox for native gallery - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-11-26 08:46:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Gallery Blocks with Lightbox. Image Gallery, (HTML5 video , YouTube, Vimeo) Video Gallery and Lightbox for native gallery - Stable (latest release)\n"
+
+#: plugin.php:134
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: plugin.php:135
+msgid "Medium"
+msgstr "Средний"
+
+#: plugin.php:136
+msgid "Large"
+msgstr "Большой"
+
+#: plugin.php:137
+msgid "Full Size"
+msgstr "Полный размер"
+
+#: blocks/basic-blocks/albums/block.json
+msgctxt "block title"
+msgid "Albums"
+msgstr "Альбомы"
+
+#: blocks/basic-blocks/albumnavigator/block.json
+#: blocks/basic-blocks/albums/block.json
+msgctxt "block keyword"
+msgid "category"
+msgstr "категория"
+
+#: blocks/basic-blocks/galleries/block.json blocks/basic-blocks/grid/block.json
+#: blocks/basic-blocks/justified/block.json
+#: blocks/basic-blocks/masonry/block.json blocks/basic-blocks/slider/block.json
+#: blocks/basic-blocks/viewer/block.json
+msgctxt "block keyword"
+msgid "gallery"
+msgstr "галерея"
+
+#: blocks/basic-blocks/galleries/block.json
+msgctxt "block keyword"
+msgid "shortcode"
+msgstr "шорткод"
+
+#: blocks/basic-blocks/grid/block.json
+msgctxt "block title"
+msgid "Grid"
+msgstr "Сетка"
+
+#: blocks/basic-blocks/grid/block.json blocks/basic-blocks/justified/block.json
+#: blocks/basic-blocks/masonry/block.json blocks/basic-blocks/slider/block.json
+#: blocks/basic-blocks/viewer/block.json
+msgctxt "block keyword"
+msgid "images"
+msgstr "изображения"
+
+#: blocks/basic-blocks/grid/block.json blocks/basic-blocks/justified/block.json
+#: blocks/basic-blocks/masonry/block.json blocks/basic-blocks/slider/block.json
+#: blocks/basic-blocks/viewer/block.json
+msgctxt "block keyword"
+msgid "photos"
+msgstr "фотографии"
+
+#: blocks/basic-blocks/grid/block.json blocks/basic-blocks/viewer/block.json
+msgctxt "block keyword"
+msgid "grid"
+msgstr "сетка"
+
+#: blocks/basic-blocks/grid/block.json blocks/basic-blocks/masonry/block.json
+#: blocks/basic-blocks/slider/block.json blocks/basic-blocks/viewer/block.json
+msgctxt "block keyword"
+msgid "youtube"
+msgstr "youtube"
+
+#: blocks/basic-blocks/grid/block.json blocks/basic-blocks/masonry/block.json
+#: blocks/basic-blocks/slider/block.json blocks/basic-blocks/viewer/block.json
+msgctxt "block keyword"
+msgid "vimeo"
+msgstr "vimeo"
+
+#: blocks/basic-blocks/justified/block.json
+msgctxt "block title"
+msgid "Justified"
+msgstr "Выровненный"
+
+#: blocks/basic-blocks/masonry/block.json
+msgctxt "block title"
+msgid "Masonry"
+msgstr "Кладка"
+
+#: blocks/basic-blocks/slider/block.json
+msgctxt "block keyword"
+msgid "slider"
+msgstr "слайдер"
+
+#. Description of the plugin
+#: plugin.php
+msgid "The highly customizable Lightbox for native WordPress Gallery/Image. And beautiful gallery blocks with advanced Lightbox for photographers, video creators, writers and content marketers. This blocks set will help you create responsive Images, Video, Audio gallery. Three desired layout in one plugin - Masonry, Justified and Grid."
+msgstr "Легко настраиваемый лайтбокс для встроенной  WordPress Галереи / Изображений. И элегантные блоки для  создания галереи с передовым Лайтбоксом, которые отлично  подойдут фотографам, клипмейкерам, репортерам и маркетологам. Этот набор блоков поможет вам создать  качественные фото, видео, аудио галереи. Три желаемых макета в одном плагине - Masonry, Justified и Grid."
+
+#. Plugin Name of the plugin
+#: plugin.php
+msgid "SimpLy Gallery Block & Lightbox"
+msgstr "SimpLy Gallery Block & Lightbox"
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "https://blockslib.com/"
+msgstr "https://blockslib.com/"
+
+#. Author of the plugin
+#: plugin.php
+msgid "GalleryCreator"
+msgstr "GalleryCreator"
+
+#: blocks/simply_dashboard_widget.php:48 blocks/simply_widget.php:9
+#: blocks/simply_widget.php:69
+msgid "Gallery"
+msgstr "Галерея"
+
+#: blocks/simply_post.php:395
+msgid "Album"
+msgstr "Альбом"
+
+#: blocks/simply_post.php:396
+msgid "Search Albums"
+msgstr "Поиск альбомов"
+
+#: blocks/simply_post.php:401
+msgid "Edit Album"
+msgstr "Изменить альбом"
+
+#: blocks/simply_post.php:403
+msgid "Add New Album"
+msgstr "Добавить новый альбом"
+
+#: blocks/simply_post.php:405
+msgid "Albums"
+msgstr "Альбомы"
+
+#: blocks/simply_post.php:435
+msgid "Galleries"
+msgstr "Галереи"
+
+#: blocks/simply_post.php:438 blocks/dist/dashboard.widget.build.js:1
+msgid "Edit Gallery"
+msgstr "Изменить галерею"
+
+#: blocks/simply_post.php:441
+msgid "No Galleries Found"
+msgstr "Галереи не найдены"
+
+#: blocks/simply_post.php:442
+msgid "No Galleries Found in Trash"
+msgstr "Галереи не найдены в корзине"
+
+#: blocks/simply_post.php:443
+msgid "Parent Gallery"
+msgstr "Родительская галерея"
+
+#: blocks/simply_post.php:444
+msgid "Filter Galleries list"
+msgstr "Фильтр списка галерей"
+
+#: blocks/simply_post.php:445
+msgid "Galleries list navigation"
+msgstr "Навигация по списку галерей"
+
+#: blocks/simply_post.php:446
+msgid "Galleries list"
+msgstr "Список галерей"
+
+#: blocks/simply_post.php:496
+msgid "Show All"
+msgstr "Показать все"
+
+#: blocks/simply_post.php:784 blocks/simply_post.php:808
+#: blocks/dist/post.editor.build.js:1
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: blocks/simply_post.php:806
+msgid "Cover"
+msgstr "Обложка"
+
+#: blocks/simply_post.php:436
+msgid "Add New"
+msgstr "Добавить новую"
+
+#: blocks/simply_post.php:807 blocks/simply_widget.php:64
+#: blocks/dist/blocks/blocks.build.js:1 dist/albums.page.build.js:1
+#: dist/blocks.build.js:1 dist/lightbox.page.build.js:1 dist/page.build.js:1
+#: dist/plugin.build.js:1
+msgid "Title"
+msgstr "Заголовок"
+
+#: blocks/simply_post.php:809 blocks/dist/blocks/blocks.build.js:1
+#: dist/albums.page.build.js:1
+msgid "Date"
+msgstr "Дата"
+
+#: blocks/simply_posts_elementor_widget.php:69
+msgid "General"
+msgstr "Основные"
+
+#: blocks/simply_posts_elementor_widget.php:77
+msgid "Select Gallery"
+msgstr "Выбрать галерею"
+
+#: blocks/simply_widget.php:71
+msgid "Choose Gallery"
+msgstr "Выберите галерею"

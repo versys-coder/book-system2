@@ -1,0 +1,12 @@
+
+# BEGIN Really Simple Security LETS ENCRYPT
+# Директивы (строки) между `BEGIN Really Simple Security LETS ENCRYPT` и `END Really Simple Security LETS ENCRYPT`
+# созданы автоматически и подлежат изменению только через фильтры WordPress.
+# Сделанные вручную изменения между этими маркерами будут перезаписаны.
+<ifModule mod_authz_core.c>
+    Require all denied
+</ifModule>
+<ifModule !mod_authz_core.c>
+    Deny from all
+</ifModule>
+# END Really Simple Security LETS ENCRYPT

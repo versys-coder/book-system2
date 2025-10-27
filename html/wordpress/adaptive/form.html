@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Запись в группу адаптации</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent-1:#B13CFF;
+      --accent-2:#4D68FF;
+      --text:#223a5e;
+      --label:#4069b5;
+      --input-border:#b0bfd6;
+      --bg:#f6f8fa;
+      --success:#237e3b;
+      --error:#d32f2f;
+      --radius:18px;
+    }
+    html,body{height:100%;margin:0;background:var(--bg);font-family:'Roboto Condensed', Arial, sans-serif;color:var(--text);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+    .page {
+      min-height:100%;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding:32px 16px;
+      box-sizing:border-box;
+    }
+    .adaptive-form-outer{
+      width:100%;
+      max-width: 640px;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(75,75,200,0.14);
+      background: #fff;
+      box-sizing: border-box;
+    }
+    .adaptive-form-title{
+      background: linear-gradient(90deg,var(--accent-1) 0%, var(--accent-2) 100%);
+      color:#fff;
+      padding:18px 24px;
+      font-size:26px;
+      font-weight:700;
+      text-transform:uppercase;
+      line-height:1;
+      box-sizing:border-box;
+      margin:0;
+    }
+    .adaptive-inner { padding: 28px 32px 34px 32px; box-sizing: border-box; }
+    .adaptive-msg{min-height:20px;margin-bottom:8px;font-size:15px;text-align:center}
+    .adaptive-form-row{margin-bottom:16px}
+    .adaptive-form-row label{display:block;margin-bottom:6px;font-size:15px;color:var(--label);font-weight:600}
+    .adaptive-form-row input,
+    .adaptive-form-row textarea{
+      width:100%;
+      padding:10px 12px;
+      border:1.5px solid var(--input-border);
+      border-radius:6px;
+      background:#f6f8fa;
+      font-size:15px;
+      box-sizing:border-box;
+      transition:border .18s, background .18s;
+      font-family: inherit;
+    }
+    .adaptive-form-row input:focus,
+    .adaptive-form-row textarea:focus{
+      border-color:var(--accent-1);
+      background:#fff;
+      outline:none;
+    }
+    .adaptive-form-row textarea{min-height:64px;resize:vertical}
+    .adaptive-help{margin-top:6px;font-size:13px;color:#6b7280}
+    .adaptive-checkbox-label{display:flex;align-items:flex-start;margin:12px 0;gap:10px;line-height:1.25}
+    .adaptive-checkbox{width:20px;height:20px;flex:0 0 20px;accent-color:var(--accent-1);border-radius:4px;border:2px solid var(--accent-1)}
+    .adaptive-agreement-error{color:var(--error);font-size:13px;margin-top:6px;display:none}
+    .adaptive-form-btn{
+      display:inline-block;
+      min-width:160px;
+      padding:12px 28px;
+      background:linear-gradient(90deg,var(--accent-1) 0%, var(--accent-2) 100%);
+      color:#fff;border:none;border-radius:10px;
+      font-size:17px;font-weight:700;cursor:pointer;
+      box-shadow:0 6px 22px rgba(77,104,255,0.12);
+      transition:transform .12s, box-shadow .12s, opacity .12s;
+      float:right;
+    }
+    .adaptive-form-btn:active{transform:translateY(1px)}
+    .adaptive-form-btn[disabled]{opacity:.6;cursor:not-allowed;box-shadow:none}
+    .adaptive-thankyou{
+      display:none;
+      padding:48px 24px;
+      box-sizing:border-box;
+      color:#fff;
+      background: linear-gradient(90deg,var(--accent-1) 0%, var(--accent-2) 100%);
+      font-size:28px;font-weight:700;text-align:center;
+      letter-spacing:1px;
+    }
+    @media (max-width:520px){
+      .adaptive-form-title{font-size:18px;padding:12px 14px}
+      .adaptive-inner{padding:18px 14px 22px 14px}
+      .adaptive-form-btn{min-width:120px;padding:10px 16px;font-size:15px}
+      .adaptive-thankyou{font-size:20px;padding:30px 14px}
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="adaptive-form-outer" role="region" aria-label="Форма записи в группу адаптации">
+      <div class="adaptive-form-title">ЗАПИСЬ В ГРУППУ АДАПТАЦИИ</div>
+
+      <div class="adaptive-inner" id="adaptive-inner">
+        <form id="adaptive-form" autocomplete="off" novalidate>
+          <div class="adaptive-msg" id="adaptive-msg" aria-live="polite"></div>
+
+          <div class="adaptive-form-row">
+            <label for="child_name">Фамилия и имя ребёнка</label>
+            <input id="child_name" name="child_name" placeholder="Иванов Иван" required aria-required="true" />
+          </div>
+
+          <div class="adaptive-form-row">
+            <label for="child_birthdate">Дата рождения ребёнка (ДД.ММ.ГГГГ)</label>
+            <input id="child_birthdate" name="child_birthdate" placeholder="24.11.2019" required pattern="\d{2}\.\d{2}\.\d{4}" aria-required="true" />
+          </div>
+
+          <div class="adaptive-form-row">
+            <label for="parent_name">ФИО родителя</label>
+            <input id="parent_name" name="parent_name" placeholder="Иванова Мария Сергеевна" required aria-required="true" />
+          </div>
+
+          <div class="adaptive-form-row">
+            <label for="phone">Мобильный телефон родителя</label>
+            <input id="phone" name="phone" placeholder="+7 (922) 1234567" required pattern="\+7[0-9 \-\(\)]{10,}" aria-required="true" />
+          </div>
+
+          <div class="adaptive-form-row">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" placeholder="mail@example.com" required aria-required="true" />
+          </div>
+
+          <div class="adaptive-form-row">
+            <label for="health_notes">Особенности здоровья / рекомендации врача (если есть)</label>
+            <textarea id="health_notes" name="health_notes" placeholder="Краткое описание особенностей здоровья или рекомендации врача." required aria-required="true"></textarea>
+          </div>
+
+          <div class="adaptive-form-row">
+            <label for="wishes">Пожелания</label>
+            <textarea id="wishes" name="wishes" placeholder="Например: удобное время занятий, вопросы к тренеру..." required aria-required="true"></textarea>
+          </div>
+
+          <input type="hidden" id="adaptive_js_token" name="js_token" value="" />
+
+          <label class="adaptive-checkbox-label" for="adaptive-agreement">
+            <input class="adaptive-checkbox" id="adaptive-agreement" name="agreement" type="checkbox" checked required aria-required="true" />
+            <span>Принимаю <a href="https://дввс.рф/storage/documents/1736888402/%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0_%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85_%D0%93%D0%90%D0%9D%D0%9E%D0%A3_%D0%A1%D0%9E_%D0%94%D0%92%D0%92%D0%A1.pdf" target="_blank" rel="noopener noreferrer" style="color:#4d68ff;text-decoration:underline">Политику Конфиденциальности</a> и даю согласие на обработку персональных данных</span>
+          </label>
+
+          <div class="adaptive-agreement-error" id="adaptive-agreement-error" role="alert"></div>
+
+          <button type="submit" id="adaptive-submit-btn" class="adaptive-form-btn">Отправить заявку</button>
+          <div style="clear:both"></div>
+        </form>
+      </div>
+
+      <div id="adaptive-thankyou" class="adaptive-thankyou" role="status" aria-live="polite">
+        Спасибо! Наш специалист свяжется с Вами в ближайшее время.
+      </div>
+    </div>
+  </div>
+
+  <script src="./adaptive-form.js"></script>
+</body>
+</html>

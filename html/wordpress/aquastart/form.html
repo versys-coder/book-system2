@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Запись в группу "АкваСтарт"</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent-1:#B13CFF;
+      --accent-2:#4D68FF;
+      --text:#223a5e;
+      --label:#4069b5;
+      --input-border:#b0bfd6;
+      --bg:#f6f8fa;
+      --success:#237e3b;
+      --error:#d32f2f;
+      --radius:18px;
+      --outer-padding-vertical:0; /* title is full-bleed; inner wrapper has padding */
+      --outer-padding-horizontal:0;
+    }
+    html,body{height:100%;margin:0;background:var(--bg);font-family:'Roboto Condensed', Arial, sans-serif;color:var(--text);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+    .page {
+      min-height:100%;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding:32px 16px;
+      box-sizing:border-box;
+    }
+
+    /* Outer container: contains full-bleed title and inner padded form */
+    .aquastart-form-outer{
+      width:100%;
+      max-width: 640px;
+      border-radius: var(--radius);
+      overflow: hidden; /* ensures neat rounded corners */
+      box-shadow: 0 8px 32px rgba(75,75,200,0.14);
+      background: #fff;
+      box-sizing: border-box;
+    }
+
+    /* Full-bleed title. No border-radius here; outer clips it */
+    .aquastart-form-title{
+      background: linear-gradient(90deg,var(--accent-1) 0%, var(--accent-2) 100%);
+      color:#fff;
+      padding:18px 24px;
+      font-size:26px;
+      font-weight:700;
+      text-transform:uppercase;
+      line-height:1;
+      box-sizing:border-box;
+      margin:0;
+    }
+
+    /* Inner wrapper with padding for fields */
+    .aquastart-inner {
+      padding: 28px 32px 34px 32px;
+      box-sizing: border-box;
+    }
+
+    .aquastart-msg{min-height:20px;margin-bottom:8px;font-size:15px;text-align:center}
+
+    .aquastart-form-row{margin-bottom:16px}
+    .aquastart-form-row label{display:block;margin-bottom:6px;font-size:15px;color:var(--label);font-weight:600}
+    .aquastart-form-row input,
+    .aquastart-form-row textarea{
+      width:100%;
+      padding:10px 12px;
+      border:1.5px solid var(--input-border);
+      border-radius:6px;
+      background:#f6f8fa;
+      font-size:15px;
+      box-sizing:border-box;
+      transition:border .18s, background .18s;
+      font-family: inherit;
+    }
+    .aquastart-form-row input:focus,
+    .aquastart-form-row textarea:focus{
+      border-color:var(--accent-1);
+      background:#fff;
+      outline:none;
+    }
+    .aquastart-form-row textarea{min-height:64px;resize:vertical}
+
+    .aquastart-checkbox-label{display:flex;align-items:flex-start;margin:12px 0 12px 0;gap:10px;line-height:1.25}
+    .aquastart-checkbox{width:20px;height:20px;flex:0 0 20px;accent-color:var(--accent-1);border-radius:4px;border:2px solid var(--accent-1)}
+
+    .aquastart-agreement-error{color:var(--error);font-size:13px;margin-top:6px;display:none}
+
+    .aquastart-form-btn{
+      display:inline-block;
+      min-width:160px;
+      padding:12px 28px;
+      background:linear-gradient(90deg,var(--accent-1) 0%, var(--accent-2) 100%);
+      color:#fff;border:none;border-radius:10px;
+      font-size:17px;font-weight:700;cursor:pointer;
+      box-shadow:0 6px 22px rgba(77,104,255,0.12);
+      transition:transform .12s, box-shadow .12s, opacity .12s;
+      float:right;
+    }
+    .aquastart-form-btn:active{transform:translateY(1px)}
+    .aquastart-form-btn[disabled]{opacity:.6;cursor:not-allowed;box-shadow:none}
+
+    /* Thank you block (replaces form content) */
+    .aquastart-thankyou{
+      display:none; /* shown after successful submit */
+      padding:48px 24px;
+      box-sizing:border-box;
+      color:#fff;
+      background: linear-gradient(90deg,var(--accent-1) 0%, var(--accent-2) 100%);
+      font-size:28px;font-weight:700;text-align:center;
+      letter-spacing:1px;
+    }
+
+    /* make the checkbox + text flow nicely on mobile */
+    @media (max-width:520px){
+      .aquastart-form-title{font-size:18px;padding:12px 14px}
+      .aquastart-inner{padding:18px 14px 22px 14px}
+      .aquastart-form-btn{min-width:120px;padding:10px 16px;font-size:15px}
+      .aquastart-thankyou{font-size:20px;padding:30px 14px}
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="aquastart-form-outer" role="region" aria-label="Форма записи АкваСтарт">
+      <div class="aquastart-form-title">ЗАПИСЬ В ГРУППУ "АКВАСТАРТ"</div>
+
+      <!-- inner area that will be hidden when showing thankyou -->
+      <div class="aquastart-inner" id="aquastart-inner">
+        <form id="aquastart-form" autocomplete="off" novalidate>
+          <div class="aquastart-msg" id="aquastart-msg" aria-live="polite"></div>
+
+          <div class="aquastart-form-row">
+            <label for="child_name">Фамилия и имя ребёнка</label>
+            <input id="child_name" name="child_name" placeholder="Иванов Иван" required aria-required="true" />
+          </div>
+
+          <div class="aquastart-form-row">
+            <label for="child_birthdate">Дата рождения ребёнка (ДД.ММ.ГГГГ)</label>
+            <input id="child_birthdate" name="child_birthdate" placeholder="24.11.2019" required pattern="\d{2}\.\d{2}\.\d{4}" aria-required="true" />
+          </div>
+
+          <div class="aquastart-form-row">
+            <label for="parent_name">ФИО родителя</label>
+            <input id="parent_name" name="parent_name" placeholder="Иванова Мария Сергеевна" required aria-required="true" />
+          </div>
+
+          <div class="aquastart-form-row">
+            <label for="phone">Мобильный телефон родителя</label>
+            <input id="phone" name="phone" placeholder="+7 (922) 1234567" required pattern="\+7[0-9 \-\(\)]{10,}" aria-required="true" />
+          </div>
+
+          <div class="aquastart-form-row">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" placeholder="mail@example.com" required aria-required="true" />
+          </div>
+
+          <div class="aquastart-form-row">
+            <label for="wishes">Пожелания</label>
+            <textarea id="wishes" name="wishes" placeholder="Например: удобное время занятий, замечания по здоровью..." required aria-required="true"></textarea>
+          </div>
+
+          <input type="hidden" id="aquastart_js_token" name="js_token" value="" />
+
+          <label class="aquastart-checkbox-label" for="aquastart-agreement">
+            <input class="aquastart-checkbox" id="aquastart-agreement" name="agreement" type="checkbox" checked required aria-required="true" />
+            <span>Принимаю <a href="https://дввс.рф/storage/documents/1736888402/%D0%9F%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0_%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B8_%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85_%D0%93%D0%90%D0%9D%D0%9E%D0%A3_%D0%A1%D0%9E_%D0%94%D0%92%D0%92%D0%A1.pdf" target="_blank" rel="noopener noreferrer" style="color:#fff;background:transparent;text-decoration:underline;color:#4d68ff">Политику Конфиденциальности</a> и даю согласие на обработку персональных данных</span>
+          </label>
+
+          <div class="aquastart-agreement-error" id="aquastart-agreement-error" role="alert"></div>
+
+          <button type="submit" id="aquastart-submit-btn" class="aquastart-form-btn">Отправить заявку</button>
+          <div style="clear:both"></div>
+        </form>
+      </div>
+
+      <!-- thank you block (same style/colors as title but larger) -->
+      <div id="aquastart-thankyou" class="aquastart-thankyou" role="status" aria-live="polite">
+        Спасибо! Наш специалист свяжется с Вами после 8 сентября.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (function(){
+      var form = document.getElementById('aquastart-form');
+      var inner = document.getElementById('aquastart-inner');
+      var msg = document.getElementById('aquastart-msg');
+      var submitBtn = document.getElementById('aquastart-submit-btn');
+      var agreement = document.getElementById('aquastart-agreement');
+      var agreementError = document.getElementById('aquastart-agreement-error');
+      var thankYou = document.getElementById('aquastart-thankyou');
+
+      function makeToken() {
+        var now = Date.now();
+        var rand = Math.floor(Math.random() * 1e8);
+        var base = btoa((now + rand).toString());
+        return base.split('').reverse().join('');
+      }
+
+      // Small helper to focus and show error
+      function showError(text, el) {
+        msg.textContent = text;
+        msg.style.color = getComputedStyle(document.documentElement).getPropertyValue('--error') || '#d32f2f';
+        if (el && typeof el.focus === 'function') el.focus();
+      }
+
+      form.addEventListener('submit', async function(e){
+        e.preventDefault();
+        msg.textContent = '';
+        agreementError.textContent = '';
+        agreementError.style.display = 'none';
+
+        // client side required checks (HTML required attributes exist, but custom checks give nicer messages)
+        var child_name = form.child_name.value.trim();
+        var child_birthdate = form.child_birthdate.value.trim();
+        var parent_name = form.parent_name.value.trim();
+        var phone = form.phone.value.trim();
+        var email = form.email.value.trim();
+        var wishes = form.wishes.value.trim();
+
+        if (!agreement.checked) {
+          agreementError.textContent = 'Необходимо принять политику конфиденциальности и согласие на обработку данных!';
+          agreementError.style.display = 'block';
+          agreement.focus();
+          return;
+        }
+        if (child_name.length < 2) { showError('Введите фамилию и имя ребёнка.', form.child_name); return; }
+        if (!/^\d{2}\.\d{2}\.\d{4}$/.test(child_birthdate)) { showError('Введите корректную дату рождения (ДД.MM.ГGGG).', form.child_birthdate); return; }
+        if (parent_name.length < 2) { showError('Введите ФИО родителя.', form.parent_name); return; }
+        if (phone.replace(/[^\d]/g,'').length < 11) { showError('Введите корректный мобильный телефон (начиная с +7).', form.phone); return; }
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { showError('Некорректный e-mail.', form.email); return; }
+        if (wishes.length < 1) { showError('Пожалуйста, заполните поле "Пожелания".', form.wishes); return; }
+
+        // prepare submit
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Отправка...';
+
+        // token
+        var tokInput = document.getElementById('aquastart_js_token');
+        if (tokInput) tokInput.value = makeToken();
+
+        try {
+          var fd = new FormData(form);
+          // send to server
+          var resp = await fetch('https://price.dvvs-ekb.ru/aquastart/save-form.php', { method: 'POST', body: fd });
+          var text = await resp.text();
+
+          // treat HTTP success OR server message containing "перезвоним" or "спасибо" as success
+          var isSuccess = resp.ok || (/перезвон/i.test(text) || /спас/i.test(text));
+          if (isSuccess) {
+            // show thank you block and hide form area completely
+            inner.style.display = 'none';
+            thankYou.style.display = 'block';
+            // optionally clear form
+            try { form.reset(); } catch(e){}
+            // clear any messages
+            msg.textContent = '';
+          } else {
+            // show server error text (or generic)
+            msg.textContent = text || 'Ошибка на сервере';
+            msg.style.color = getComputedStyle(document.documentElement).getPropertyValue('--error') || '#d32f2f';
+          }
+        } catch(err){
+          msg.textContent = 'Ошибка при отправке, попробуйте позже.';
+          msg.style.color = getComputedStyle(document.documentElement).getPropertyValue('--error') || '#d32f2f';
+        } finally {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Отправить заявку';
+        }
+      });
+
+      // keep agreement error reactive
+      agreement.addEventListener('change', function(){
+        if (!agreement.checked) {
+          agreementError.textContent = 'Необходимо принять политику конфиденциальности и согласие на обработку данных!';
+          agreementError.style.display = 'block';
+        } else {
+          agreementError.textContent = '';
+          agreementError.style.display = 'none';
+        }
+      });
+
+    })();
+  </script>
+</body>
+</html>

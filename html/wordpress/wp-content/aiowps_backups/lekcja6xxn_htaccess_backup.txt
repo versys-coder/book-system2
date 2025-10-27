@@ -1,0 +1,33 @@
+
+
+#BEGIN Really Simple Security LETS ENCRYPT
+RewriteRule ^.well-known/(.*)$ - [L]
+#END Really Simple Security LETS ENCRYPT
+
+# BEGIN WordPress
+# Директивы (строки) между `BEGIN WordPress` и `END WordPress`
+# созданы автоматически и подлежат изменению только через фильтры WordPress.
+# Сделанные вручную изменения между этими маркерами будут перезаписаны.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# Begin AIOWPSEC Firewall
+	<IfModule mod_php5.c>
+		php_value auto_prepend_file '/var/www/html/wordpress/aios-bootstrap.php'
+	</IfModule>
+	<IfModule mod_php7.c>
+		php_value auto_prepend_file '/var/www/html/wordpress/aios-bootstrap.php'
+	</IfModule>
+	<IfModule mod_php.c>
+		php_value auto_prepend_file '/var/www/html/wordpress/aios-bootstrap.php'
+	</IfModule>
+# End AIOWPSEC Firewall

@@ -1,0 +1,788 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <base href="/"/>
+    <meta charset="UTF-8">
+    <title>Тренерский состав </title>
+    <meta name="keywords" content="">
+    <meta name="description" content="Тренерский состав">
+    <link rel="icon" href="/storage/main-page/favicon/1735323815/favicon-32x32.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <!-- Подключение Bebas Neue через абсолютные пути -->
+    <style>
+        @font-face {
+            font-family: "Bebas Neue";
+            src: url("https://xn--b1aae8c.xn--p1ai/fonts/BebasNeueRegular.woff2") format("woff2"),
+                 url("https://xn--b1aae8c.xn--p1ai/fonts/BebasNeueRegular.woff") format("woff"),
+                 url("https://xn--b1aae8c.xn--p1ai/fonts/BebasNeueRegular.ttf") format("truetype");
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Bebas Neue";
+            src: url("https://xn--b1aae8c.xn--p1ai/fonts/BebasNeueBold.woff2") format("woff2"),
+                 url("https://xn--b1aae8c.xn--p1ai/fonts/BebasNeueBold.woff") format("woff"),
+                 url("https://xn--b1aae8c.xn--p1ai/fonts/BebasNeueBold.ttf") format("truetype");
+            font-weight: bold;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: "Bebas Neue";
+            src: url("https://xn--b1aae8c.xn--p1ai/fonts/BebasNeueLight.woff2") format("woff2"),
+                 url("https://xn--b1aae8c.xn--p1ai/fonts/BebasNeueLight.woff") format("woff"),
+                 url("https://xn--b1aae8c.xn--p1ai/fonts/BebasNeueLight.ttf") format("truetype");
+            font-weight: 300;
+            font-style: normal;
+        }
+        .tabs-slider-content__name {
+            font-family: "Bebas Neue", sans-serif !important;
+            font-weight: normal !important;
+            font-size: 30px !important;
+            letter-spacing: 1px;
+        }
+        h1, .h2-title {
+            font-family: "Bebas Neue", sans-serif !important;
+            font-weight: bold !important;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Extra+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="/css/public/app.css?id=22cf91949e6d02ff474ab702143cf2c5">
+    <link rel="stylesheet" href="/css/public/fonts.css?id=1b7cb1fbb1b3bc6440d03e877ad18f00">
+    <link rel="stylesheet" href="/css/public/media.css?id=5c441e7a272942fbdfa06f402ec919f6">
+    <link rel="stylesheet" href="/css/public/components.css?id=82c74a21bed14061bcb6f2f3551f3aa9">
+    <link rel="stylesheet" href="/css/public/registration.css?id=d1b4c1128532b48884482eb5054448ff">
+    <link rel="stylesheet" href="/css/components.css?id=38e2193d1e400d6562fbb00bc6c64b79">
+    <script src="https://ekb.kassir.ru/start-frame.js"></script>
+    <script src="https://smartcaptcha.yandexcloud.net/captcha.js" defer></script>
+
+    <script>
+        var global = global || window;
+    </script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+        ym(97342163, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/97342163" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+</head>
+<body class="body-inner pay-service-trainers">
+<div class="menu d-none">
+    <div class="container">
+        <div class="menu-block d-flex a-item-center j-content-sb">
+            <style>
+    @media(min-width: 992px){
+        .menu-logo__link{
+            display: none !important;;
+        }
+    }
+</style>
+
+<ul class="d-flex a-item-center j-content-sb menu-list-main">
+    <a href="/" class="menu-logo__link" style="margin-bottom: 60px;">
+        <img src="img/logo_horizontal_bw.svg" class="menu-logo_tablet" alt="logo">
+    </a>
+            <li><a href="https://дввс.рф/afisha">Афиша</a></li>
+            <li class="submenu-container">
+        <a href="/sport-school/1"
+           class="submenu-toggle">Спортивная школа<img src="img/arrow-circle-down.svg"
+                                                                           class="arrow-icon" alt="arrow"></a>
+        <ul class="submenu d-none">
+                            <li><a href="/sport-school/1">Сведения об образовательной организации</a></li>
+                            <li><a href="/sport-school/2">Учебно-тренировочный процесс</a></li>
+                            <li><a href="/sport-school/3">Родителям и обучающимся</a></li>
+                            <li><a href="/sport-school/4">Антидопинг</a></li>
+                            <li><a href="/sport-school/5">Профилактика</a></li>
+                            <li><a href="/page/Spt-photogallery">Галерея</a></li>
+                            <li><a href="/sport-school/7">Контакты</a></li>
+                    </ul>
+    </li>
+            <li class="submenu-container">
+        <a href="/pay-services/to-clients"
+           class="submenu-toggle">Платные услуги<img src="img/arrow-circle-down.svg"
+                                                                           class="arrow-icon" alt="arrow"></a>
+        <ul class="submenu d-none">
+                            <li><a href="/pay-services/to-clients">Для посетителей</a></li>
+                            <li><a href="/pay-services/children">Для детей</a></li>
+                            <li><a href="/pay-services/corporate">Для корпоративных клиентов</a></li>
+                            <li><a href="/pay-services/trainers">Тренерский состав</a></li>
+                            <li><a href="/page/schedule-temp">Расписание</a></li>
+                            <li><a href="/pay-services/sportpl">Спортивные площадки</a></li>
+                            <li><a href="/pay-services/services">Сервис на объекте</a></li>
+                            <li><a href="/pay-services/questions">Часто задаваемые вопросы</a></li>
+                    </ul>
+    </li>
+            <li class="submenu-container">
+        <a href="/about"
+           class="submenu-toggle">Об объекте<img src="img/arrow-circle-down.svg"
+                                                                           class="arrow-icon" alt="arrow"></a>
+        <ul class="submenu d-none">
+                            <li><a href="/about">О Нас</a></li>
+                            <li><a href="/description">Описание объекта</a></li>
+                            <li><a href="https://дввс.рф/intelligence">Сведения об организации</a></li>
+                            <li><a href="/team">Команда</a></li>
+                            <li><a href="/available-environments">Доступная среда</a></li>
+                            <li><a href="/documents">Документы</a></li>
+                            <li><a href="/map">Интерактивная карта</a></li>
+                    </ul>
+    </li>
+            <li><a href="https://дввс.рф/news-list">Новости</a></li>
+            <li><a href="/organization-events">Организаторам</a></li>
+            <li><a href="https://дввс.рф/contacts">Контакты</a></li>
+    </ul>
+            <a href="javascript: void(0);" class="close-menu">
+                <img src="img/cross.svg" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+<a href="#" id="scroll-to-top" title="Scroll to top" style=""><img src="img/arrow-top-up.svg" alt="arrow"></a>
+    <div class="header" id="header">
+        <div class="container">
+            <div class="header-block d-flex a-item-center j-content-sb">
+
+                <div class="header-block-left d-flex a-item-center">
+                    <a href="/" class="logo">
+                        <img src="img/logo-color.svg" class="nosee" alt="logo">
+                    </a>
+                    <a href="https://yandex.ru/maps/54/yekaterinburg/house/ulitsa_universiady_11/YkkYcQFnTkQDQFtsfXt2cXtkYg==/"
+                       target="_blank" class="map-link">
+                        
+                    г. Екатеринбург, ул. Универсиады, стр. 11
+                    </a>
+                    <a href="tel:+7 (343) 222 22 33" class="phone">
+                        +7 (343) 222-22-33
+                    </a>
+                </div>
+                <a href="/online-purchase" class="btn btn-image-cart header-inner-btn">
+                    <span>КУПИТЬ АБОНЕМЕНТ</span>
+                </a>
+                <div class="header-block-right d-flex a-item-center">
+                    <div id="searchPageData">
+                        <search-component></search-component>
+                    </div>
+                    <button id="specialButton" class="view">
+                        <img src="img/watch-2.svg" class="nosee" id='glazd' alt="view">
+                    </button>
+                    <div id="changeLangPlace">
+                        <div wire:snapshot="{&quot;data&quot;:{&quot;language&quot;:&quot;ru&quot;,&quot;languageList&quot;:null,&quot;color&quot;:&quot;white&quot;},&quot;memo&quot;:{&quot;id&quot;:&quot;5XqWRZQuR5PAAkCauj1p&quot;,&quot;name&quot;:&quot;site.localization-change&quot;,&quot;path&quot;:&quot;pay-services\/trainers&quot;,&quot;method&quot;:&quot;GET&quot;,&quot;children&quot;:[],&quot;scripts&quot;:[],&quot;assets&quot;:[],&quot;errors&quot;:[],&quot;locale&quot;:&quot;ru&quot;},&quot;checksum&quot;:&quot;7f908e4ca8452598c3624c687e0087a8a9d7b0dff4561253c80e158fe548011a&quot;}" wire:effects="{&quot;listeners&quot;:[&quot;change-language&quot;]}" wire:id="5XqWRZQuR5PAAkCauj1p">
+    <!--[if BLOCK]><![endif]--><!--[if ENDBLOCK]><![endif]-->
+        <div class="custom-select">
+            <select id="mySelect" onchange="goToLink(this)">
+                <!--[if BLOCK]><![endif]-->                    <option value="http://xn--b1aae8c.xn--p1ai/en/pay-services/trainers" >EN</option>
+                                    <option value="http://xn--b1aae8c.xn--p1ai/ru/pay-services/trainers" selected>RU</option>
+                <!--[if ENDBLOCK]><![endif]-->
+            </select>
+        </div>
+</div>
+<script>
+    function goToLink(select) {
+        var selectedOption = select.options[select.selectedIndex];
+        var href = selectedOption.getAttribute("value");
+        if (href) {
+            window.location.href = href;
+        }
+    }
+</script>
+</livewire:site.localization-change>
+                    </div>
+                    <a href="https://xn--b1aae8c.xn--p1ai/cabinet" class="login d-flex a-item-center">
+                                                    <img src="img/login-full-black.svg" class="nosee login-button_full" alt="login">
+                                                <img src="img/login-black.svg" class="nosee login-button_small" alt="login">
+                    </a>
+                    <a href="#" class="burger">
+                        <img src="img/burger-2.svg" class="nosee" alt="menu">
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="inner-page inner-page-sreda" data-current-slug="trainers">
+
+        <div class="breadcrumbs">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="/">
+                            Главная
+                        </a>
+                        <div class="divider">
+                            —
+                        </div>
+                    </li>
+                    <li>
+                        Платные услуги
+                        <div class="divider">
+                            —
+                        </div>
+                    </li>
+                    <li>
+                        <!-- <a href="#"></a> -->
+                        Тренерский состав
+                    </li>
+                </ul>
+                <h1>
+                    Тренерский состав
+                </h1>
+            </div>
+        </div>
+
+        
+        <div class="intelligence not-pattern">
+            <div class="container">
+                                    <div class="slider-main slider-main-inner swiper">
+
+                        <div class="swiper-wrapper">
+                                                            <!--slide-->
+                                <div class="swiper-slide">
+                                    <div class="slider-main-inner__img"
+                                         style="background: rgba(0, 0, 0, 0.3) url('/storage/pay-service/all-gallery/image/1727169167/DSC08545 копия.jpg') no-repeat center / cover;">
+                                    </div>
+                                </div>
+                                <!--slide END-->
+                                                            <!--slide-->
+                                <div class="swiper-slide">
+                                    <div class="slider-main-inner__img"
+                                         style="background: rgba(0, 0, 0, 0.3) url('/storage/pay-service/all-gallery/image/21-12-2024/Bnb9ph2pzwwm89e.webp') no-repeat center / cover;">
+                                    </div>
+                                </div>
+                                <!--slide END-->
+                                                    </div>
+
+                        <div class="nav-main-slider">
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                    </div>
+                                <div class="purple-tabs purple-tabs-school">
+                    <div class="sreda-nav-list-mobile">
+                                                    <a href="https://xn--b1aae8c.xn--p1ai/pay-services/to-clients" data-slug="to-clients"
+                               class="check-tab "><span>Для посетителей</span></a>
+                                                    <a href="https://xn--b1aae8c.xn--p1ai/pay-services/children" data-slug="children"
+                               class="check-tab "><span>Для детей</span></a>
+                                                    <a href="https://xn--b1aae8c.xn--p1ai/pay-services/corporate" data-slug="corporate"
+                               class="check-tab "><span>Для корпоративных клиентов</span></a>
+                                                    <a href="https://xn--b1aae8c.xn--p1ai/pay-services/trainers" data-slug="trainers"
+                               class="check-tab active"><span>Тренерский состав</span></a>
+                                                    <a href="https://xn--b1aae8c.xn--p1ai/pay-services/sportpl" data-slug="sportpl"
+                               class="check-tab "><span>Спортивные площадки</span></a>
+                                                    <a href="https://xn--b1aae8c.xn--p1ai/pay-services/services" data-slug="services"
+                               class="check-tab "><span>Сервис на объекте</span></a>
+                                                    <a href="https://xn--b1aae8c.xn--p1ai/pay-services/questions" data-slug="questions"
+                               class="check-tab "><span>Часто задаваемые вопросы</span></a>
+                                            </div>
+                    <div class="sreda-nav-list-v2__wrapper">
+                        <div class="swiper-prev-purp">
+                            <img src="img/gw-ar-left.svg" alt="prev">
+                        </div>
+                        <div class="sreda-nav-list-v2 swiper">
+
+                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide ">
+                                    <a href="https://xn--b1aae8c.xn--p1ai/pay-services/to-clients" data-slug="to-clients"
+                                       class="check-tab "><span>Для посетителей</span></a>
+                                </div>
+                                                            <div class="swiper-slide ">
+                                    <a href="https://xn--b1aae8c.xn--p1ai/pay-services/children" data-slug="children"
+                                       class="check-tab "><span>Для детей</span></a>
+                                </div>
+                                                            <div class="swiper-slide ">
+                                    <a href="https://xn--b1aae8c.xn--p1ai/pay-services/corporate" data-slug="corporate"
+                                       class="check-tab "><span>Для корпоративных клиентов</span></a>
+                                </div>
+                                                            <div class="swiper-slide active">
+                                    <a href="https://xn--b1aae8c.xn--p1ai/pay-services/trainers" data-slug="trainers"
+                                       class="check-tab active"><span>Тренерский состав</span></a>
+                                </div>
+                                                            <div class="swiper-slide ">
+                                    <a href="https://xn--b1aae8c.xn--p1ai/pay-services/sportpl" data-slug="sportpl"
+                                       class="check-tab "><span>Спортивные площадки</span></a>
+                                </div>
+                                                            <div class="swiper-slide ">
+                                    <a href="https://xn--b1aae8c.xn--p1ai/pay-services/services" data-slug="services"
+                                       class="check-tab "><span>Сервис на объекте</span></a>
+                                </div>
+                                                            <div class="swiper-slide ">
+                                    <a href="https://xn--b1aae8c.xn--p1ai/pay-services/questions" data-slug="questions"
+                                       class="check-tab "><span>Часто задаваемые вопросы</span></a>
+                                </div>
+                                                    </div>
+
+                        </div>
+                        <div class="swiper-next-purp">
+                            <img src="img/gw-ar-right.svg" alt="next">
+                        </div>
+                    </div>
+
+                                        
+                </div>
+            </div>
+            <div class="container trener">
+                <div class="container-fluid tab-links-container-top">
+                    <div class="swiper-prev-tab-new">
+                        <img src="img/arrow-left.svg" alt="">
+                    </div>
+                    <div class="tab-header tab-header__desktop swiper">
+                        <div class="swiper-wrapper">
+                                                            <div class="swiper-slide">
+                                    <button class="tab-link active"
+                                            data-tab="tab1">ИНСТРУКТОРЫ</button>
+                                </div>
+                                                    </div>
+                    </div>
+                    <div class="swiper-next-tab-new">
+                        <img src="img/arrow-left.svg" alt="">
+                    </div>
+                </div>
+                <div class="tab-header tab-header__mobile">
+                                            <button class="tab-link active"
+                                data-tab="tab1">ИНСТРУКТОРЫ</button>
+                                    </div>
+            </div>
+
+            <div class="team-inner-bg">
+                <div class="container">
+                    <div class="team-inner">
+
+                        <div class="tabs">
+                                                            <div class="tab-content active" id="tab1" data-trainer-slider>
+
+                                    <div class="team-inner-block d-flex a-item-center">
+                                        <div class="bottom-thumb-slider d-flex a-item-center">
+                                            <p class="h2-title">
+                                                                                                    Инструктор
+                                                                                            </p>
+                                            <div class="navs d-flex a-item-center j-content-center">
+                                                <div class="swiper-prev-tab swiper-prev-tab-0">
+                                                    <img src="img/arrow-black.svg" alt="">
+                                                </div>
+                                                <span>/</span>
+                                                <div class="swiper-next-tab swiper-next-tab-0">
+                                                    <img src="img/arrow-black.svg" alt="">
+                                                </div>
+                                            </div>
+                                            <div thumbsSlider=""
+                                                 class="swiper tabs-slider-small tabs-slider-small-test-0">
+
+                                                <div class="swiper-wrapper">
+                                                                                                                                                                        <div class="swiper-slide">
+                                                                <div>
+                                                                    <img
+                                                                        src="/storage/pay-service/image/team-members04-07-2025/J94PncW68lZeFGH.webp"
+                                                                        alt=""/>
+                                                                </div>
+                                                            </div>
+                                                                                                                    <div class="swiper-slide">
+                                                                <div>
+                                                                    <img
+                                                                        src="/storage/pay-service/image/team-members04-07-2025/vnvMe8DVO3I5Q0X.webp"
+                                                                        alt=""/>
+                                                                </div>
+                                                            </div>
+                                                                                                                    <div class="swiper-slide">
+                                                                <div>
+                                                                    <img
+                                                                        src="/storage/pay-service/image/team-members04-07-2025/Ptuk5qt8qnQJP0o.webp"
+                                                                        alt=""/>
+                                                                </div>
+                                                            </div>
+                                                                                                                    <div class="swiper-slide">
+                                                                <div>
+                                                                    <img
+                                                                        src="/storage/pay-service/image/team-members25-07-2025/VwMxF6l7Gs7hbJf.webp"
+                                                                        alt=""/>
+                                                                </div>
+                                                            </div>
+                                                                                                                    <div class="swiper-slide">
+                                                                <div>
+                                                                    <img
+                                                                        src="/storage/pay-service/image/team-members25-07-2025/CksbdWcg1HOfJQR.webp"
+                                                                        alt=""/>
+                                                                </div>
+                                                            </div>
+                                                                                                                                                            </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper tabs-slider tabs-slider-test-0">
+
+                                            <div class="swiper-wrapper">
+                                                                                                                                                            <div class="swiper-slide">
+                                                            <div class="tabs-slider-item"
+                                                                 data-title="Инструктор">
+                                                                                                                                    <a href="/storage/pay-service/image/team-members04-07-2025/J94PncW68lZeFGH.webp"
+                                                                       data-fancybox="team-gal">
+                                                                        <img
+                                                                            src="/storage/pay-service/image/team-members04-07-2025/J94PncW68lZeFGH.webp"
+                                                                            alt=""/>
+                                                                    </a>
+                                                                                                                                <div class="tabs-slider-content">
+                                                                    <p class="tabs-slider-content__name">
+                                                                        Ларин Дмитрий Викторович
+                                                                    </p>
+                                                                    <p class="tabs-slider-content__title">
+                                                                        Инструктор
+                                                                    </p>
+                                                                    <p class="tabs-slider-content__description">
+                                                                        <p><strong>Звание</strong>: водолаз 2 категории<br><strong>Образование: </strong>высшее профессиональное. Уральский государственный университет физической культуры, "Тренер" (диплом с отличием).&nbsp;<br><strong>Повышение квалификации: с</strong>тарший преподаватель отделения плавания Уральского государственного университета физической культуры. Методист реабилитационной работы, инструктор EFR, инструктор по дайвингу и фридайвингу<br><strong>Стаж работы по специальности: </strong>25 лет</p>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                                                                            <div class="swiper-slide">
+                                                            <div class="tabs-slider-item"
+                                                                 data-title="Инструктор">
+                                                                                                                                    <a href="/storage/pay-service/image/team-members04-07-2025/vnvMe8DVO3I5Q0X.webp"
+                                                                       data-fancybox="team-gal">
+                                                                        <img
+                                                                            src="/storage/pay-service/image/team-members04-07-2025/vnvMe8DVO3I5Q0X.webp"
+                                                                            alt=""/>
+                                                                    </a>
+                                                                                                                                <div class="tabs-slider-content">
+                                                                    <p class="tabs-slider-content__name">
+                                                                        Волик Ольга Алексеевна
+                                                                    </p>
+                                                                    <p class="tabs-slider-content__title">
+                                                                        Инструктор
+                                                                    </p>
+                                                                    <p class="tabs-slider-content__description">
+                                                                        <p><strong>Звание: </strong>Мастер спорта по плаванию, Мастер спорта по спортивной акробатике<br><strong>Образование: </strong>высшее профессиональное, квалификация: «Менеджмент»<br><strong>Профессиональная переподготовка: </strong>«Тренер-преподаватель в области физической культуры»<br>Участница международного фестиваля - «Международные университетские игры 2023»</p>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                                                                            <div class="swiper-slide">
+                                                            <div class="tabs-slider-item"
+                                                                 data-title="Инструктор">
+                                                                                                                                    <a href="/storage/pay-service/image/team-members04-07-2025/Ptuk5qt8qnQJP0o.webp"
+                                                                       data-fancybox="team-gal">
+                                                                        <img
+                                                                            src="/storage/pay-service/image/team-members04-07-2025/Ptuk5qt8qnQJP0o.webp"
+                                                                            alt=""/>
+                                                                    </a>
+                                                                                                                                <div class="tabs-slider-content">
+                                                                    <p class="tabs-slider-content__name">
+                                                                        Алферьева Наталья Владимировна
+                                                                    </p>
+                                                                    <p class="tabs-slider-content__title">
+                                                                        Инструктор
+                                                                    </p>
+                                                                    <p class="tabs-slider-content__description">
+                                                                        <p><strong>Звание: </strong>кандидат в мастера спорта по плаванию<br><strong>Образование: </strong>высшее профессиональное. ФГОУ ВПО Уральская государственная академия физической культуры: «Специалист по физической культуре и спорту», Свердловский областной педагогический колледж, «Специалист по физической культуре и спорту».&nbsp;<br><strong>Дополнительная квалификация: </strong>Свердловский областной педагогический колледж: «Адаптивная физическая культура»<br><strong>Стаж работы по специальности: </strong>16 лет</p>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                                                                            <div class="swiper-slide">
+                                                            <div class="tabs-slider-item"
+                                                                 data-title="Инструктор">
+                                                                                                                                    <a href="/storage/pay-service/image/team-members25-07-2025/VwMxF6l7Gs7hbJf.webp"
+                                                                       data-fancybox="team-gal">
+                                                                        <img
+                                                                            src="/storage/pay-service/image/team-members25-07-2025/VwMxF6l7Gs7hbJf.webp"
+                                                                            alt=""/>
+                                                                    </a>
+                                                                                                                                <div class="tabs-slider-content">
+                                                                    <p class="tabs-slider-content__name">
+                                                                        Новоселова Елизавета Сергеевна
+                                                                    </p>
+                                                                    <p class="tabs-slider-content__title">
+                                                                        Инструктор
+                                                                    </p>
+                                                                    <p class="tabs-slider-content__description">
+                                                                        <p><strong>Спортивное звание:</strong> кандидат в мастера спорта по плаванию<br><strong>Образование:</strong> Высшее физкультурно-педагогическое<br><strong>Стаж работы по специальности:</strong> 5 лет<br>Участник всероссийских соревнований в составе сборной Свердловской области.<br></p>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                                                                            <div class="swiper-slide">
+                                                            <div class="tabs-slider-item"
+                                                                 data-title="Инструктор">
+                                                                                                                                    <a href="/storage/pay-service/image/team-members25-07-2025/CksbdWcg1HOfJQR.webp"
+                                                                       data-fancybox="team-gal">
+                                                                        <img
+                                                                            src="/storage/pay-service/image/team-members25-07-2025/CksbdWcg1HOfJQR.webp"
+                                                                            alt=""/>
+                                                                    </a>
+                                                                                                                                <div class="tabs-slider-content">
+                                                                    <p class="tabs-slider-content__name">
+                                                                        Губин Илья Сергеевич
+                                                                    </p>
+                                                                    <p class="tabs-slider-content__title">
+                                                                        Инструктор
+                                                                    </p>
+                                                                    <p class="tabs-slider-content__description">
+                                                                        <p><strong>Спортивное звание:</strong> Мастер спорта России по плаванию<br><strong>Образование: </strong>Среднее физкультурно-педагогическое<br><strong>Стаж работы по специальности:</strong> 5 лет<br>Многократный победитель и призёр чемпионата УрФО, чемпионатов и первенств СО по плаванию<br>Призёр и финалист первенств России по плаванию<br>Член сборной команды СО (2013-2020)<br>Член юниорской сборной России (2017-2029)<br></p>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                                                                                                                </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    
+    <div id="ask-q" class="modal-window">
+        <div class="fancybox-close-small-custom" data-fancybox-close="">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0 16.2857L16.2857 0L18 1.71429L1.71429 18L0 16.2857Z"
+                      fill="url(#paint0_linear_4021_64583)"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M1.71429 0L18 16.2857L16.2857 18L0 1.71429L1.71429 0Z"
+                      fill="url(#paint1_linear_4021_64583)"/>
+                <defs>
+                    <linearGradient id="paint0_linear_4021_64583" x1="-12.5518" y1="0.705976" x2="0.233716" y2="30.2111"
+                                    gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#EF33F2"/>
+                        <stop offset="1" stop-color="#3544DC"/>
+                    </linearGradient>
+                    <linearGradient id="paint1_linear_4021_64583" x1="-12.5518" y1="0.705976" x2="0.233716" y2="30.2111"
+                                    gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#EF33F2"/>
+                        <stop offset="1" stop-color="#3544DC"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+        <h2>Чтобы получить подробную информацию, оставьте нам заявку и наш специалист свяжется с Вами в ближайшее
+            время.</h2>
+        <div class="form sportpl">
+
+
+            <form action="#">
+                <div class="form-inputs">
+                    <label>
+                        <input id="name-inp" type="text" name="name" placeholder="Ф. И. О." class="input-same-line" required/>
+                    </label>
+                    <label>
+                        <input id="email-inp" type="email" name="email" placeholder="Email" class="input-same-line" required/>
+                    </label>
+                    <label>
+                        <input id="phone-inp" type="text" class="mask-phone" name="phone" placeholder="Телефон*" class="input-same-line" required/>
+                    </label>
+                    <label>
+                    <textarea id="message-inp" type="text" name="message" placeholder="Текст обращения"
+                              class="input-same-line" required></textarea>
+                    </label>
+                </div>
+                <div class="form-check">
+                    <label class="check-lab"><input type="checkbox" name="filter-check" class="filter-check"></label>
+                    <p class="form-inputs-check">
+                        Нажимая на кнопку, вы соглашаетесь с <a href="#">условиями обработки персональных данных</a> и
+                        <a
+                            href="#">политикой конфиденциальности</a>
+                    </p></div>
+                <input type="submit" value="Отправить" class="button-submit">
+            </form>
+        </div>
+    </div>
+
+<div class="footer">
+    <div class="container">
+
+        <div class="footer-block d-flex j-content-sb">
+
+            <div class="footer-block-left">
+
+                <div class="d-flex a-item-f-start j-content-sb footer-block-left__first">
+                    <a href="/" class="logo">
+                        <img src="img/logo_horizontal_bw.svg" alt="logo" class="nosee">
+                    </a>
+                    <div class="footer-block-left__content">
+                        <a href="https://yandex.ru/maps/-/CDTNIK23" target="_blank" class="footer-main-address">
+                            г. Екатеринбург,  ул. Универсиады, стр. 11
+                        </a>
+                        <div class="footer-block-left-contacts d-flex a-item-center">
+                            <a href="tel:+7 (343) 222-22-33" class="footer-main-phone">
+                                +7 (343) 222-22-33
+                            </a>
+                            <a href="mailto:info@dvvs-ekb.ru" class="footer-main-email">
+                                info@dvvs-ekb.ru
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-left-links d-flex j-content-sb f-wrap">
+                                            <a href="http://svd.msudrf.ru/modules.php?name=info_pages&amp;id=439#content" target="_blank">Бесплатная юридическая помощь</a>
+                                            <a href="/storage/documents/1736888402/Политика_обработки_персональных_данных_ГАНОУ_СО_ДВВС.pdf" target="_blank">Политика обработки персональных данных</a>
+                                            <a href="/storage/documents/1736888421/Договор публичной оферты.pdf" target="_blank">Договор публичной оферты</a>
+                                            <a href="https://дввс.рф/page/anticorruption" target="_blank">Противодействие коррупции</a>
+                                    </div>
+            </div>
+
+            <div class="footer-block-right">
+
+                <div class="footer-block-right__item">
+                    <p>
+                        
+                        Время работы:
+                    
+                    </p>
+                    <p>
+                        Ежедневно с 7:00 до 22:00
+                    </p>
+                </div>
+                <div class="footer-block-right__item">
+                    <p>
+                        
+                        Почтовый адрес:
+                    
+                    </p>
+                    <p>
+                        <a href="https://yandex.ru/maps/-/CDTNIK23" target="_blank">620060, Свердловская область, г.Екатеринбург, ул. Универсиады,&nbsp;стр.11</a>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="copyright d-flex j-content-sb">
+
+            <div class="copyright__text">
+                <p>© 2025 Государственное автономное нетиповое образовательное учреждение Свердловской области «Дворец водных видов спорта» со структурным подразделением «Спортивная школа имени А.В. Попова»<br></p>
+            </div>
+
+            <div class="copyright-social d-flex a-item-center">
+                <p>
+                    СОЦИАЛЬНЫЕ СЕТИ
+                </p>
+                <div class="copyright-social-list d-flex a-item-center">
+                                                                                    <a href="https://t.me/DVVSekb" target="_blank">
+                            <img src="img/telegram.svg" alt="" class="nosee">
+                        </a>
+                                                                <a href="https://vk.com/dvvs__ekb" target="_blank">
+                            <img src="img/vk.svg" alt="" class="nosee">
+                        </a>
+                                    </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<script src="/js/inputmask.min.js"></script>
+
+<style>
+    .highlight{
+        background-color: yellow;
+        color: black;
+    }
+</style>
+<script>
+    var selector = document.getElementsByClassName('mask-phone')[0];
+    if (selector) {
+        Inputmask({"mask": "+7 (999) 999-99-99"}).mask(selector);
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        console.log('loaded');
+        const params = new URLSearchParams(window.location.search);
+        const query = params.get('search');
+        console.log('query: ', query);
+
+        if (query) {
+            highlightAndScroll(query);
+        }
+    });
+
+    function highlightAndScroll(text) {
+        clearHighlights();
+        const elements = document.querySelectorAll('*');
+        for (let element of elements) {
+            if (element.childNodes.length > 0) {
+                element.childNodes.forEach(node => {
+                    if (node.nodeType === Node.TEXT_NODE && node.textContent.toLowerCase().includes(text.toLowerCase())) {
+                        console.log('found', node.textContent);
+                        highlightText(node, text);
+                        scrollToElement(element);
+                        return;
+                    }
+                });
+            }
+        }
+    }
+
+    function highlightText(node, text) {
+        const parent = node.parentNode;
+        const innerHTML = node.textContent;
+        const index = innerHTML.toLowerCase().indexOf(text.toLowerCase());
+        if (index >= 0) {
+            const beforeText = innerHTML.substring(0, index);
+            const highlightText = innerHTML.substring(index, index + text.length);
+            const afterText = innerHTML.substring(index + text.length);
+
+            parent.innerHTML =
+                beforeText +
+                `<span class='highlight'>` +
+                highlightText +
+                `</span>` +
+                afterText;
+        }
+    }
+
+    function scrollToElement(element) {
+        const elementRect = element.getBoundingClientRect();
+        const elementTop = elementRect.top + window.pageYOffset;
+        window.scrollTo({
+            top: elementTop - 200, // Скорректируйте значение, чтобы обеспечить отступ от верхней части экрана
+            behavior: 'smooth'
+        });
+    }
+
+    function clearHighlights() {
+        const highlights = document.querySelectorAll('.highlight');
+        highlights.forEach(highlight => {
+            const parent = highlight.parentNode;
+            parent.innerHTML = parent.textContent; // Удалить выделение
+        });
+    }
+
+
+</script>
+
+<script src="https://lidrekon.ru/slep/js/jquery.js"></script>
+<script src="https://lidrekon.ru/slep/js/uhpv-full.min.js"></script>
+<script src="/js/adminVue.js?id=1b3e3b648b40cd332cc651a6ae6513f3"></script>
+<script src="/js/main.js?id=41b9a947f215a6803a20593e7ead13a7"></script>
+
+    <script src="/js/public/pages/pay-service-trainers.js?id=76b683474f60860acaa198ce4be0c634"></script>
+    <script src="/js/public/pages/constructor.js?id=92c8b7ef56d9dd240d7d65c613632b7d"></script>
+    <script >
+    console.warn('Livewire: The published Livewire assets are out of date\n See: https://livewire.laravel.com/docs/installation#publishing-livewires-frontend-assets')
+</script>
+<script src="https://xn--b1aae8c.xn--p1ai/vendor/livewire/livewire.min.js?id=cc800bf4"   data-csrf="kQ4eGv8XqGtBrQ8mQnZTcnGzUtgFsnv1bsGxzaCL" data-update-uri="/livewire/update" data-navigate-once="true"></script>
+</body>
+
+</html>

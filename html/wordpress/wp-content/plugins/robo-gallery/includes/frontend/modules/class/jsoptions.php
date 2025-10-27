@@ -1,0 +1,111 @@
+<?php
+/* 
+*      Robo Gallery     
+*      Version: 5.0.5 - 31754
+*      By Robosoft
+*
+*      Contact: https://robogallery.co/ 
+*      Created: 2025
+*      Licensed under the GPLv3 license - http://www.gnu.org/licenses/gpl-3.0.html
+ */
+
+if ( ! defined( 'WPINC' ) ) exit;
+
+class  roboGalleryModuleJsOptions{
+	private $id 		= null;
+	private $options_id = null;
+
+	protected $options 	= array();	
+
+	protected $core = null;
+    protected $gallery = null;
+
+	public function __construct( $core ){
+	        $this->core 	= $core;
+	        $this->gallery 	= $core->gallery;
+
+	        $this->id 		= $this->gallery->id;
+	        $this->options_id 	= $this->gallery->options_id;
+
+	       	$this->initJsOptions();
+	}
+
+
+	private function initJsOptions(){
+		$this->setValue( 'version', ROBO_GALLERY_VERSION);
+		$this->setValue( 'id', $this->id);
+		$this->setValue( 'class', 'id'.$this->id);
+		$this->setValue( 'roboGalleryDelay', 1000 );
+		$this->setValue( 'mainContainer', '#robo_gallery_main_block_'.$this->gallery->galleryId );
+	}
+
+
+	static function setNestedArrayValue(&$array, $path, &$value, $delimiter = '/') {
+	    $pathParts = explode($delimiter, $path);
+	    $current = &$array;
+	    foreach($pathParts as $key){
+	    	if( !is_array($current) ) $current = array();
+	        $current = &$current[$key];
+	    }
+	    $backup = $current;
+	    $current = $value;
+	    return $backup;
+	}
+
+
+	public function setValue( $valName, $value ){
+		if( strpos($valName, '/')!==false ){
+			self::setNestedArrayValue( $this->options, $valName, $value);
+			return ;
+		}
+
+		if( isset($this->options[$valName]) ){
+			if( is_array($this->options[$valName]) ){
+				if( is_array($value) ) $this->options[$valName] = $this->options[$valName] + $value;
+					else $this->options[$valName][] = $value;
+			}
+			return ;
+		}
+		$this->options[$valName] = $value;
+	}
+
+	
+	public function setJsFunction($valName, $funcCode){
+		if(is_array($funcCode)){
+			if( count($funcCode)){
+				foreach ($funcCode as $funcName => $funcCodeCur ) {					
+					$this->setJsFunction($valName.'/'.$funcName, $funcCodeCur);
+				}
+			}
+			return ;
+		}
+	    $this->setValue($valName, '|***'.$funcCode.'***|');
+	}
+
+
+	public function setOption( $valName ){
+		$value = $this->core->getMeta($valName);
+		if($value===null){
+			//echo "null for ".$valName."<br />";
+			return ;		
+		}
+		$this->setValue($valName , $value);
+	}
+
+
+	private static function fixJsFunction( $json ){
+		return  str_replace(
+			array( '"|***', '***|"' ),
+			array( '', 		'' 		),
+			$json
+		);
+	}
+
+
+	public function getOptionList(){
+		$json = json_encode( $this->options,  JSON_NUMERIC_CHECK );
+		$json = self::fixJsFunction($json);
+		return $json;
+	}
+
+}

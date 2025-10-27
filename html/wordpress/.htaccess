@@ -1,0 +1,72 @@
+# BEGIN All In One WP Security
+#AIOWPS_BASIC_HTACCESS_RULES_START
+<Files .htaccess>
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+Order deny,allow
+Deny from all
+</IfModule>
+</Files>
+ServerSignature Off
+LimitRequestBody 104857600
+<Files wp-config.php>
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+Order deny,allow
+Deny from all
+</IfModule>
+</Files>
+#AIOWPS_BASIC_HTACCESS_RULES_END
+# END All In One WP Security
+
+#BEGIN Really Simple Security LETS ENCRYPT
+RewriteRule ^.well-known/(.*)$ - [L]
+#END Really Simple Security LETS ENCRYPT
+
+# BEGIN WordPress
+# Директивы (строки) между `BEGIN WordPress` и `END WordPress`
+# созданы автоматически и подлежат изменению только через фильтры WordPress.
+# Сделанные вручную изменения между этими маркерами будут перезаписаны.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+
+# --- ДОБАВЛЕНО: исключение для backend API ---
+RewriteCond %{REQUEST_URI} !^/catalog/api-backend/
+# --------------------------------------------
+
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
+# Begin AIOWPSEC Firewall
+<IfModule mod_php5.c>
+php_value auto_prepend_file '/var/www/html/wordpress/aios-bootstrap.php'
+</IfModule>
+<IfModule mod_php7.c>
+php_value auto_prepend_file '/var/www/html/wordpress/aios-bootstrap.php'
+</IfModule>
+<IfModule mod_php.c>
+php_value auto_prepend_file '/var/www/html/wordpress/aios-bootstrap.php'
+</IfModule>
+# End AIOWPSEC Firewall
+
+Options -Indexes
+
+<Files "wp-json">
+    Require all denied
+</Files>
+
+<Files wp-login.php>
+    Order Deny,Allow
+    Deny from all
+    Allow from 10.18.0.0/16
+</Files>

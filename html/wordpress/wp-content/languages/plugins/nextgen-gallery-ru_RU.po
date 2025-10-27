@@ -1,0 +1,3757 @@
+# Translation of Plugins - Photo Gallery, Sliders, Proofing and Themes &#8211; NextGEN Gallery - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Photo Gallery, Sliders, Proofing and Themes &#8211; NextGEN Gallery - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-05-03 18:51:12+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Photo Gallery, Sliders, Proofing and Themes &#8211; NextGEN Gallery - Stable (latest release)\n"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:71
+msgid "Use this stunning display type to make your galleries look like they are from slide film. Choose the maximum height and width for your rows, customize the padding, or use the default settings. It will adjust perfectly on all devices."
+msgstr "Используйте этот тип отображения, чтобы ваши галереи выглядели как будто они сняты на слайд-пленке. Выберите максимальную высоту и ширину, настройте отступы или используйте настройки по умолчанию. Он идеально подстроится на всех устройствах."
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:81
+msgid "<a href='%s'>Get NextGEN Pro today and unlock all the powerful features >></a><br/><br/><strong>Bonus:</strong> NextGEN users get <strong>50&percnt; off</strong> regular prices, automatically applied at checkout."
+msgstr "<a href='%s'>Купите NextGEN Pro сегодня и откройте все мощные функции >></a><br/><br/><strong>Бонус:</strong> Пользователи NextGEN получают <strong>50&percnt; </strong>от обычной цены, автоматически применяемой при оформлении заказа."
+
+#. translators: %s is an SVG of a star icon.
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:73
+msgid "We know that you will love NextGEN Pro. It has over 3,200+ five star ratings (%1$s%1$s%1$s%1$s%1$s) and is used by over 500k websites.<br/><br/><h3>Pro Features:</h3>"
+msgstr "Мы знаем, что вам понравится NextGEN Pro. Он имеет более 3200+ пятизвездочных рейтингов (%1$s%1$s%1$s%1$s%1$s) и используется на более чем 500 000 сайтах.<br/><br/><h3>Pro Особенности:</h3>"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:53
+msgid "Image Animations"
+msgstr "Анимация изображения"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:68
+msgid "14+ Different Animations for galleries"
+msgstr "14+ различных анимаций для галерей"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:71
+msgid "Thanks for using NextGEN Gallery. Upgrade to Pro and unlock all our features, like animations for each of your galleries."
+msgstr "Спасибо за использование NextGEN Gallery. Обновитесь до версии Pro и получите все функции, например анимацию для каждой из ваших галерей."
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:70
+msgid "Get NextGEN Pro and Unlock All the Powerful Features"
+msgstr "Получите NextGEN Pro и разблокируйте все мощные функции"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:68
+msgid "Easily Sell with eCommerce"
+msgstr "Легко продавать с помощью eCommerce"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:68
+msgid "And much more!"
+msgstr "И многое другое!"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:68
+msgid "Automated Gallery Displays"
+msgstr "Автоматизировать показы галерей"
+
+#: src/DisplayedGallery/SourceManager.php:147
+msgid "Unknown source"
+msgstr "Неизвестный источник"
+
+#: src/Admin/Views/notifications.php:67
+msgid "Dismiss all"
+msgstr "Отклонить все"
+
+#: src/Util/Installer_Skin.php:90
+msgid "There was an error installing the addon. Please try again."
+msgstr "При установке произошла ошибка. Пожалуйста, попробуйте еще раз."
+
+#: src/Admin/Views/notifications.php:40
+msgid "Active Notifications"
+msgstr "Активные уведомления"
+
+#. Translators: Placeholder for the number of dismissed notifications.
+#: src/Admin/Views/notifications.php:30
+msgid "Notifications (%s)"
+msgstr "Уведомления (%s)"
+
+#: src/Admin/Views/notifications.php:37
+msgid "Dismissed Notifications"
+msgstr "Отклоненные уведомления"
+
+#. Translators: Placeholder for the number of active notifications.
+#: src/Admin/Views/notifications.php:19
+msgid "New Notifications (%s)"
+msgstr "Новые уведомления (%s)"
+
+#. Translators: %1$s - Opening anchor tag, do not translate. %2$s - Closing
+#. anchor tag, do not translate.
+#: src/Admin/Views/header.php:34
+msgid "You're using NextGEN Gallery Lite. To unlock more features consider %1$s upgrading to PRO%2$s for 50%% off"
+msgstr "Вы используете NextGEN Gallery Lite. Чтобы получить больше функций, рассмотрите возможность обновления %1$s до PRO%2$s со скидкой 50%% ."
+
+#: src/Admin/Views/footer.php:17
+msgid "Support"
+msgstr "Поддержка"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Google does not treat underscores as word separators when it indexes images and so treats 'portrait-of-a-man_800x600' as 'portrait-of-a-man800x600' which is not good for SEO. Until NextGEN 3.19 the default character was an underscore; enabling this option changes it to the SEO friendly dash character. This will cause new dynamic images to be generated, and using the above 'Clear image cache' button is recommended after changing."
+msgstr "Google не рассматривает подчеркивания как разделители слов при индексации изображений, поэтому он обрабатывает 'portrait-of-a-man_800x600' как 'portrait-of-a-man800x600', что не является хорошим для SEO. До версии NextGEN 3.19 символом по умолчанию было подчеркивание; включение этой опции изменяет его на дружественный для SEO символ дефиса. Это приведет к генерации новых динамических изображений, и рекомендуется использовать вышеуказанную кнопку 'Очистить кэш изображений' после изменения."
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Use dashes instead of underscores when generating new image files"
+msgstr "Используйте тире вместо подчеркивания при создании новых файлов изображений"
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:285
+msgid "You are using NextGEN Gallery. To unlock more features, consider <a href=\"%s\" target=\"_blank\">upgrading to NextGEN Pro</a>."
+msgstr "Вы используете галерею NextGEN. Чтобы получить больше возможностей, рассмотрите возможность <a href=\"%s\" target=\"_blank\">перехода на NextGEN Pro</a>."
+
+#: src/Admin/RequirementsManager.php:71
+msgid "ctype methods are required for securing user submitted data"
+msgstr "методы ctype необходимы для защиты данных, отправленных пользователем"
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:3334
+#: src/DataStorage/Manager.php:2106
+msgid "Animated WebP images are not supported."
+msgstr "Анимированные изображения WebP не поддерживаются."
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:3810
+#: src/DataTypes/LegacyThumbnail.php:205
+msgid "Support for WEBP format is missing."
+msgstr "Отсутствует поддержка формата WEBP."
+
+#: static/IGW/Block/src/block.jsx:12 static/IGW/Block/build/block.min.js:175
+msgid "A block for adding NextGEN Galleries."
+msgstr "Блок для добавления галерей NextGEN."
+
+#: static/IGW/Block/src/components/ngg-post-thumbnail.jsx:28
+#: static/IGW/Block/build/post-thumbnail.min.js:726
+msgid "Could not load image"
+msgstr "Не удалось загрузить изображение"
+
+#: static/IGW/Block/src/components/ngg-post-thumbnail.jsx:109
+#: static/IGW/Block/build/post-thumbnail.min.js:807
+msgid "Set NextGEN Featured Image"
+msgstr "Установить избранное изображение NextGEN"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Disable the /ngg_tag/ page"
+msgstr "Отключить страницу /ngg_tag/"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Normally an SEO feature; some users may wish to disable this to prevent NextGEN from revealing image tags to site visitors"
+msgstr "Обычно это функция SEO; некоторые пользователи могут захотеть отключить ее, чтобы NextGEN не раскрывал метки изображений посетителям сайта"
+
+#: src/Legacy/admin/wpmu.php:54
+msgid "Gallery path cannot include relative paths."
+msgstr "Путь к галерее не может включать относительные пути."
+
+#: src/Legacy/admin/wpmu.php:52
+msgid "Gallery path must be located in %s."
+msgstr "Путь к галерее должен находиться в %s."
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:457
+msgid "Image {filename} failed to upload: {error}"
+msgstr "Изображение {filename} не удалось загрузить: {error}"
+
+#: nggallery.php:637 nggallery.php:638
+msgid "Please download the latest version of NextGEN Plus from your <a href='%s' target='_blank'>account area</a>"
+msgstr "Загрузите последнюю версию NextGEN Plus из вашей <a href='%s' target='_blank'>области учетной записи</a>"
+
+#: src/Legacy/admin/manage-images.php:268 src/Legacy/admin/manage.php:700
+msgid "Remove EXIF Orientation"
+msgstr "Удалить ориентацию EXIF"
+
+#: src/Legacy/admin/wpmu.php:62
+msgid "Updated successfully."
+msgstr "Обновление выполнено успешно."
+
+#: nggallery.php:635
+msgid "Your version of NextGEN Plus is known to have some issues with NextGEN Gallery 3.4 and later."
+msgstr "Известно, что ваша версия NextGEN Plus имеет некоторые проблемы с NextGEN Gallery 3.4 и более поздними версиями."
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/upload_images.php:41
+msgid "Creating..."
+msgstr "Создание ..."
+
+#: src/Legacy/admin/manage.php:767
+msgid "Copied %1$s picture(s) to gallery: %2$s ."
+msgstr "Скопировано %1$s изображений в галерею: %2$s ."
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:173
+msgid "An unexpected error occurred: %s"
+msgstr "Произошла непредвиденная ошибка: %s"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/upload_images.php:37
+msgid "Create &amp; select"
+msgstr "Создать и выбрать"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:439
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:457
+msgid "Drag image and ZIP files here or %{browse}"
+msgstr "Перетащите сюда изображения и файлы ZIP или %{browse}"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:439
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:457
+msgid "Drag image files here or %{browse}"
+msgstr "Перетащите сюда файлы изображений или %{browse}"
+
+#: src/Legacy/admin/overview.php:71
+msgid "To get started, watch our two minute intro below."
+msgstr "Чтобы начать, посмотрите наше двухминутное вступление ниже."
+
+#: nggallery.php:651
+msgid "NOTE: The autoupdater doesn't work on the version of WordPress you have installed."
+msgstr "ПРИМЕЧАНИЕ. Средство автообновления не работает с установленной версией WordPress."
+
+#: nggallery.php:629 nggallery.php:630
+msgid "Please download the latest version of NextGEN Pro from your <a href='%s' target='_blank'>account area</a>"
+msgstr "Загрузите последнюю версию NextGEN Pro из вашей <a href='%s' target='_blank'>области учетной записи</a>"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:426
+msgid "You may select files up to %dMB"
+msgstr "Вы можете выбрать файлы размером до %dMB"
+
+#: nggallery.php:627
+msgid "Your version of NextGEN Pro is known to have some issues with NextGEN Gallery 3.4 and later."
+msgstr "Известно, что ваша версия NextGEN Pro имеет некоторые проблемы с NextGEN Gallery 3.4 и более поздними версиями."
+
+#: src/Legacy/admin/album.php:583
+msgid "Show all"
+msgstr "Показать всё"
+
+#: src/Legacy/admin/manage.php:771
+msgid "Failed to copy images"
+msgstr "Не удалось скопировать изображения"
+
+#: src/Legacy/admin/manage.php:789
+msgid "Failed to move images"
+msgstr "Не удалось переместить изображения"
+
+#: src/Legacy/admin/album.php:584
+msgid "Maximize"
+msgstr "Максимизировать"
+
+#: src/Legacy/admin/album.php:585
+msgid "Minimize"
+msgstr "Минимизировать"
+
+#: src/Legacy/admin/manage.php:607
+msgid "One or more \"../\" in Gallery paths could be unsafe and NextGen Gallery will not delete gallery %s automatically"
+msgstr "Один или несколько \"../\" в путях к галереям могут быть небезопасны, и NextGen Gallery не удалит галерею %s автоматически"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:254
+msgid "First Name"
+msgstr "Имя"
+
+#: src/Lightroom/Controller.php:1218
+msgid " (%1$s)."
+msgstr " (%1$s)."
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:391
+msgid "Autoplay?"
+msgstr "Автовоспроизведение?"
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:45
+msgid "Bonus"
+msgstr "Бонус"
+
+#: src/Legacy/admin/manage-galleries.php:382
+msgid "Deleted user"
+msgstr "Удалённый пользователь"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:176
+msgid "Enable Ecommerce?"
+msgstr "Включить электронную торговлю?"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:254
+#: src/Admin/Views/onboarding-wizard/step-1.php:77
+msgid "Email Address"
+msgstr "Email-адрес"
+
+#: src/Legacy/admin/manage-images.php:154
+msgid "Gallery: "
+msgid_plural "Galleries: "
+msgstr[0] "Галерея: "
+msgstr[1] "Галереи: "
+msgstr[2] "Галерей: "
+
+#: src/Legacy/admin/overview.php:254
+msgid "Lazy Loading"
+msgstr "Отложенная загрузка"
+
+#: src/Legacy/admin/overview.php:277
+msgid "NextGEN Pro"
+msgstr "NextGEN Pro"
+
+#: src/Legacy/admin/overview.php:247
+msgid "Price Lists"
+msgstr "Прайс-лист"
+
+#: src/Legacy/admin/manage-galleries.php:236
+#: src/Legacy/admin/manage-galleries.php:239
+msgid "Search Galleries"
+msgstr "Поиск галерей"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:411
+msgid "Show Arrows?"
+msgstr "Показать стрелки?"
+
+#: src/Legacy/admin/tags.php:140
+msgid "Sort Tags"
+msgstr "Сортировать по тэгам"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:457
+msgid "1 image was uploaded successfully."
+msgstr "Успешно загружено 1 изображение."
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:468
+msgid "Additional Album Displays"
+msgstr "Отображение дополнительных альбомов"
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:464
+msgid "Additional Gallery Displays"
+msgstr "Отображение дополнительных галерей"
+
+#: src/Lightroom/Controller.php:1351
+msgid "Album creation failed."
+msgstr "Не удалось создать альбом."
+
+#: src/Lightroom/Controller.php:231
+msgid "Authorization Failed."
+msgstr "Сбой авторизации."
+
+#: src/Lightroom/Controller.php:245 src/Lightroom/Controller.php:419
+#: src/Lightroom/Controller.php:440
+msgid "Authentication Failed."
+msgstr "Ошибка аутентификации."
+
+#: src/Lightroom/Controller.php:1427
+msgid "Could not find album (%1$s)."
+msgstr "Не удалось найти альбом (%1$s)."
+
+#: src/Lightroom/Controller.php:1279
+msgid "Could not find gallery (%1$s)."
+msgstr "Не удалось найти галерею (%1$s)."
+
+#: src/Lightroom/Controller.php:1202
+msgid "Could not find image file for image (%1$s)."
+msgstr "Не удалось найти файл изображения для изображения (%1$s)."
+
+#: src/Lightroom/Controller.php:1187
+msgid "Could not obtain data for image (%1$s)."
+msgstr "Не удалось получить данные для изображения (%1$s)."
+
+#: src/Lightroom/Controller.php:1170
+msgid "Could not remove image because image was not found (%1$s)."
+msgstr "Не удалось удалить изображение, потому что оно не найдено (%1$s)."
+
+#: src/Lightroom/Controller.php:1161
+msgid "Could not remove image from gallery (%1$s)."
+msgstr "Не удалось удалить изображение из галереи (%1$s)."
+
+#: src/Lightroom/Controller.php:1268
+msgid "Could not access file system for gallery (%1$s)."
+msgstr "Не удалось получить доступ к файловой системе для галереи (%1$s)."
+
+#: src/Lightroom/Controller.php:412
+msgid "Could not connect to FTP to determine path."
+msgstr "Не удалось подключиться к FTP для определения пути."
+
+#: src/Lightroom/Controller.php:1158
+msgid "Could not delete image file(s) from disk (%1$s)."
+msgstr "Не удалось удалить файл(ы) изображения с диска (%1$s)."
+
+#: src/Lightroom/Controller.php:406
+msgid "Could not determine FTP path."
+msgstr "Не удалось определить путь FTP."
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:456
+#: src/Legacy/admin/overview.php:249
+msgid "Automated Print Fulfillment"
+msgstr "Автоматическое выполнение печати"
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:460
+msgid "Automated Tax Calculation"
+msgstr "Автоматизированный расчет налогов"
+
+#: src/Admin/Views/ecommerce.php:32 src/Legacy/admin/overview.php:248
+msgid "Automated Tax Calculations"
+msgstr "Автоматизированные расчеты налогов"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:156
+msgid "Automatic image resizing failed [%1$s]."
+msgstr "Не удалось автоматически изменить размер изображения [%1$s]."
+
+#: src/Legacy/admin/overview.php:241
+msgid "Blogstyle Gallery"
+msgstr "Галерея Стиль блога"
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:497
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:536
+msgid "By upgrading to NextGEN Pro, you can get access to numerous other features, including:"
+msgstr "Перейдя на NextGEN Pro, вы сможете получить доступ к множеству других функций, включая:"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:254
+msgid "Cannot connect to the registration server right now. Please try again later."
+msgstr "Не удается подключиться к серверу регистрации прямо сейчас. Повторите попытку позже."
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/module.nextgen_addgallery_page.php:103
+msgid "Cannot write to %s: new galleries cannot be created"
+msgstr "Невозможно записать в %s: новые галереи не могут быть созданы"
+
+#: src/Legacy/admin/overview.php:353
+msgid "CLICK TO LEARN MORE:"
+msgstr "НАЖМИТЕ, ЧТОБЫ УЗНАТЬ БОЛЬШЕ:"
+
+#: src/Legacy/admin/overview.php:71
+msgid "Congrats! You're now running the most popular WordPress gallery plugin of all time."
+msgstr "Поздравляем! Теперь вы используете самый популярный плагин галереи WordPress всех времен."
+
+#: src/Lightroom/Controller.php:1200
+msgid "Could not find image file for image (%1$s). Using FTP Upload Method in Multisite is not recommended."
+msgstr "Не удалось найти файл изображения для изображения (%1$s). Использование метода FTP-загрузки в мультисайте не рекомендуется."
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:489
+msgid "Dedicated customer support and so much more!"
+msgstr "Постоянная поддержка клиентов и многое другое!"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:167
+msgid "Ecommerce and Print Lab functionality"
+msgstr "Функциональность электронной торговли и Print Lab"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:179
+msgid "Ecommerce and Print Lab Integration"
+msgstr "Интеграция электронной торговли и Print Lab"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:175
+msgid "Enable Proofing?"
+msgstr "Включить проверку?"
+
+#: src/Legacy/admin/tags.php:233
+msgid "Enter the name of the tag to delete. This tag will be removed from all posts. You can specify multiple tags to delete by separating them with commas."
+msgstr "Введите название метки, который нужно удалить. Эта метка будет удалена из всех записей. Вы можете указать несколько меток для удаления, разделяя их запятыми."
+
+#: src/Legacy/admin/tags.php:254
+msgid "Enter the tag name to edit and its new slug. This will be used in tagcloud links. <a href=\"http://codex.wordpress.org/Glossary#Slug\" target=\"_blank\">Slug definition</a>. You can specify multiple tags to rename by separating them with commas."
+msgstr "Введите название метки для редактирования и его новый ярлык. Это будет использоваться в ссылках на облако меток. <a href=\"http://codex.wordpress.org/Glossary#Slug\" target=\"_blank\">определение ярлыка</a>. Вы можете указать несколько меток для переименования, разделив их запятыми."
+
+#: templates/Admin/ReviewNotice.php:17
+msgid "I already did"
+msgstr "Я уже сделал"
+
+#: src/Lightroom/Controller.php:1368
+msgid "Failed to remove album (%1$s)."
+msgstr "Не удалось удалить альбом (%1$s)."
+
+#: src/Legacy/admin/tags.php:208
+msgid "Enter the tag to rename and its new value.  You can use this feature to merge tags too. Click \"Rename\" and all posts which use this tag will be updated. You can specify multiple tags to rename by separating them with commas."
+msgstr "Введите метку для переименования и его новое значение.  Вы можете использовать эту функцию и для объединения меток. Нажмите \"Переименовать\", и все записи, использующие эту метку, будут обновлены. Вы можете указать несколько меток для переименования, разделяя их запятыми."
+
+#: src/Lightroom/Controller.php:1082
+msgid "Failed to remove gallery (%1$s)."
+msgstr "Не удалось удалить галерею (%1$s)."
+
+#: src/Lightroom/Controller.php:1423
+msgid "Failed to save modified album (%1$s)."
+msgstr "Не удалось сохранить измененный альбом (%1$s)."
+
+#: src/Lightroom/Controller.php:1274
+msgid "Failed to save modified gallery (%1$s). "
+msgstr "Не удалось сохранить измененную галерею (%1$s). "
+
+#: src/Legacy/admin/overview.php:265
+msgid "Full-Screen Lightbox"
+msgstr "Полноэкранный лайтбокс"
+
+#: src/Lightroom/Controller.php:1062
+msgid "Gallery creation failed for \"%1$s\"%2$s."
+msgstr "Не удалось создать галерею для \"%1$s\"%2$s."
+
+#: src/Legacy/admin/manage.php:635
+msgid "Gallery successfully created. <a href=\"%s\" target=\"_blank\">Manage gallery</a>"
+msgstr "Галерея успешно создана. <a href=\"%s\" target=\"_blank\">Управление галереей</a>"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/import_media_library.php:9
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/upload_images.php:32
+msgid "Gallery title"
+msgstr "Название галереи"
+
+#: src/Legacy/admin/overview.php:235
+msgid "Gallery Types"
+msgstr "Типы галереи"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:254
+msgid "Get NextGEN Gallery updates, photography tips, business tips, tutorials, and resources straight to your mailbox."
+msgstr "Получите обновления NextGEN Gallery, советы по фотографии, бизнес-советы, учебные пособия и ресурсы прямо в почтовый ящик."
+
+#: src/Legacy/admin/overview.php:134
+msgid "Get NextGEN Pro Now"
+msgstr "Получить NextGEN Pro сейчас"
+
+#: src/Legacy/admin/overview.php:229
+msgid "Get the most out of NextGEN Gallery by upgrading to Pro and unlocking all the powerful features."
+msgstr "Получите максимальную отдачу от NextGEN Gallery, перейдя на версию Pro и открыв все мощные возможности."
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:201
+msgid "Go big with the Pro Lightbox"
+msgstr "Добейтесь успеха с помощью Pro Lightbox"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:387
+msgid "Good work. Keep making the web beautiful."
+msgstr "Хорошая работа. Продолжайте делать интернет красивым."
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:474
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:68
+#: src/Admin/Views/onboarding-wizard/step-2.php:251
+#: src/Admin/Views/onboarding-wizard/step-2.php:262
+msgid "Image Proofing"
+msgstr "Проверка изображения"
+
+#: src/Legacy/admin/overview.php:60
+msgid "Imagely Themes"
+msgstr "Темы Imagely"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:37
+msgid "Import from Media Library"
+msgstr "Импорт из библиотеки файлов"
+
+#: src/Legacy/admin/overview.php:266
+msgid "Image Social Sharing"
+msgstr "Обмен изображениями в соцсетях"
+
+#: src/Legacy/admin/overview.php:257
+msgid "Image Upload / Processing"
+msgstr "Загрузка/обработка изображения"
+
+#: src/Legacy/admin/overview.php:255
+msgid "Infinite Scroll"
+msgstr "Бесконечная прокрутка"
+
+#: src/Legacy/admin/overview.php:252
+msgid "Interface"
+msgstr "Интерфейс"
+
+#: src/Lightroom/Controller.php:224
+msgid "Job could not be added."
+msgstr "Не удалось добавить задание."
+
+#: src/Lightroom/Controller.php:261
+msgid "Job execution is locked."
+msgstr "Выполнение задания заблокировано."
+
+#: src/Lightroom/Controller.php:328
+msgid "Job list is empty."
+msgstr "Список заданий пуст."
+
+#: src/Lightroom/Controller.php:311
+msgid "Job list is finished."
+msgstr "Список заданий завершен."
+
+#: src/Lightroom/Controller.php:317
+msgid "Job list is unfinished."
+msgstr "Список заданий не завершен."
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:763
+msgid "Launch the Gallery Wizard"
+msgstr "Запустить Мастер создания галереи"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:763
+msgid "If you close this message, you can also launch the Gallery Wizard at any time from the"
+msgstr "Если вы закроете это сообщение, вы также сможете запустить Мастер создания галереи в любое время из"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:220
+msgid "Learn more"
+msgstr "Подробнее"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/import_folder.php:7
+msgid "Leave blank for folder name"
+msgstr "Оставьте пустым имя папки"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/import_folder.php:11
+msgid "Keep images in original location. Caution: If you keep images in the original folder and later delete the gallery, the images in that folder might be deleted depending on your settings."
+msgstr "Храните изображения в исходном месте. Предупреждение. Если вы сохраните изображения в исходной папке, а затем удалите галерею, изображения в этой папке могут быть удалены в зависимости от ваших настроек."
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:457
+msgid "Manage gallery > {name}"
+msgstr "Управление галереей > {name}"
+
+#: src/Legacy/admin/overview.php:352
+msgid "Meet the new series of Genesis child themes by Imagely: gorgeous, responsive image-centric themes for photographers or anyone with visually rich websites."
+msgstr "Встречайте новую серию дочерних тем Genesis от Imagely: великолепные, отзывчивые темы, ориентированные на изображения, для фотографов или тех, у кого есть визуально насыщенные веб-сайты."
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:431
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:441
+msgid "Milliseconds"
+msgstr "Миллисекунды"
+
+#: src/Legacy/admin/overview.php:46
+msgid "More Videos"
+msgstr "Другие видео"
+
+#: src/Lightroom/Controller.php:1216
+msgid "No space available for image (%1$s)."
+msgstr "Нет свободного места для изображения (%1$s)."
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:421
+msgid "Transition Style"
+msgstr "Стиль перехода"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:441
+msgid "Transition Speed"
+msgstr "Скорость перехода"
+
+#: src/Admin/Views/onboarding-wizard/step-1.php:49
+#: src/Legacy/admin/overview.php:260
+msgid "Other"
+msgstr "Другие"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/import_folder.php:1
+msgid "Select a folder to import."
+msgstr "Выберите папку для импорта."
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:162
+msgid "Thumbnail generation failed."
+msgstr "Не удалось создать миниатюру."
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:249
+#: src/Admin/Views/onboarding-wizard/step-1.php:60
+msgid "Upgrade Now"
+msgstr "Обновить сейчас"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:316
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:345
+#: templates/IGW/marketing.php:8
+msgid "Upgrade to NextGEN Pro"
+msgstr "Обновить до NextGEN Pro"
+
+#: src/Legacy/admin/overview.php:132
+msgid "Upgrade to NextGEN Pro!"
+msgstr "Обновить до NextGEN Pro!"
+
+#: src/Settings/Installer.php:67
+msgid "View Slideshow"
+msgstr "Посмотреть слайд-шоу"
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:496
+msgid "Want to make your gallery workflow and presentation even better?"
+msgstr "Хотите сделать рабочий процесс и презентацию вашей галереи еще лучше?"
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:128
+#: products/photocrati_nextgen/modules/marketing/templates/display_type_settings.php:12
+msgid "Want to sell your images online?"
+msgstr "Хотите продавать свои изображения через Интернет?"
+
+#: src/Legacy/admin/overview.php:45
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: src/Lightroom/Controller.php:1306
+msgid "No gallery was specified to edit."
+msgstr "Не указана галерея для изменения."
+
+#: src/Lightroom/Controller.php:1220
+msgid "No image library present, image uploads will fail (%1$s)."
+msgstr "Отсутствует библиотека изображений, загрузка изображений будет неудачной (%1$s)."
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:457
+msgid "No images were uploaded successfully."
+msgstr "Ни одно изображение не было успешно загружено."
+
+#: src/Legacy/admin/overview.php:267
+msgid "Lightbox Slideshow"
+msgstr "Слайд-шоу в лайтбоксе"
+
+#: src/Admin/RequirementsManager.php:36
+msgid "NextGen Gallery has found an issue trying to access the following files or directories. Please ensure the following locations have the correct permissions:"
+msgstr "NextGen Gallery обнаружила проблему при попытке доступа к следующим файлам или каталогам. Убедитесь, что следующие расположения имеют правильные разрешения:"
+
+#: src/Admin/RequirementsManager.php:34
+msgid "NextGen Gallery requires the following PHP extensions to function correctly. Please contact your hosting provider or systems admin and ask them for assistance:"
+msgstr "Для правильной работы NextGen Gallery требуются следующие расширения PHP. Обратитесь к поставщику услуг хостинга или системному администратору за помощью:"
+
+#: src/Lightroom/Controller.php:238
+msgid "No task list was specified."
+msgstr "Список задач не указан."
+
+#: templates/Admin/ReviewNotice.php:16
+msgid "Nope, maybe later"
+msgstr "Нет, может позже"
+
+#: src/Admin/Notifications/Manager.php:123
+msgid "Notice is not dismissible"
+msgstr "Уведомление не подлежит отклонению"
+
+#: src/Legacy/admin/overview.php:280
+msgid "NextGEN Basic"
+msgstr "NextGEN основной"
+
+#: src/Legacy/admin/overview.php:56 src/Legacy/admin/overview.php:226
+msgid "NextGEN Basic vs Pro"
+msgstr "NextGEN Основной против Про"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:763
+msgid "NextGEN Overview page"
+msgstr "NextGEN страница обзора"
+
+#: src/Lightroom/Controller.php:1444
+msgid "No album was specified to edit."
+msgstr "Не был указан альбом для изменения."
+
+#: src/Admin/Notifications/Manager.php:126
+msgid "No handler defined for this notice"
+msgstr "Для этого уведомления не определен обработчик"
+
+#: templates/Admin/ReviewNotice.php:15
+msgid "Ok, you deserve it"
+msgstr "Хорошо, ты заслужил это"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:45
+msgid "Oops! Sorry, but an error occured. This may be due to a server misconfiguration. Check your PHP error log or ask your hosting provider for assistance."
+msgstr "Упс! Извините, но произошла ошибка. Это может быть связано с неправильной конфигурацией сервера. Проверьте журнал ошибок PHP или обратитесь за помощью к своему хостинг-провайдеру."
+
+#: src/Legacy/admin/overview.php:245
+msgid "Paid Digital Downloads"
+msgstr "Платное цифровое скачивание"
+
+#: src/Legacy/admin/overview.php:133
+msgid "Gorgeous new gallery displays, image protection, full screen lightbox, commenting and social sharing for individual images, proofing, ecommerce, digital downloads, and more."
+msgstr "Замечательные новые виды галереи, защита изображений, полноэкранный лайтбокс, комментарии и обмен в социальных сетях для отдельных изображений, проверка, электронная коммерция, цифровое скачивание и многое другое."
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:121
+msgid "Please ask your hosting provider or system administrator to enable the PHP XML module which is required for image uploads"
+msgstr "Пожалуйста, попросите вашего хостинг-провайдера или системного администратора включить модуль PHP XML, который необходим для загрузки изображений"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:401
+msgid "Pause on Hover?"
+msgstr "Пауза при наведении курсора?"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/module.nextgen_admin.php:189
+msgid "PHP 5.2 will be deprecated in a future version of NextGEN. Please upgrade your PHP installation to 5.3 or above."
+msgstr "PHP 5.2 будет устаревшим в будущей версии NextGEN. Обновите вашу установку PHP до версии 5.3 или выше."
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:115
+#: src/IGW/Marketing.php:40
+msgid "Pro Masonry"
+msgstr "Кладка Pro"
+
+#: src/IGW/Marketing.php:61
+msgid "Pro Masonry Gallery"
+msgstr "Галерея Кладка Pro"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:113
+#: src/IGW/Marketing.php:34
+msgid "Pro Mosaic"
+msgstr "Мозаика Pro"
+
+#: src/IGW/Marketing.php:70
+msgid "Pro Mosaic Gallery"
+msgstr "Галерея Мозаика Pro"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:168
+msgid "proofing"
+msgstr "проверка"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:220
+msgid "Protect your images"
+msgstr "Защитите свои изображения"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:111
+#: src/IGW/Marketing.php:28
+msgid "Pro Tile"
+msgstr "Плитка Pro"
+
+#: src/Lightroom/Controller.php:1226
+msgid "Requested image with id (%2$s) doesn't exist (%1$s)."
+msgstr "Запрашиваемое изображение с id (%2$s) не существует (%1$s)."
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:174
+#: src/IGW/Marketing.php:91
+msgid "Requires NextGEN Pro"
+msgstr "Требуется NextGEN Pro"
+
+#: src/Legacy/admin/edit-thumbnail.php:168
+msgid "Select the area for the thumbnail from the picture below."
+msgstr "Выберите область для миниатюры на рисунке ниже."
+
+#: src/IGW/Marketing.php:62
+msgid "the Pro Masonry Gallery"
+msgstr "Галерея Кладка Pro"
+
+#: src/IGW/Marketing.php:71
+msgid "the Pro Mosaic Gallery"
+msgstr "Галерея Мозаика Pro"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:254
+msgid "Thank you for subscribing!"
+msgstr "Спасибо за подписку!"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:254
+msgid "Thank you for using NextGEN Gallery!"
+msgstr "Благодарим вас за использование NextGEN Gallery!"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:763
+msgid "Thanks for installing NextGEN Gallery! Want help creating your first gallery?"
+msgstr "Спасибо за установку NextGEN Gallery! Хотите получить помощь в создании вашей первой галереи?"
+
+#: src/Legacy/admin/overview.php:133
+msgid "The most powerful gallery system ever built for WordPress. "
+msgstr "Самая мощная система галерей, когда-либо созданная для WordPress. "
+
+#: src/Legacy/admin/overview.php:63
+msgid "Unlock More"
+msgstr "Разблокировать больше"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:45
+msgid "Upload complete. Great job!"
+msgstr "Загрузка завершена. Отличная работа!"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:140
+msgid "Use the Masonry Gallery in NextGEN Pro"
+msgstr "Использование галереи Кладка в NextGEN Pro"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:137
+msgid "Use the Mosaic Gallery in NextGEN Pro"
+msgstr "Использование галереи Мозаика в NextGEN Pro"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:140
+msgid "View the Masonry Demo"
+msgstr "Посмотреть демо кладки"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:137
+msgid "View the Mosaic Demo"
+msgstr "Посмотреть демо мозаики"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:201
+msgid "View the Pro Lightbox Demo"
+msgstr "Посмотреть демо Lightbox Pro"
+
+#: src/Settings/Installer.php:68
+msgid "View Thumbnails"
+msgstr "Посмотреть миниатюры"
+
+#: templates/IGW/marketing.php:2
+msgid "Want More Layouts?"
+msgstr "Хотите больше макетов?"
+
+#: src/Legacy/admin/overview.php:126
+msgid "Want more? Head over to <a href=\"%s\" target=\"_blank\">NextGEN Gallery University on YouTube</a>."
+msgstr "Хочу больше? Перейдите на сайт <a href=\"%s\" target=\"_blank\">NextGEN Gallery University на YouTube</a>."
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:508
+msgid "Want to do even more with your albums?"
+msgstr "Хотите сделать еще больше с вашими альбомами?"
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:535
+msgid "We know that you will truly love NextGEN Pro. It has 2,600+ five star ratings and is active on over 900,000 websites."
+msgstr "Мы знаем, что NextGEN Pro вам действительно понравится. Он имеет более 2,600 пятизвездочных оценок и активен на более чем 900,000 веб-сайтах."
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:46
+msgid "We're sorry, but %s is not available in the lite version of NextGEN Gallery. Please upgrade to NextGEN Pro to unlock these awesome features."
+msgstr "Мы сожалеем, но %s недоступны в lite-версии NextGEN Gallery. Перейдите на версию NextGEN Pro, чтобы разблокировать эти замечательные функции."
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:457
+msgid "{count} images were uploaded successfully."
+msgstr "Успешно загружено {count} изображений."
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:254
+msgid "Yes, Please!"
+msgstr "Да, пожалуйста!"
+
+#: src/Legacy/admin/overview.php:351
+msgid "WordPress Themes for Photographers by Imagely"
+msgstr "Темы WordPress для фотографов от Imagely"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/module.nextgen_addgallery_page.php:95
+msgid "XML is strongly encouraged for safely uploading images"
+msgstr "XML настоятельно рекомендуется для безопасной загрузки изображений"
+
+#: src/Legacy/admin/overview.php:93
+msgid "We have a growing list of video tutorials to get you started. Watch some below or head over to <a href=\"%s\" target=\"_blank\">NextGEN Gallery University on YouTube</a> to see all available vidoes."
+msgstr "У нас есть растущий список видеоуроков, которые помогут вам начать работу. Посмотрите некоторые из них ниже или перейдите на <a href=\"%s\" target=\"_blank\">NextGEN Gallery University на YouTube</a>, чтобы увидеть все доступные видео."
+
+#: src/Lightroom/Controller.php:1224
+msgid "Inadequate system permissions to write image (%1$s)."
+msgstr "Недостаточно системных разрешений для записи изображения (%1$s)."
+
+#: src/Legacy/admin/overview.php:264
+msgid "Image Deeplinking"
+msgstr "Внешняя [гипер] ссылка на изображения"
+
+#: src/Display/LightboxManager.php:38
+msgid "Simplelightbox"
+msgstr "Простой лайтбокс"
+
+#: src/Admin/RequirementsManager.php:35
+msgid "NextGen Gallery has degraded functionality because of your PHP version. Please contact your hosting provider or systems admin and ask them for assistance:"
+msgstr "NextGEN Gallery имеет ухудшенную функциональность из-за вашей версии PHP. Пожалуйста, свяжитесь с вашим хостинг-провайдером или системным администратором и попросите их о помощи:"
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:533
+msgid "Want to do even more with your gallery display?"
+msgstr "Хотите сделать еще больше отображений галереи?"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/templates/admin_notice.php:4
+#: products/photocrati_nextgen/modules/nextgen_admin/templates/requirement_notice.php:4
+#: src/Admin/AMNotifications.php:645
+msgid "Dismiss"
+msgstr "Отклонить"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/templates/nextgen_admin_page.php:75
+msgid "Save Options"
+msgstr "Сохранить опции"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:706
+msgid "Automatically watermark images during upload:"
+msgstr "Автоматическое нанесение водяных знаков на изображения во время загрузки:"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Do not enqueue FontAwesome"
+msgstr "Не ставить в очередь FontAwesome"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Operation complete. Legacy featured images have been corrected."
+msgstr "Операция завершена. Устаревшие избранные изображения были исправлены."
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Random widget cache duration"
+msgstr "Время случайного кеша виджета"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:465
+msgid "Reset all options"
+msgstr "Сброс всех параметров"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "The duration of time (in minutes) that \"random\" widget galleries should be cached. A setting of zero will disable caching."
+msgstr "Продолжительность времени (в минутах), в течение которого \"случайные\" галереи виджетов должны кэшироваться. При установке нуля кэширование будет отключено."
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:410
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:421
+msgid "This request requires an authenticated administrator"
+msgstr "Для этого запроса требуется аутентифицированный администратор"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Warning: your theme or another plugin must provide FontAwesome or your gallery displays may appear incorrectly"
+msgstr "Предупреждение: ваша тема или другой плагин должны поддерживать FontAwesome, иначе ваша галерея может отображаться некорректно"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "WordPress 5.4 is incompatible with NextGen 1.x page featured images and they must be updated in a bulk process to correct them. This button will launch a background process (with a progress bar) that imports each NextGen image into the Media Library. This process can be resumed if you close the popup window or this browser window."
+msgstr "WordPress 5.4 несовместим с избранными изображениями страниц NextGen 1.x, и для их исправления необходимо массовое обновление. Эта кнопка запускает фоновый процесс (с индикатором выполнения), который импортирует каждое изображение NextGen в библиотеку файлов. Этот процесс можно возобновить, если вы закроете всплывающее окно или это окно браузера."
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Use alternative method of retrieving random image galleries"
+msgstr "Использовать альтернативный метод извлечения галереи случайных изображений"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Some web hosts' database servers disable or disrupt queries using 'ORDER BY RAND()' which can cause galleries to lose their randomness. NextGen provides an alternative (but not completely random) method to determine what images are fed into 'random' galleries."
+msgstr "Некоторые серверы баз данных веб-хостов отключают или нарушают запросы, использующие 'ORDER BY RAND()', что может привести к потере случайности в галереях. NextGen предоставляет альтернативный (но не полностью случайный) метод определения того, какие изображения попадают в \"случайные\" галереи."
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "No legacy page featured images were found."
+msgstr "Изображение записи на странице наследия не найдено."
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Updating legacy page featured images"
+msgstr "Обновление избранных изображений устаревшей страницы"
+
+#: src/IGW/ATPManager.php:170
+msgid "Add Gallery"
+msgstr "Добавить галерею"
+
+#: src/IGW/Controller.php:413
+msgid "Exclude?"
+msgstr "Исключить?"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:79
+msgid "Frontend Search"
+msgstr "Фронтэнд-поиск"
+
+#: templates/AttachToPost/display_tab.php:29
+msgid "Insert Gallery"
+msgstr "Вставить галерею"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:255
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:266
+msgid "Select View"
+msgstr "Выбрать вид"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:76
+#: src/Legacy/admin/overview.php:263
+msgid "Image Commenting"
+msgstr "Комментирование изображения"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/templates/upgrade.php:26
+msgid "and unlock the following awesome features."
+msgstr "и откройте следующие потрясающие возможности."
+
+#: src/IGW/Controller.php:408
+msgid "Are you inserting a Gallery (default), an Album, or images based on Tags?"
+msgstr "Вы вставляете галерею (по умолчанию), альбом или изображения на основе меток?"
+
+#: src/IGW/Controller.php:682
+msgid "Choose Display"
+msgstr "Выбрать визуализацию"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Continue? This will copy all NextGen 1.x page featured images into the media library."
+msgstr "Продолжить? Это скопирует все изображения страниц NextGen 1.x в библиотеку файлов."
+
+#: src/IGW/Controller.php:723
+msgid "Customize Display Settings"
+msgstr "Настройки отображения"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:76
+msgid "Deep engagement for your images through individual image commenting within the Pro Lightbox"
+msgstr "Глубокое взаимодействие с вашими изображениями благодаря комментированию отдельных изображений в Pro Lightbox"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:80
+msgid "Gain the ability to add hover capability to galleries. The hover feature includes social sharing, titles, and descriptions. Each can be controlled individually. The hover feature also includes multiple effects, like fade and slide up."
+msgstr "Добавьте возможность наведения курсора на галереи. Функция наведения включает обмен в соцсетях, заголовки и описания. Каждый из них можно контролировать по отдельности. Функция наведения также включает несколько эффектов, таких как затухание и скольжение вверх."
+
+#: src/Admin/Views/onboarding-wizard/step-1.php:117
+#: src/Admin/Views/onboarding-wizard/step-2.php:283
+#: src/Admin/Views/onboarding-wizard/step-3.php:224
+#: src/Admin/Views/onboarding-wizard/step-4.php:121
+#: src/Admin/Views/onboarding-wizard/step-5.php:48
+msgid "Go back"
+msgstr "Вернуться назад"
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:478
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:68
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:216
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:77
+#: src/Legacy/admin/overview.php:262
+msgid "Image Protection"
+msgstr "Защита изображения"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:80
+#: src/Legacy/admin/overview.php:253
+msgid "Hover Captions"
+msgstr "Подписи при наведении"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:220
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:77
+msgid "Image protection disables the ability for visitors to right-click or drag to download your images in both the gallery display and Pro Lightbox views. It gives you complete freedom to display your work without worry. You can also choose to protect all images sitewide, even outside of NextGEN Gallery."
+msgstr "Защита изображений запрещает посетителям щелкать правой кнопкой мыши или перетаскивать изображения, чтобы загружать их как в галерее, так и в представлениях Pro Lightbox. Это дает вам полную свободу для демонстрации вашей работы, не беспокоясь. Вы также можете защитить все изображения на всем сайте, даже за пределами NextGEN Gallery."
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:278
+msgid "Legacy"
+msgstr "Унаследованный"
+
+#: templates/AttachToPost/display_tab.php:34
+msgid "Need a quick tutorial?"
+msgstr "Нужен быстрый учебник?"
+
+#: products/photocrati_nextgen/modules/nextgen_gallery_display/templates/no_images_found.php:1
+#: templates/GalleryDisplay/NoImagesFound.php:1
+msgid "no images were found"
+msgstr "изображения не найдены"
+
+#: src/IGW/Controller.php:545
+msgid "Insert Into Page"
+msgstr "Вставить на страницу"
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:486
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:68
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:83
+#: src/Admin/Views/ecommerce.php:33 src/Legacy/admin/overview.php:261
+msgid "Digital Downloads"
+msgstr "Цифровое скачивание"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:83
+msgid "Offer digital downloads of your images for free, or with payment using the Ecommerce system. You have complete control over sizes and pricing for every image."
+msgstr "Предложите цифровое скачивание ваших изображений бесплатно или с оплатой через систему электронной торговли. У вас есть полный контроль над размерами и ценами для каждого изображения."
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:75
+msgid "Social Sharing"
+msgstr "Поделиться в соцсетях"
+
+#: src/IGW/Controller.php:416
+msgid "Select one album (click in box to see available albums)."
+msgstr "Выберите один альбом (щелкните в поле для просмотра доступных альбомов)."
+
+#: src/IGW/Controller.php:415
+msgid "Select one or more galleries (click in box to see available galleries)."
+msgstr "Выберите одну или несколько галерей (щелкните в поле, чтобы увидеть доступные галереи)."
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:201
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:74
+msgid "The Pro Lightbox allows you to display images at full scale when opened. Your visitors will enjoy breathtaking views of your photos on any device. It's customizable, from colors to padding and more. Offer social sharing, deep linking, and individual image commenting. Turn your gallery lightbox view into a slideshow for your visitors. You can customize settings such as auto-playing and slideshow speed."
+msgstr "Pro Lightbox позволяет отображать изображения в полном масштабе при открытии. Ваши посетители смогут наслаждаться захватывающим видом ваших фотографий на любом устройстве. Его можно настраивать, начиная от цветов и заканчивая подложкой и многим другим. Предлагает социальный обмен, глубокое связывание и комментирование отдельных изображений. Превратите просмотр лайтбокса галереи в слайд-шоу для ваших посетителей. Вы можете настроить такие параметры, как автовоспроизведение и скорость слайд-шоу."
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/templates/upgrade.php:19
+msgid "Unlock More Features"
+msgstr "Разблокировать больше возможностей"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/templates/upgrade.php:25
+msgid "Upgrade your NextGEN Gallery account"
+msgstr "Обновление учетной записи NextGEN Gallery"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/templates/upgrade.php:21
+msgid "Want even more features"
+msgstr "Хотите еще больше возможностей"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:289
+msgid "What lightbox would you like to use?"
+msgstr "Какой лайтбокс вы хотите использовать?"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:75
+msgid "Your images automatically optimized for Open Graph and Twitter Cards and individually shareable from within the Pro Lightbox."
+msgstr "Ваши изображения автоматически оптимизируются для Open Graph и Twitter Cards, и ими можно делиться по отдельности из Pro Lightbox."
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:79
+msgid "With this stunning display type, you can offer image searching capabilities with smart, powerful filtering based on the tags specified for images in your galleries."
+msgstr "Благодаря этому потрясающему типу отображения вы можете предложить возможности поиска изображений с интеллектуальной мощной фильтрацией на основе меток, указанных для изображений в ваших галереях."
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:78
+msgid "Link directly to any image on your site with deep linking. Available exclusively in the Pro Lightbox."
+msgstr "Ссылка напрямую на любое изображение на вашем сайте с помощью внешней [гипер] ссылки. Доступно исключительно в Pro Lightbox."
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:78
+msgid "Deep Linking"
+msgstr "Внешняя [гипер] ссылка"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Update legacy page featured images"
+msgstr "Обновить избранные изображения на устаревшей странице"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:65
+#: src/Legacy/admin/overview.php:246
+msgid "Coupons"
+msgstr "Купоны"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:72
+msgid "An entire gallery in a single vertical column. that requires scrolling vertically for engagement."
+msgstr "Вся галерея в одну вертикальную колонку , для взаимодействия с которой требуется прокрутка по вертикали."
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:73
+msgid "An entire gallery in a single horizontal row, that requires scrolling sideways for engagement."
+msgstr "Вся галерея в один горизонтальный ряд, для взаимодействия с которой требуется прокрутка по горизонтали."
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:63
+msgid "Auto Tax Calculations"
+msgstr "Автоматический расчет налога"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:72
+msgid "Blog Style Gallery"
+msgstr "Галерея стиля блога"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:70
+#: src/Legacy/admin/overview.php:236
+msgid "Filmstrip Gallery"
+msgstr "Диафильм галерея"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:71
+#: src/Legacy/admin/overview.php:240
+msgid "Film Gallery"
+msgstr "Кино галерея"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:66
+#: src/Legacy/admin/overview.php:258
+msgid "Lightroom Plugin"
+msgstr "Плагин Lightroom"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:68
+#: src/Legacy/admin/overview.php:238
+msgid "Mosaic Gallery"
+msgstr "Галерея Мозаика"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:64
+msgid "Pricelists"
+msgstr "Прайс-лист"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:65
+msgid "NextGEN Pro makes it easy to offer exclusive discounts to your clients."
+msgstr "NextGEN Pro упрощает предоставление эксклюзивных скидок вашим клиентам."
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:482
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:74
+msgid "Pro Lightbox"
+msgstr "Лайтбокс Pro"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:67
+#: src/Legacy/admin/overview.php:239
+msgid "Tiled Gallery"
+msgstr "Галерея Плитка"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:62
+msgid "Sell Photos on WordPress with Automated Print Fulfillment! NextGEN Pro is the only WordPress plugin with automatic print lab fulfillment. Ship prints direct to customers with industry-leading professional print labs with zero commissions off the top."
+msgstr "Продавайте фотографии на WordPress с автоматическим выполнением печати! NextGEN Pro - это единственный плагин WordPress с автоматическим выполнением заказов печатных лабораторий. Отправляйте отпечатки напрямую клиентам из ведущих в отрасли профессиональных лабораторий печати с нулевыми комиссионными."
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:66
+msgid "The Lightroom plugin for NextGEN Gallery allows you to automatically create and sync photo galleries from your Adobe Lightroom collections in WordPress."
+msgstr "Плагин Lightroom для NextGEN Gallery позволяет автоматически создавать и синхронизировать фотогалереи из коллекций Adobe Lightroom в WordPress."
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:63
+msgid "We have integrated NextGEN Pro with Taxjar to calculate accurate sales tax no matter where you and your clients are in the world."
+msgstr "Мы интегрировали NextGEN Pro с Taxjar для точного расчета налога с продаж независимо от того, в какой точке мира находитесь вы и ваши клиенты."
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:137
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:68
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:70
+msgid "With this stunning display type, you can present your images in a flexible grid. Choose the maximum height for your rows, and their margins, or use the default settings. It will adjust incredibly on all devices."
+msgstr "С помощью этого потрясающего типа отображения вы можете представить свои изображения в виде гибкой сетки. Выберите максимальную высоту для ваших рядов и их поля или используйте настройки по умолчанию. Сетка будет отлично подстраиваться на всех устройствах."
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:140
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:69
+msgid "With this stunning display type, you can present your images in a flexible grid. Choose the maximum width for your images, and their padding, or use the default settings. It will adjust incredibly on all devices."
+msgstr "С помощью этого потрясающего типа отображения вы можете представить свои изображения в виде гибкой сетки. Выберите максимальную ширину для ваших изображений и их отступы или используйте настройки по умолчанию. Сетка будет отлично подстраиваться на всех устройствах."
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:134
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:67
+msgid "With this stunning display type, you can present your images large with no trouble. Choose the maximum width of the gallery, or let it automate. It will adjust incredibly on all devices."
+msgstr "С помощью этого потрясающего типа отображения вы сможете без проблем представить свои изображения большого размера. Выберите максимальную ширину галереи или позвольте ей автоматизироваться. Сетка будет отлично подстраиваться на всех устройствах."
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:64
+msgid "When selling images, the only way to do it is with pricelists. No more applying individual products t individual images. Do it the right way, and the easy way, by connecting pricelists to your galleries."
+msgstr "При продаже изображений единственный способ сделать это — использовать прайс-листы. Больше не нужно наносить отдельные продукты на отдельные изображения. Сделайте это правильно и легко, подключив прайс-листы к своим галереям."
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:73
+msgid "Sidescroll Gallery"
+msgstr "Боковая прокрутка галереи"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:69
+#: src/Legacy/admin/overview.php:237
+msgid "Masonry Gallery"
+msgstr "Галерея Кладка"
+
+#: src/IGW/ATPManager.php:323 src/IGW/BlockManager.php:79
+msgid "Add NextGEN Gallery"
+msgstr "Добавить NextGEN Gallery"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:41
+msgid "Extensions"
+msgstr "Расширения"
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:452
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:60
+#: src/Admin/Ecommerce_Preview.php:56 src/Admin/Ecommerce_Preview.php:57
+#: src/Legacy/admin/overview.php:243 src/Legacy/admin/overview.php:244
+msgid "Ecommerce"
+msgstr "Электронная торговля"
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:3816
+#: src/DataTypes/LegacyThumbnail.php:212
+msgid "Check memory limit"
+msgstr "Проверить лимит памяти"
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:3818
+#: src/DataTypes/LegacyThumbnail.php:215
+msgid "Create Image failed. %1$s"
+msgstr "Не удалось создать изображение. %1$s"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:47
+msgid "Display descriptions"
+msgstr "Отображать описания"
+
+#: src/DataTypes/Gallery.php:142
+msgid "Gallery path cannot be under %s directory"
+msgstr "Путь к галерее не может находиться в каталоге %s"
+
+#: src/DataTypes/Gallery.php:157
+msgid "Gallery path cannot end with a directory named %s"
+msgstr "Путь к галерее не может заканчиваться каталогом с именем %s"
+
+#: src/DataTypes/Gallery.php:122
+msgid "Gallery path must be a sub-directory under the %s directory"
+msgstr "Путь к галерее должен быть подкаталогом каталога %s"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:162
+#: src/DataTypes/Gallery.php:94
+msgid "Gallery path must be located in %s"
+msgstr "Путь к галерее должен находиться в %s"
+
+#: src/DataTypes/Gallery.php:103
+msgid "Gallery paths may not use '..' to access parent directories)"
+msgstr "Пути к галерее не могут использовать «..» для доступа к родительским каталогам)"
+
+#: src/Admin/RequirementsManager.php:59
+msgid "GD is required for generating image thumbnails, resizing images, and generating watermarks"
+msgstr "GD необходим для создания миниатюр изображений, изменения их размера и создания водяных знаков"
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:3354
+#: src/DataStorage/Manager.php:2131
+msgid "Image file too large. Maximum image dimensions supported are 30k x 30k."
+msgstr "Файл изображения слишком большой. Макс. поддерживаемый размер изображения - 30k x 30k."
+
+#: src/DataTypes/Image.php:74
+msgid "Image filenames may not be longer than 185 characters in length"
+msgstr "Длина имен файлов изображений не должна превышать 185 символов"
+
+#. Author of the plugin
+#: nggallery.php
+msgid "Imagely"
+msgstr "Imagely"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:557
+msgid "Legacy (Old) Templates"
+msgstr "Унаследованные (старые) шаблоны"
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:62
+msgid "Print Fulfillment"
+msgstr "Выполнение печати"
+
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:180
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:61
+#: src/Legacy/admin/overview.php:250
+msgid "Proofing"
+msgstr "Проверка"
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:3789
+#: src/DataTypes/LegacyThumbnail.php:184
+msgid "Support for GIF format is missing."
+msgstr "Отсутствует поддержка формата GIF."
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:3796
+#: src/DataTypes/LegacyThumbnail.php:191
+msgid "Support for JPEG format is missing."
+msgstr "Отсутствует поддержка формата JPEG."
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:3803
+#: src/DataTypes/LegacyThumbnail.php:198
+msgid "Support for PNG format is missing."
+msgstr "Отсутствует поддержка формата PNG."
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:61
+msgid "Want to add a photo proofing process in your WordPress photo galleries? NextGEN Pro adds photo proofing into WordPress to help with your client workflow. The proofing option makes it easy for you and your clients from start to finish."
+msgstr "Хотите добавить процесс проверки фотографий в свои фотогалереи WordPress? NextGEN Pro добавляет в WordPress функцию проверки фотографий для облегчения рабочего процесса с клиентами. Опция пробной печати облегчает работу вам и вашим клиентам от начала и до конца."
+
+#: products/photocrati_nextgen/modules/nextgen_pro_upgrade/package.module.nextgen_pro_upgrade.php:60
+msgid "Want to sell your images directly in your WordPress site? NextGEN Pro adds a true image ecommerce system to help you do just that. Accept PayPal, Stripe, and Checks with ease!"
+msgstr "Хотите продавать свои изображения прямо на своем сайте WordPress? NextGEN Pro добавляет настоящую систему электронной торговли изображениями, чтобы помочь вам сделать это. Принимайте PayPal, Stripe и чеки с легкостью!"
+
+#: src/Admin/RequirementsManager.php:49
+msgid "XML is strongly encouraged for safely editing image data"
+msgstr "XML настоятельно рекомендуется для безопасного редактирования данных изображения"
+
+#: templates/Widget/Form/Gallery.php:90
+msgid "Select"
+msgstr "Выбрать"
+
+#: src/Legacy/admin/tags.php:135
+msgid "Go"
+msgstr "Перейти на"
+
+#: templates/Widget/Form/Slideshow.php:50
+msgid "Limit"
+msgstr "Лимит"
+
+#: templates/Widget/Form/Slideshow.php:15
+msgid "Select Gallery"
+msgstr "Выбрать галерею"
+
+#: templates/Widget/Form/MediaRSS.php:36
+msgid "Text for Media RSS link"
+msgstr "Текст для Media RSS линка"
+
+#: templates/Widget/Form/Gallery.php:110
+msgid "Gallery ID"
+msgstr "ID галереи"
+
+#: templates/Widget/Form/Gallery.php:95
+msgid "All galleries"
+msgstr "Все галереи"
+
+#: templates/Widget/Form/Gallery.php:68
+msgid "Width x Height"
+msgstr "Ширина х Высота"
+
+#: templates/Widget/Form/Gallery.php:26
+msgid "Thumbnails"
+msgstr "Миниатюры"
+
+#: templates/Widget/Form/Gallery.php:50
+msgid "recently added"
+msgstr "недавно добавленное"
+
+#: src/Legacy/view/imagebrowser-exif.php:62
+msgid "Date / Time"
+msgstr "Дата / Время"
+
+#: src/Legacy/view/imagebrowser-exif.php:42
+msgid "Meta data"
+msgstr "Метаданные"
+
+#: src/Legacy/view/imagebrowser-exif.php:46
+msgid "Camera / Type"
+msgstr "Камера / Тип"
+
+#: src/Widget/Gallery.php:26 src/Widget/Gallery.php:61
+msgid "NextGEN Widget"
+msgstr "NextGEN Виджет"
+
+#: src/Legacy/lib/tags.php:162
+msgid "No tag specified!"
+msgstr "Метки не указаны!"
+
+#: src/Legacy/lib/tags.php:84
+msgid "No tag renamed."
+msgstr "Нет переименованных меток."
+
+#: src/Widget/Slideshow.php:206
+msgid "Slideshow"
+msgstr "Слайдшоу"
+
+#: src/Legacy/admin/wpmu.php:106
+msgid "Allow users to change the roles for other blog authors."
+msgstr "Разрешить пользователям изменять роли для других авторов блога."
+
+#: src/Legacy/xml/media-rss.php:53
+msgid "No galleries have been yet created."
+msgstr "Галереи ещё не созданы."
+
+#: src/Legacy/view/imagebrowser-exif.php:54
+msgid "Focal Length"
+msgstr "Фокусное расстояние"
+
+#: src/Legacy/admin/wpmu.php:79
+msgid "Gallery path"
+msgstr "Путь к галерее"
+
+#: src/Legacy/admin/wpmu.php:74
+msgid "Network Options"
+msgstr "Параметры сети"
+
+#: src/Legacy/admin/album.php:688
+#: src/Legacy/admin/templates/manage_gallery/gallery_preview_image_field.php:3
+msgid "No picture"
+msgstr "Изображений нет"
+
+#: src/Legacy/admin/templates/manage_gallery/gallery_create_page_field.php:10
+msgid "Add page"
+msgstr "Добавить страницу"
+
+#: src/Legacy/admin/templates/manage_gallery/gallery_create_page_field.php:3
+msgid "Main Page (no parent)"
+msgstr "Главная страница (не родительская)"
+
+#: src/Legacy/admin/tags.php:219
+msgid "Rename"
+msgstr "Переименовать"
+
+#: src/Legacy/admin/roles.php:63
+msgid "Change style"
+msgstr "Изменить стиль"
+
+#: src/Legacy/admin/roles.php:67
+msgid "Change options"
+msgstr "Изменить параметры"
+
+#: src/Legacy/admin/roles.php:47
+msgid "Manage gallery"
+msgstr "Управление галереей"
+
+#: src/Legacy/admin/roles.php:43
+msgid "Add gallery / Upload images"
+msgstr "Добавить галерею / Загрузить изображения"
+
+#: src/Legacy/admin/tags.php:200
+msgid "Rename Tag"
+msgstr "Переименовать метку"
+
+#: src/Legacy/admin/tags.php:188
+msgid "Next tags"
+msgstr "Следующие метки"
+
+#: src/Legacy/admin/tags.php:175 src/Legacy/admin/tags.php:179
+#: src/Legacy/admin/tags.php:192
+msgid "Previous tags"
+msgstr "Предыдущие метки"
+
+#: src/Legacy/admin/showmeta.php:46 src/Legacy/admin/showmeta.php:80
+#: src/Legacy/admin/showmeta.php:114 src/Legacy/admin/showmeta.php:141
+msgid "Value"
+msgstr "Значение"
+
+#: src/Legacy/admin/showmeta.php:45 src/Legacy/admin/showmeta.php:79
+#: src/Legacy/admin/showmeta.php:113 src/Legacy/admin/showmeta.php:140
+msgid "Tag"
+msgstr "Метка"
+
+#: src/Legacy/lib/tags.php:244
+msgid "No slug edited."
+msgstr "Ярлыки без изменений."
+
+#: src/Legacy/lib/tags.php:246
+msgid "%s slug(s) edited."
+msgstr "%s ярлык(ов) изменено."
+
+#: src/Legacy/xml/media-rss.php:128
+msgid "Invalid MediaRSS command"
+msgstr "Неверная команда MediaRSS"
+
+#: src/Widget/MediaRSS.php:15
+msgid "Widget that displays Media RSS links for NextGEN Gallery."
+msgstr "Виджет который отображет Media RSS ссылки для NextGEN Gallery."
+
+#: src/Widget/MediaRSS.php:28
+msgid "Media RSS"
+msgstr "Media RSS"
+
+#: src/Legacy/lib/tags.php:217
+msgid "Tags number and slugs number isn't the same!"
+msgstr "Количество меток (tags) и ярлыков (slugs) не одинаковое!"
+
+#: src/Legacy/lib/tags.php:205
+msgid "No new slug(s) specified!"
+msgstr "Нет выбрано новых ярлык(ов) (slug)!"
+
+#: src/Legacy/admin/wpmu.php:82
+msgid "The default setting should be %s"
+msgstr "Настройка по-умолчанию должна быть %s"
+
+#: src/Legacy/admin/wpmu.php:81
+msgid "This is the default path for all blogs. With the placeholder %BLOG_ID% you can organize the folder structure better."
+msgstr "Это путь по-умолчанию для всех блогов. С плейсхолдером %BLOG_ID% вы можете лучше организовать структуру папок."
+
+#: src/Legacy/admin/thumbnails-template.php:101
+msgid "These are maximum values"
+msgstr "Это максимальные значения"
+
+#: src/Legacy/admin/album.php:712
+#: src/Legacy/admin/templates/manage_gallery/gallery_link_to_page_field.php:3
+msgid "Not linked"
+msgstr "Не связанны"
+
+#: src/Legacy/admin/tags.php:258
+msgid "Tag(s) to match:"
+msgstr "Метки для сопоставления:"
+
+#: src/Legacy/admin/tags.php:237
+msgid "Tag(s) to delete:"
+msgstr "Метки на удаление:"
+
+#: src/Legacy/lib/tags.php:109
+msgid "No objects (post/page) found for specified old tags."
+msgstr "Не найдено объектов (записей/страниц) для выбранных прежних меток."
+
+#: src/Legacy/lib/tags.php:86
+msgid "Renamed tag(s) &laquo;%1$s&raquo; to &laquo;%2$s&raquo;"
+msgstr "Переименованные метки - &laquo;%1$s&raquo; в &laquo;%2$s&raquo;"
+
+#: src/Legacy/lib/post-thumbnail.php:224
+#: static/IGW/Block/src/components/ngg-post-thumbnail.jsx:117
+#: static/IGW/Block/build/post-thumbnail.min.js:815
+msgid "Remove featured image"
+msgstr "Убрать изображение записи"
+
+#: src/Legacy/lib/post-thumbnail.php:195 src/Legacy/lib/post-thumbnail.php:196
+msgid "Set featured image"
+msgstr "Выбрать изображение записи"
+
+#: src/Legacy/lib/core.php:208
+msgid "Note : Based on your server memory limit you should not upload larger images then <strong>%d x %d</strong> pixel"
+msgstr "Примечение: В зависимости от лимита памяти вашего сервера вы не должны загружать изображения размером более чем <strong>%d x %d</strong> пикселей"
+
+#: src/Legacy/admin/wpmu.php:100
+msgid "Allow users to import images folders from the server."
+msgstr "Разрешить пользователям импортировать папки с изображениями с сервера."
+
+#: src/Legacy/admin/showmeta.php:74
+msgid "EXIF Data"
+msgstr "Данные EXIF"
+
+#: src/Legacy/admin/showmeta.php:67
+msgid "No meta data saved"
+msgstr "Мета-информация не сохранена"
+
+#: src/Legacy/admin/rotate.php:99
+msgid "90&deg; counter-clockwise"
+msgstr "90&deg; против часовой стрелки"
+
+#: src/Legacy/admin/rotate.php:98
+msgid "90&deg; clockwise"
+msgstr "90&deg; по часовой стрелке"
+
+#: src/Legacy/admin/roles.php:39
+msgid "Use TinyMCE Button / Upload tab"
+msgstr "Использовать кнопки TinyMCE / Вкладку \"Загрузка\""
+
+#: src/Legacy/admin/roles.php:30
+msgid "Select the lowest role which should be able to access the following capabilities. NextGEN Gallery supports the standard roles from WordPress."
+msgstr "Выберить самую низкую роль, у которой будет доступ к выбранным возможностям. NextGEN Gallery поддерживает стандартные роли WordPress."
+
+#: src/Legacy/admin/tags.php:212
+msgid "Tag(s) to rename:"
+msgstr "Метки на переименование:"
+
+#: src/Legacy/admin/tags.php:123
+msgid "Search Tags"
+msgstr "Искать метки"
+
+#: src/Legacy/admin/tags.php:48
+msgid "Most popular"
+msgstr "Самые популярные"
+
+#: src/Legacy/admin/showmeta.php:136
+msgid "XMP Data"
+msgstr "Данные XMP"
+
+#: src/Legacy/admin/showmeta.php:109
+msgid "IPTC Data"
+msgstr "Данные IPTC"
+
+#: src/Legacy/admin/showmeta.php:101
+msgid "No exif data"
+msgstr "Нет данных EXIF"
+
+#: src/Legacy/admin/manage.php:895
+msgid "Updated successfully"
+msgstr "Успешно обновлено"
+
+#. Description of the plugin
+#: nggallery.php
+msgid "The most popular gallery plugin for WordPress and one of the most popular plugins of all time with over 30 million downloads."
+msgstr "Самый популярный плагин галереи для WordPress и один из самых популярных плагинов всех времен с более чем 30 миллионами загрузок."
+
+#: src/Widget/Gallery.php:23
+msgid "Add recent or random images from the galleries"
+msgstr "Добавить последние или случайные изображения из галерей"
+
+#: src/Legacy/admin/rotate.php:101
+msgid "Flip horizontally"
+msgstr "Отразить по горизонтали"
+
+#: src/Legacy/admin/rotate.php:100
+msgid "Flip vertically"
+msgstr "Отразить по вертикали"
+
+#: src/Legacy/admin/tags.php:225
+msgid "Delete Tag"
+msgstr "Удалить метку"
+
+#: templates/Widget/Form/Gallery.php:62
+msgid "Enable IE8 Web Slices"
+msgstr "Включить Web Slices IE8"
+
+#: src/Legacy/admin/wpmu.php:98
+msgid "Enable import function"
+msgstr "Включить функцию импорта"
+
+#: src/Legacy/admin/wpmu.php:104
+msgid "Enable roles/capabilities"
+msgstr "Включить роли/права"
+
+#: src/Legacy/admin/wpmu.php:86
+msgid "Enable upload quota check"
+msgstr "Разрешить проверку лимита загрузки"
+
+#: src/Legacy/admin/wpmu.php:92
+msgid "Enable zip upload option"
+msgstr "Разрешить загрузку .zip файлов"
+
+#: src/Legacy/admin/rotate.php:70
+msgid "Error rotating thumbnail"
+msgstr "Ошибка вращения миниатюры"
+
+#: templates/Widget/Form/Gallery.php:29
+msgid "Original images"
+msgstr "Исходные изображения"
+
+#: src/Legacy/lib/tags.php:187
+msgid "%1s tag(s) deleted."
+msgstr "%1s метка(ок) удалено."
+
+#: src/Legacy/lib/ngg-db.php:176 src/Legacy/lib/ngg-db.php:177
+msgid "Album overview"
+msgstr "Краткий обзор альбома"
+
+#: src/Legacy/admin/wpmu.php:94
+msgid "Allow users to upload zip folders."
+msgstr "Разрешить пользователям загружать zip-папки."
+
+#: src/Legacy/admin/tags.php:246
+msgid "Edit Tag Slug"
+msgstr "Изменить ярлык метки"
+
+#: src/Legacy/lib/tags.php:143
+msgid "Error. Not enough tags provided to rename or merge."
+msgstr "Ошибка. Недостаточно меток для переименования или объединения."
+
+#: templates/Widget/Form/Gallery.php:117
+msgid "Gallery IDs, separated by commas."
+msgstr "ID галерей, через запятую."
+
+#: src/Legacy/nggallery.php:129
+msgid "Get help"
+msgstr "Получить помощь"
+
+#: src/Widget/MediaRSS.php:29
+msgid "Link to the main image feed"
+msgstr "Ссылка на основную feed изображения"
+
+#: src/Legacy/admin/roles.php:55
+msgid "Manage tags"
+msgstr "Управление метками"
+
+#: src/Legacy/admin/showmeta.php:40
+msgid "Meta Data"
+msgstr "Метаданные"
+
+#: src/Legacy/xml/media-rss.php:112
+msgid "No album ID has been provided as parameter"
+msgstr "В качестве параметра не был указан ID альбома"
+
+#: src/Legacy/lib/tags.php:185
+msgid "No tag deleted."
+msgstr "Метка не удалена."
+
+#: templates/Widget/Form/MediaRSS.php:47
+msgid "Tooltip text for Media RSS link"
+msgstr "Текст всплывающей подсказки для ссылки Media RSS"
+
+#: src/Legacy/admin/tags.php:115
+msgid "Manage image tags"
+msgstr "Управление метками изображения"
+
+#: src/Legacy/admin/tags.php:216
+msgid "New tag name(s):"
+msgstr "Новое название(я) метки:"
+
+#: nggallery.php:817
+msgid "Picture tag"
+msgstr "Метка рисунка"
+
+#: nggallery.php:818
+msgid "Picture tag: %2$l."
+msgstr "Метка рисунка: %2$l."
+
+#: templates/Widget/Form/Gallery.php:42
+msgid "random"
+msgstr "случайно"
+
+#: src/Legacy/xml/media-rss.php:121
+msgid "The album ID=%s does not exist."
+msgstr "Альбом с ID=%s отсутствует."
+
+#: src/Legacy/xml/media-rss.php:78
+msgid "The gallery ID=%s does not exist."
+msgstr "Галерея с ID=%s отсутствует."
+
+#: src/Legacy/lib/tags.php:33
+msgid "No new tag specified!"
+msgstr "Новая метка не указана!"
+
+#: src/Legacy/lib/tags.php:48
+msgid "No new/old valid tag specified!"
+msgstr "Не указана новая/старая действующая метка!"
+
+#: src/Legacy/lib/tags.php:138
+msgid "No tag merged."
+msgstr "Метка не объединена."
+
+#: src/Legacy/lib/tags.php:92
+msgid "No valid new tag."
+msgstr "Нет действительной новый метки."
+
+#: src/Widget/Slideshow.php:24 src/Widget/Slideshow.php:60
+msgid "NextGEN Slideshow"
+msgstr "NextGEN Слайд-шоу"
+
+#: templates/Widget/Form/Gallery.php:101
+msgid "Only which are listed"
+msgstr "Только те, которые перечислены"
+
+#: templates/Widget/Form/Gallery.php:98
+msgid "Only which are not listed"
+msgstr "Только те, которые не перечислены"
+
+#: src/Legacy/admin/tags.php:262
+msgid "Slug(s) to set:"
+msgstr "Ярлык(и) для установки:"
+
+#: nggallery.php:819
+msgid "Separate picture tags with commas."
+msgstr "Разделите метки рисунков с помощью запятой."
+
+#: src/Legacy/lib/post-thumbnail.php:51 src/Legacy/lib/post-thumbnail.php:52
+msgid "Set NextGEN featured image"
+msgstr "Установить избранное изображение NextGEN"
+
+#: src/Legacy/admin/wpmu.php:88
+msgid "Should work if the gallery is bellow the blog.dir"
+msgstr "Работать если галерея ниже blog.dir"
+
+#: templates/Widget/Form/MediaRSS.php:19
+msgid "Show Media RSS icon"
+msgstr "Показать значок Media RSS"
+
+#: templates/Widget/Form/MediaRSS.php:30
+msgid "Show the Media RSS link"
+msgstr "Показать ссылку Media RSS"
+
+#: src/Legacy/admin/rotate.php:68
+msgid "Image rotated"
+msgstr "Повернутое изображение"
+
+#: src/Legacy/admin/tags.php:49
+msgid "Least used"
+msgstr "Малоиспользуемые"
+
+#: src/Widget/MediaRSS.php:17
+msgid "NextGEN Media RSS"
+msgstr "NextGEN Media RSS"
+
+#: src/Legacy/admin/roles.php:35
+msgid "Main NextGEN Gallery overview"
+msgstr "Основной обзор NextGen Gallery"
+
+#: src/Widget/Slideshow.php:21
+msgid "Show a NextGEN Gallery Slideshow"
+msgstr "Показать слайд-шоу NextGEN Gallery"
+
+#: src/Legacy/lib/tags.php:140
+msgid "Merge tag(s) &laquo;%1$s&raquo; to &laquo;%2$s&raquo;. %3$s objects edited."
+msgstr "Слить метки &laquo;%1$s&raquo; в &laquo;%2$s&raquo;. %3$s объектов отредактировано"
+
+#: src/Legacy/admin/roles.php:71
+msgid "NextGEN Attach Interface"
+msgstr "Интерфейс подключения NextGEN"
+
+#: templates/Widget/Form/Slideshow.php:28
+msgid "All images"
+msgstr "Все картинки"
+
+#: src/Legacy/admin/tags.php:50
+msgid "Alphabetical"
+msgstr "По-алфавиту"
+
+#: src/Legacy/admin/roles.php:51
+msgid "Manage others gallery"
+msgstr "Изменить галлереи других пользователей"
+
+#: src/IGW/ATPManager.php:253 src/IGW/BlockManager.php:78
+#: src/Legacy/admin/album.php:565 src/Legacy/admin/manage-galleries.php:268
+#: src/Legacy/admin/manage.php:380 src/Legacy/admin/manage.php:381
+#: src/Legacy/admin/tags.php:240
+msgid "Delete"
+msgstr "Удалить"
+
+#: src/Legacy/admin/album.php:553 src/Legacy/admin/edit-thumbnail.php:189
+#: src/Legacy/admin/rotate.php:106 src/Legacy/admin/wpmu.php:110
+msgid "Update"
+msgstr "Обновить"
+
+#: src/Legacy/admin/album.php:734 src/Legacy/admin/manage-galleries.php:485
+#: src/Legacy/admin/manage-galleries.php:545
+#: src/Legacy/admin/manage-galleries.php:614
+#: src/Legacy/admin/manage-images.php:381
+#: src/Legacy/admin/manage-images.php:427
+#: src/Legacy/admin/manage-images.php:471
+#: src/Legacy/admin/manage-images.php:518
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/Legacy/admin/manage.php:320 src/Legacy/admin/manage.php:322
+#: src/Legacy/admin/manage.php:324
+msgid "View"
+msgstr "Смотреть"
+
+#: src/Legacy/admin/manage.php:1118
+msgid "Current page"
+msgstr "Текущая страница"
+
+#: src/Legacy/admin/manage-images.php:197
+#: src/Legacy/admin/manage-images.php:286
+#: src/Legacy/admin/manage-images.php:340
+#: templates/AttachToPost/display_tab.php:27
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: src/Legacy/admin/manage.php:332
+msgid "Meta"
+msgstr "Мета"
+
+#: src/Legacy/admin/manage-images.php:833 src/Legacy/admin/manage.php:182
+#: src/Legacy/admin/media-upload.php:333
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: src/IGW/ATPManager.php:252 src/IGW/BlockManager.php:77
+#: src/Legacy/admin/manage-galleries.php:363 src/Legacy/admin/tags.php:265
+msgid "Edit"
+msgstr "Изменить"
+
+#: src/Legacy/admin/manage-galleries.php:677
+#: src/Legacy/admin/manage-images.php:835 src/Legacy/admin/media-upload.php:312
+msgid "Description"
+msgstr "Описание"
+
+#: src/Legacy/admin/album.php:838
+msgid "Name"
+msgstr "Имя"
+
+#: src/Legacy/admin/media-upload.php:296 templates/Widget/Form/Gallery.php:15
+msgid "Show"
+msgstr "Показать"
+
+#: src/Legacy/admin/media-upload.php:329
+msgid "Size"
+msgstr "Размер"
+
+#: src/Legacy/admin/media-upload.php:297
+msgid "Hide"
+msgstr "Скрыть"
+
+#: products/photocrati_nextgen/modules/marketing/module.marketing.php:230
+#: src/Legacy/admin/album.php:732 src/Legacy/admin/manage-galleries.php:481
+#: src/Legacy/admin/manage-galleries.php:541
+#: src/Legacy/admin/manage-galleries.php:610
+#: src/Legacy/admin/manage-images.php:378
+#: src/Legacy/admin/manage-images.php:424
+#: src/Legacy/admin/manage-images.php:468
+#: src/Legacy/admin/manage-images.php:515
+msgid "OK"
+msgstr "ОК"
+
+#: src/Legacy/admin/manage.php:422
+msgid "Description:"
+msgstr "Описание:"
+
+#: src/Legacy/admin/manage-images.php:176
+msgid "Click to toggle"
+msgstr "﻿Нажмите, чтобы переключить"
+
+#: src/Legacy/admin/album.php:840
+msgid "Page"
+msgstr "Страница"
+
+#: src/Legacy/admin/media-upload.php:365
+msgid "Save all changes"
+msgstr "Сохранить все изменения"
+
+#: src/Legacy/admin/media-upload.php:354
+msgid "Insert into Post"
+msgstr "Вставить в запись"
+
+#: src/Legacy/admin/media-upload.php:335
+msgid "Full size"
+msgstr "Полный размер"
+
+#: src/Legacy/admin/media-upload.php:316
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: src/Legacy/admin/media-upload.php:302
+msgid "Image ID:"
+msgstr "ID изображения:"
+
+#: src/Legacy/admin/manage.php:379
+msgid "Delete image"
+msgstr "Удалить изображение"
+
+#: src/Legacy/admin/manage.php:360 src/Legacy/admin/manage.php:361
+msgid "Recover"
+msgstr "Восстановить"
+
+#: src/Legacy/admin/manage.php:359
+msgid "Recover image from backup"
+msgstr "Восстановить изображение из резервной копии"
+
+#: src/Legacy/admin/manage.php:347 src/Legacy/admin/manage.php:348
+msgid "Rotate"
+msgstr "Повернуть"
+
+#: src/Legacy/admin/manage.php:339
+msgid "Customize thumbnail"
+msgstr "Настроить миниатюру"
+
+#: src/Legacy/admin/manage.php:331
+msgid "Show meta data"
+msgstr "Показать мета-данные"
+
+#: src/Legacy/admin/manage-sort.php:166
+msgid "Unsorted"
+msgstr "Без сортировки"
+
+#: src/Legacy/admin/manage-sort.php:147
+msgid "Update Sort Order"
+msgstr "Обновить порядок сортировки"
+
+#: src/Legacy/admin/manage-sort.php:132
+msgid "Sort Gallery"
+msgstr "Сортировать галерею"
+
+#: src/Legacy/admin/manage-sort.php:58
+msgid "Sort order changed"
+msgstr "Порядок сортировки изменён"
+
+#: src/Legacy/admin/manage-images.php:836
+msgid "Tags (comma separated list)"
+msgstr "Метки (список, разделённый запятой)"
+
+#: src/Legacy/admin/manage-images.php:264
+msgid "Move to..."
+msgstr "Переместить в..."
+
+#: src/Legacy/admin/manage-images.php:263
+msgid "Copy to..."
+msgstr "Копировать в..."
+
+#: src/Legacy/admin/manage-images.php:262
+msgid "Rotate images counter-clockwise"
+msgstr "Повернуть изображения против часовой стрелки"
+
+#: src/Legacy/admin/manage-images.php:261
+msgid "Rotate images clockwise"
+msgstr "Повернуть изображения по часовой стрелке"
+
+#: src/Legacy/admin/manage-images.php:265
+msgid "Add tags"
+msgstr "Добавить метки"
+
+#: src/Legacy/admin/manage-images.php:280
+msgid "Sort gallery"
+msgstr "Сортировать галерею"
+
+#: src/Legacy/admin/manage-images.php:259
+msgid "Delete images"
+msgstr "Удалить изображения"
+
+#: src/Legacy/admin/manage-images.php:250
+msgid "Images per page:"
+msgstr "Изображений на страницу:"
+
+#: src/Legacy/admin/manage-images.php:192
+msgid "Scan Folder for new images"
+msgstr "Искать все новые изображения в папке"
+
+#: src/Legacy/admin/manage-images.php:718
+msgid "Add new tags"
+msgstr "Добавить новые метки"
+
+#: src/Legacy/admin/manage-images.php:714
+msgid "Move image to..."
+msgstr "Переместить изображение в..."
+
+#: src/Legacy/admin/manage-images.php:57
+msgid "Sorry, you have no access here"
+msgstr "Извините, но у вас нет доступа сюда"
+
+#: src/Legacy/admin/manage-images.php:51
+msgid "Gallery not found."
+msgstr "Галерея не найдена."
+
+#: src/Legacy/admin/manage-galleries.php:679
+msgid "Page ID"
+msgstr "ID страницы"
+
+#: src/Legacy/admin/manage-galleries.php:675
+#: src/Legacy/admin/manage-images.php:832 src/Legacy/admin/manage.php:178
+msgid "ID"
+msgstr "ID"
+
+#: src/Legacy/admin/manage-galleries.php:273
+#: src/Legacy/admin/manage-images.php:258 src/Legacy/admin/manage.php:586
+#: src/Legacy/admin/manage.php:694
+msgid "Recover from backup"
+msgstr "Восстановить из резервной копии"
+
+#: src/Legacy/admin/manage-galleries.php:219
+#: src/Legacy/admin/manage-galleries.php:222
+#: src/Legacy/admin/manage-images.php:115
+#: src/Legacy/admin/manage-images.php:126
+#: src/Legacy/admin/manage-images.php:130
+msgid "Search Images"
+msgstr "Поиск изображений"
+
+#: src/Legacy/admin/manage-galleries.php:177
+#: src/Legacy/admin/manage-galleries.php:288
+msgid "Add new gallery"
+msgstr "Добавить новую галерею"
+
+#: src/Legacy/admin/manage-galleries.php:120
+#: src/Legacy/admin/manage-galleries.php:271
+#: src/Legacy/admin/manage-images.php:257
+#: src/Legacy/admin/manage-images.php:730 src/Legacy/admin/manage.php:653
+#: src/Legacy/admin/manage.php:735
+msgid "Resize images"
+msgstr "Изменить размеры изображений"
+
+#: src/Legacy/admin/album.php:675
+msgid "Album name:"
+msgstr "Название альбома:"
+
+#: src/Legacy/admin/album.php:598
+msgid "Album ID"
+msgstr "ID альбома"
+
+#: src/Legacy/admin/album.php:621
+msgid "Select gallery"
+msgstr "Выбрать галерею"
+
+#: src/Legacy/admin/album.php:572
+msgid "Add"
+msgstr "Добавить"
+
+#: src/Legacy/admin/album.php:570
+msgid "Add new album"
+msgstr "Добавить новый альбом"
+
+#: src/Legacy/admin/album.php:537 src/Legacy/admin/album.php:645
+msgid "Select album"
+msgstr "Выбрать альбом"
+
+#: src/Legacy/admin/media-upload.php:246
+msgid "Select &#187;"
+msgstr "Выбрать &#187;"
+
+#: src/Legacy/admin/album.php:539
+msgid "No album selected"
+msgstr "Альбом не выбран"
+
+#: src/Legacy/admin/media-upload.php:351
+msgid "Use as featured image"
+msgstr "Использовать изображение записи"
+
+#: src/Legacy/admin/media-upload.php:233
+msgid "No gallery"
+msgstr "Нет галлереи"
+
+#: src/Legacy/admin/manage.php:1139
+msgid "Go to the last page"
+msgstr "Перейти на последнюю страницу"
+
+#: src/Legacy/admin/manage.php:1131
+msgid "Go to the next page"
+msgstr "Перейти на следующую страницу"
+
+#: src/Legacy/admin/manage.php:1126
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr "%1$s из %2$s"
+
+#: src/Legacy/admin/manage.php:1108
+msgid "Go to the previous page"
+msgstr "Перейти на предыдущую страницу"
+
+#: src/Legacy/admin/manage.php:1100
+msgid "Go to the first page"
+msgstr "Перейти на первую страницу"
+
+#: src/Legacy/admin/manage.php:938
+msgid "New gallery page ID"
+msgstr "ID страницы новой галлереи"
+
+#: src/Legacy/admin/manage.php:834
+msgid "Tags changed"
+msgstr "Теги изменены"
+
+#: src/Legacy/admin/manage.php:688 src/Legacy/admin/manage.php:691
+msgid "Rotate images"
+msgstr "Поворот изображения"
+
+#: src/Legacy/admin/manage.php:614
+msgid "Gallery deleted successfully "
+msgstr "Галерея успешно удалена "
+
+#: src/Legacy/admin/manage.php:455
+msgid "Create new page:"
+msgstr "Создать новую страницу:"
+
+#: src/Legacy/admin/manage.php:444
+msgid "Albums will link this gallery to the selected page"
+msgstr "Альбомы свяжут эту галерею с выбранной страницей"
+
+#: src/Legacy/admin/manage.php:443
+msgid "Link to page:"
+msgstr "Ссылка на страницу:"
+
+#: src/Legacy/admin/manage.php:428
+msgid "Gallery path:"
+msgstr "Путь к галерее:"
+
+#: src/Legacy/admin/manage.php:231
+msgid "Exclude ?"
+msgstr "Исключить?"
+
+#: src/Legacy/admin/manage-images.php:400
+msgid "Select the destination gallery:"
+msgstr "Выберите назначения галереи:"
+
+#: src/Legacy/admin/manage-images.php:228
+msgid "200"
+msgstr "200"
+
+#: src/Legacy/admin/manage-images.php:227
+msgid "100"
+msgstr "100"
+
+#: src/Legacy/admin/manage-images.php:105
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Результаты поиска &#8220;%s&#8221;"
+
+#: src/Legacy/admin/manage-galleries.php:593
+#: src/Legacy/admin/manage-images.php:498
+msgid "Set fix dimension"
+msgstr "Установить фиксированный размер"
+
+#: src/Legacy/admin/manage-galleries.php:520
+#: src/Legacy/admin/manage-images.php:446
+msgid "Resize Images to"
+msgstr "Изменить размер"
+
+#: src/Legacy/admin/manage-galleries.php:130
+msgid ""
+"You are about to start the bulk edit for %s galleries \n"
+" \n"
+" 'Cancel' to stop, 'OK' to proceed."
+msgstr ""
+"Начать массовое редактирование %s galleries\n"
+"\n"
+" 'Cancel' отмена, 'OK' продолжить."
+
+#: src/Legacy/admin/functions.php:504
+msgid "Gallery <strong>%s</strong> successfully created!"
+msgid_plural "Galleries <strong>%s</strong> successfully created!"
+msgstr[0] "Галерея <strong>%s</strong> успешно создана!"
+msgstr[1] "Галереи <strong>%s</strong> успешно созданы!"
+msgstr[2] "Галерей <strong>%s</strong> успешно создано!"
+
+#: src/Legacy/admin/functions.php:497
+msgid "Database error. Could not add gallery!"
+msgstr "Ошибка базы данных. Не удалось добавить галерею!"
+
+#: src/Legacy/admin/functions.php:408
+msgid "(Error : Couldn't not find image)"
+msgstr "(Ошибка: не удалось найти изображение)"
+
+#: src/Legacy/admin/functions.php:399
+msgid "(Error : Couldn't not update meta data)"
+msgstr "(Ошибка: не удалось обновить метаданные)"
+
+#: src/Legacy/admin/functions.php:391
+msgid "(Error : Couldn't not update data base)"
+msgstr "(Ошибка: не удалось обновить базу данных)"
+
+#: src/Legacy/admin/functions.php:124
+msgid "Error while resizing image."
+msgstr "Ошибка при изменении размера изображения."
+
+#: src/Legacy/admin/edit-thumbnail.php:152
+msgid "Thumbnail updated"
+msgstr "Миниатюра обновлена"
+
+#: src/Legacy/admin/edit-thumbnail.php:130
+msgid "Select with the mouse the area for the new thumbnail"
+msgstr "Выделите мышью область для нового эскиза"
+
+#: src/Legacy/admin/album.php:722
+msgid "There are no pages to link to"
+msgstr "Нет страниц для ссылки"
+
+#: src/Legacy/admin/album.php:700
+msgid "Page Link to"
+msgstr "Ссылка на страницу"
+
+#: src/Legacy/admin/album.php:587
+msgid "After you create and select an album, you can drag and drop a gallery or another album into your new album below."
+msgstr "После создания и выбора альбома вы можете перетащить галерею или другой альбом в свой новый альбом ниже."
+
+#: src/Legacy/admin/album.php:583
+msgid "Show / hide used galleries"
+msgstr "Показать / скрыть используемые галереи"
+
+#: src/Legacy/admin/album.php:256 src/Legacy/admin/album.php:310
+msgid "Updated Successfully"
+msgstr "Успешное обновление"
+
+#: src/Legacy/admin/admin.php:261
+msgid "A failure occurred"
+msgstr "Произошел сбой"
+
+#: src/Legacy/admin/album.php:215 src/Legacy/admin/album.php:263
+#: src/Legacy/admin/album.php:284 src/Legacy/admin/edit-thumbnail.php:18
+#: src/Legacy/admin/edit-thumbnail.php:22 src/Legacy/admin/manage.php:625
+#: src/Legacy/admin/rotate.php:16 src/Legacy/admin/rotate.php:20
+#: src/Legacy/admin/showmeta.php:10 src/Legacy/admin/showmeta.php:14
+msgid "Cheatin&#8217; uh?"
+msgstr "Эй! Жульничаем?"
+
+#. Plugin Name of the plugin
+#: nggallery.php src/IGW/ATPManager.php:251 src/IGW/BlockManager.php:80
+#: src/Legacy/admin/admin.php:99 src/Legacy/admin/admin.php:100
+#: src/Legacy/admin/media-upload.php:13 static/IGW/Block/src/block.jsx:10
+#: static/IGW/Block/build/block.min.js:173
+msgid "NextGEN Gallery"
+msgid_plural "NextGen Galleries"
+msgstr[0] "NextGEN Gallery"
+msgstr[1] "NextGEN Gallery"
+msgstr[2] "NextGEN Gallery"
+
+#: src/Legacy/admin/manage.php:416
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: src/Legacy/admin/functions.php:552
+msgid "Edit gallery"
+msgstr "Изменить галерею"
+
+#: src/Legacy/admin/media-upload.php:323
+msgid "Center"
+msgstr "По центру"
+
+#: src/Legacy/admin/manage-galleries.php:459
+msgid "New Gallery"
+msgstr "Новая галерея"
+
+#: src/Legacy/admin/manage-images.php:726
+msgid "Overwrite"
+msgstr "Перезаписать"
+
+#: src/Legacy/admin/manage-galleries.php:584
+#: src/Legacy/admin/manage-images.php:490
+msgid "Width x height (in pixel)"
+msgstr "Ширина и высота (px)"
+
+#: src/Legacy/admin/manage-images.php:224
+msgid " 25"
+msgstr " 25"
+
+#: src/Legacy/admin/manage-images.php:266
+#: src/Legacy/admin/manage-images.php:722
+msgid "Delete tags"
+msgstr "Удалить метки"
+
+#: src/Legacy/admin/manage.php:340
+msgid "Edit thumb"
+msgstr "Изменить миниатюру"
+
+#: src/Legacy/admin/manage.php:129 src/Legacy/admin/manage.php:138
+msgid "Operation successful. Please clear your browser cache."
+msgstr "Операция успешна. Пожалуйста, очистите кеш вашего браузера."
+
+#: src/Legacy/admin/manage.php:113
+msgid "deleted successfully"
+msgstr "успешно удален"
+
+#: src/Legacy/admin/manage-images.php:225
+msgid " 50"
+msgstr " 50"
+
+#: src/Legacy/admin/manage-images.php:226
+msgid " 75"
+msgstr " 75"
+
+#: src/Legacy/admin/functions.php:550
+msgid "%s picture successfully added"
+msgid_plural "%s pictures successfully added"
+msgstr[0] "%s рисунок успешно добавлена"
+msgstr[1] "%s рисунка успешно добавлены"
+msgstr[2] "%s рисунков успешно добавлены"
+
+#: src/Legacy/admin/manage.php:1081
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1 элемент"
+msgstr[1] "%s элемента"
+msgstr[2] "%s элементов"
+
+#: src/Legacy/admin/manage-images.php:229
+msgid "All"
+msgstr "Все"
+
+#: src/Legacy/admin/manage-galleries.php:470
+msgid "Allowed characters for file and folder names are"
+msgstr "Допустимыми символами для имен файлов и папок являются"
+
+#: src/Legacy/admin/manage.php:190
+msgid "Alt & Title Text / Description"
+msgstr "Тест Alt и Заголовка / Описание"
+
+#: src/Legacy/admin/manage-images.php:835
+msgid "Alt &amp; Title Text"
+msgstr "Тест Alt и Заголовка"
+
+#: src/Legacy/admin/manage-sort.php:184 src/Legacy/admin/media-upload.php:308
+msgid "Alt/Title text"
+msgstr "Тест Alt/Заголовка"
+
+#: src/Legacy/admin/manage-galleries.php:279
+#: src/Legacy/admin/manage-images.php:273
+msgid "Apply"
+msgstr "Применить"
+
+#: src/Legacy/admin/manage-sort.php:152
+msgid "Back to gallery"
+msgstr "Назад в галерею"
+
+#: src/Legacy/admin/manage-galleries.php:466
+msgid "Create a new , empty gallery below the folder"
+msgstr "Создать новую пустую галерею в папке"
+
+#: src/Legacy/admin/functions.php:547 src/Legacy/admin/manage-galleries.php:124
+#: src/Legacy/admin/manage-galleries.php:270
+#: src/Legacy/admin/manage-images.php:256
+#: src/Legacy/admin/manage-images.php:734 src/Legacy/admin/manage.php:670
+#: src/Legacy/admin/manage.php:749
+msgid "Create new thumbnails"
+msgstr "Создать новые миниатюры"
+
+#: src/Legacy/admin/functions.php:479
+msgid "Directory <strong>%s</strong> contains no pictures"
+msgstr "Каталог <strong>%s</strong> не содержит рисунков"
+
+#: src/Legacy/admin/functions.php:471
+msgid "Directory <strong>%s</strong> doesn&#96;t exist!"
+msgstr "Каталог <strong>%s</strong> не существует!!"
+
+#: src/Legacy/admin/album.php:494 src/Legacy/admin/album.php:558
+#: src/Legacy/admin/roles.php:59
+msgid "Edit Album"
+msgstr "Изменить альбом"
+
+#: src/Legacy/admin/manage-images.php:365
+msgid "Enter the tags"
+msgstr "Введите метки"
+
+#: src/Legacy/admin/functions.php:210
+msgid "Error while rotating image."
+msgstr "Ошибка при вращении изображения."
+
+#: src/Legacy/admin/manage-galleries.php:272
+#: src/Legacy/admin/manage-images.php:260 src/Legacy/admin/manage.php:596
+#: src/Legacy/admin/manage.php:721
+msgid "Import metadata"
+msgstr "Импорт метаданных"
+
+#: src/Legacy/admin/album.php:584
+msgid "Maximize the widget content"
+msgstr "Максимизация содержимого виджета"
+
+#: src/Legacy/admin/album.php:585
+msgid "Minimize the widget content"
+msgstr "Минимизировать содержимое виджета"
+
+#: src/Legacy/admin/manage.php:716
+msgid "Pictures deleted successfully "
+msgstr "Рисунки успешно удалены "
+
+#: src/Legacy/admin/manage-galleries.php:112
+#: src/Legacy/admin/manage-images.php:702
+msgid "No images selected"
+msgstr "Изображения не выбраны"
+
+#: src/Legacy/admin/manage-images.php:267
+msgid "Overwrite tags"
+msgstr "Перезаписать метки"
+
+#: src/Legacy/admin/manage-sort.php:160
+msgid "Presort"
+msgstr "Предсортировка"
+
+#: src/Legacy/admin/manage.php:449
+msgid "Preview image:"
+msgstr "Предпросмотр изображения:"
+
+#: src/Legacy/admin/album.php:687
+msgid "Select a preview image:"
+msgstr "Выбрать изображения для предпросмотра:"
+
+#: src/Legacy/admin/edit-thumbnail.php:172
+msgid "Select the area for the thumbnail from the picture on the left."
+msgstr "Выберите область для миниатюры на рисунке слева."
+
+#: src/Legacy/admin/manage-galleries.php:269
+#: src/Legacy/admin/manage-images.php:255 src/Legacy/admin/manage.php:591
+#: src/Legacy/admin/manage.php:697
+msgid "Set watermark"
+msgstr "Установить водяной знак"
+
+#: src/Legacy/admin/manage-images.php:739
+msgid ""
+"You are about to start the bulk edit for %s images \n"
+" \n"
+" 'Cancel' to stop, 'OK' to proceed."
+msgstr ""
+"Вы собираетесь начать массовое редактирование для %s изображений\n"
+"\n"
+"'Cancel' отменить, 'OK' продолжить."
+
+#: src/Legacy/admin/install.php:66
+msgid "NextGEN Gallery : Tables could not created, please check your database settings"
+msgstr "NextGEN Gallery: не удалось создать таблицы, проверьте настройки базы данных"
+
+#: src/Util/Installer.php:245
+msgid "Sorry, NextGEN Gallery works only with a role called administrator"
+msgstr "Извините, NextGEN Gallery работает только из под администратора"
+
+#: src/Legacy/admin/overview.php:32
+msgid "Welcome to NextGEN Gallery"
+msgstr "Добро пожаловать в NextGEN Gallery"
+
+#: src/Legacy/admin/manage-galleries.php:533
+#: src/Legacy/admin/manage-images.php:459
+msgid "Width x height (in pixel). NextGEN Gallery will keep ratio size"
+msgstr "Ширина x высота (в пикселях). NextGEN Gallery сохранит соотношение размеров"
+
+#: src/Legacy/admin/media-upload.php:337
+msgid "Singlepic"
+msgstr "Одиночное изображение"
+
+#: src/Legacy/admin/manage.php:938
+msgid "created"
+msgstr "создан"
+
+#: src/Legacy/admin/manage-images.php:710
+msgid "Copy image to..."
+msgstr "Копировать изображение в..."
+
+#: src/Legacy/admin/manage-galleries.php:601
+#: src/Legacy/admin/manage-images.php:506
+msgid "Ignore the aspect ratio, no portrait thumbnails"
+msgstr "Игнорировать соотношение сторон, не для миниатюр"
+
+#: src/Legacy/admin/manage-galleries.php:424
+#: src/Legacy/admin/manage-images.php:329
+msgid "No entries found"
+msgstr "Записей нет"
+
+#: src/Legacy/admin/manage-galleries.php:267
+#: src/Legacy/admin/manage-images.php:254
+msgid "Bulk actions"
+msgstr "Действия с группой изображений"
+
+#: src/Legacy/admin/functions.php:246
+msgid "Error while applying watermark to image."
+msgstr "Ошибка при нанесении водяного знака на изображение."
+
+#: src/Legacy/admin/functions.php:73
+msgid "Error while creating thumbnail."
+msgstr "Ошибка при создании эскиза."
+
+#: src/Legacy/admin/edit-thumbnail.php:157
+msgid "Error updating thumbnail"
+msgstr "Ошибка обновления эскиза"
+
+#: src/Legacy/admin/album.php:681
+msgid "Album description:"
+msgstr "Описание альбома"
+
+#: src/Legacy/admin/album.php:609
+msgid "No album selected!"
+msgstr "Альбомы не выбраны!"
+
+#: src/Legacy/admin/album.php:275
+msgid "Album deleted"
+msgstr "Альбом удален"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:329
+#: products/photocrati_nextgen/modules/displaytype_admin/templates/nextgen_basic_singlepic_settings_dimensions.php:13
+#: products/photocrati_nextgen/modules/displaytype_admin/templates/nextgen_basic_slideshow_settings_gallery_dimensions.php:15
+#: templates/Widget/Form/Slideshow.php:75
+msgid "Width"
+msgstr "Ширина"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:329
+#: products/photocrati_nextgen/modules/displaytype_admin/templates/nextgen_basic_singlepic_settings_dimensions.php:20
+#: products/photocrati_nextgen/modules/displaytype_admin/templates/nextgen_basic_slideshow_settings_gallery_dimensions.php:23
+#: templates/Widget/Form/Slideshow.php:63
+msgid "Height"
+msgstr "Высота"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:357
+#: src/Legacy/admin/media-upload.php:321
+msgid "Left"
+msgstr "Слева"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:357
+#: src/Legacy/admin/media-upload.php:325
+msgid "Right"
+msgstr "Справа"
+
+#: src/Legacy/admin/admin.php:107 src/Legacy/admin/admin.php:149
+msgid "Overview"
+msgstr "Обзор"
+
+#: src/DataStorage/MetaData.php:499 src/Legacy/lib/meta.php:506
+msgid "Contact"
+msgstr "Контакт"
+
+#: src/DataStorage/MetaData.php:497 src/Legacy/lib/meta.php:504
+msgid "Category"
+msgstr "Рубрика"
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:1378
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:122
+#: src/DataStorage/MetaData.php:523 src/DisplayedGallery/SourceManager.php:52
+#: src/Legacy/admin/manage.php:194 src/Legacy/lib/meta.php:530
+msgid "Tags"
+msgstr "Метки"
+
+#: src/DataStorage/MetaData.php:494 src/Legacy/admin/manage-galleries.php:678
+#: src/Legacy/admin/manage.php:434 src/Legacy/lib/meta.php:501
+msgid "Author"
+msgstr "Автор"
+
+#: src/DataStorage/MetaData.php:515 src/Legacy/lib/meta.php:522
+msgid "Location"
+msgstr "Местонахождение"
+
+#: src/DataStorage/MetaData.php:522 src/Legacy/lib/meta.php:529
+msgid "Subject"
+msgstr "Тема"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "Height:"
+msgstr "Высота:"
+
+#: src/Legacy/view/imagebrowser-caption.php:30
+#: src/Legacy/view/imagebrowser-exif.php:34 src/Legacy/view/imagebrowser.php:30
+#: templates/ImageBrowser/nextgen_basic_imagebrowser.php:55
+msgid "Back"
+msgstr "Назад"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:333
+msgid "Link"
+msgstr "Ссылка"
+
+#: src/DataStorage/MetaData.php:501 src/Legacy/lib/meta.php:508
+msgid "Country"
+msgstr "Страна"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:337
+msgid "Blank"
+msgstr "Пустой"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:337
+msgid "Parent"
+msgstr "Родитель"
+
+#: src/Legacy/admin/admin.php:120
+msgid "Network settings"
+msgstr "Настройки сети"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:681
+msgid "Font Size:"
+msgstr "Размер шрифта:"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:681
+msgid "Font Color:"
+msgstr "Цвет шрифта:"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:681
+msgid "Opacity:"
+msgstr "Непрозрачность:"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:612
+msgid "Watermarks"
+msgstr "Водяные знаки"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:546
+msgid "Size List"
+msgstr "Список размеров"
+
+#: src/DisplayTypes/Taxonomy.php:98
+msgid "Images tagged &quot;%s&quot;"
+msgstr "Изображения с меткой &quot;%s&quot;"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:681
+msgid "Text:"
+msgstr "Текст:"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "Width:"
+msgstr "Ширина:"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "Quality:"
+msgstr "Качество:"
+
+#: src/Legacy/admin/admin.php:260
+msgid "Unexpected Error"
+msgstr "Неожиданная ошибка"
+
+#: src/Legacy/admin/admin.php:259
+msgid "You do not have the correct permission"
+msgstr "У вас нет правильного разрешения"
+
+#: src/Settings/Installer.php:47
+msgid "Related Images"
+msgstr "Связанные изображения"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/templates/lightbox_library_tab.php:44
+msgid "Try to apply to all images that link to image files"
+msgstr "Попробуйте применить ко всем изображениям, которые ссылаются на файлы изображений"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/templates/lightbox_library_tab.php:43
+msgid "Try to apply to all images"
+msgstr "Попробуйте применить ко всем изображениям"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/templates/lightbox_library_tab.php:41
+msgid "Only apply to NextGEN images"
+msgstr "Применяются только к изображениям NextGEN"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/templates/lightbox_library_tab.php:37
+msgid "What must the lightbox be applied to?"
+msgstr "К чему должен применяться лайтбокс?"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:706
+msgid "Offset:"
+msgstr "Смещение:"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:706
+msgid "Position:"
+msgstr "Позиция:"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:706
+msgid "How will you generate a watermark?"
+msgstr "Как вы будете генерировать водяной знак?"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:706
+msgid "Please note: You can only activate the watermark under Manage Gallery. This action cannot be undone."
+msgstr "Обратите внимание: активировать водяной знак можно только в разделе Управление галереей. Это действие не может быть отменено."
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:670
+msgid "Image URL:"
+msgstr "URL изображения:"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:668
+msgid "An absolute or relative (to the site document root) file system path or an HTTP url"
+msgstr "Абсолютный или относительный (к корню сайта) путь к файловой системе или URL-адрес HTTP"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:640
+msgid "Using Text"
+msgstr "Использовать текст"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:640
+msgid "Using an Image"
+msgstr "Использовать изображене"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:546
+msgid "List of default sizes used for thumbnails and images"
+msgstr "Список размеров по умолчанию, используемых для миниатюр и изображений"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:546
+msgid "When generating thumbnails, what image quality do you desire?"
+msgstr "Какое качество изображения вы хотите при создании миниатюр?"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:546
+msgid "Adjust Thumbnail Quality?"
+msgstr "Отрегулировать качество миниатюр?"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:546
+msgid "Set fix dimension?"
+msgstr "Установить фиксированный размер?"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:546
+msgid "When generating thumbnails, what image dimensions do you desire?"
+msgstr "При создании эскизов, какие размеры изображения вы хотите?"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:541
+msgid "Thumbnail Options"
+msgstr "Параметры миниатюр"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:514
+msgid "Roles & Capabilities"
+msgstr "Роли и возможности"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:465
+msgid "Reset settings"
+msgstr "Сбросить настройки"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:465
+msgid "Replace all existing options and gallery options with their default settings"
+msgstr "Заменить все существующие параметры и параметры галереи на настройки по умолчанию"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:461
+msgid "Reset Options"
+msgstr "Сбросить параметры"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Note: This limit will not apply to slideshow widgets or random galleries if/when those galleries specify their own image limits"
+msgstr "Примечание. Это ограничение не будет применяться к виджетам слайд-шоу или случайным галереям, если / когда эти галереи задают свои собственные ограничения изображения"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "This is the maximum limit of images that NextGEN will restrict itself to querying"
+msgstr "Это максимальный предел изображений, который NextGEN будет ограничивать для запросов"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Maximum image count"
+msgstr "Максимальное количество изображений"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid ""
+"Completely clear the NextGEN cache of all image modifications?\n"
+"\n"
+"Choose [Cancel] to Stop, [OK] to proceed."
+msgstr ""
+"Полностью очистить кеш NextGEN от всех модификаций изображений?\n"
+"\n"
+" [Cancel] отмена, [OK] продолжить."
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Clear image cache"
+msgstr "Очистить кэш изображений"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Add MediaRSS link?"
+msgstr "Добавить ссылку на MediaRSS?"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "Sort in what direction?"
+msgstr "Сортировать в каком направлении?"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "What's the default sorting method?"
+msgstr "Метод сортировки по умолчанию?"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "How should related images be matched?"
+msgstr "Как должны быть сопоставлены связанные изображения?"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "Show Related Images on Posts?"
+msgstr "Показывать похожие изображения в сообщениях?"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "Where galleries and their images are stored"
+msgstr "Место хранения галерей и их изображений"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "Where would you like galleries stored?"
+msgstr "Где бы вы хотели хранить галереи?"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "Gallery path does not exist and could not be created"
+msgstr "Путь к галерее не существует и не может быть создан"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:115
+#: src/Legacy/admin/manage-sort.php:196
+msgid "Ascending"
+msgstr "По возрастанию"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:115
+#: src/Legacy/admin/manage-sort.php:202
+msgid "Descending"
+msgstr "По убыванию"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:106
+#: src/Legacy/admin/manage-images.php:834 src/Legacy/admin/manage-sort.php:178
+#: src/Legacy/admin/manage.php:186
+msgid "Filename"
+msgstr "Имя файла"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:106
+#: src/Legacy/admin/manage-sort.php:172 src/REST/Admin/Block.php:36
+msgid "Image ID"
+msgstr "ID изображения"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:97
+msgid "Image Options"
+msgstr "Параметры изображения"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:27
+msgid "Code"
+msgstr "Код"
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:1392
+#: src/DisplayedGallery/SourceManager.php:68
+msgid "Recent Images"
+msgstr "Последние изображения"
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:1385
+#: src/DisplayedGallery/SourceManager.php:60
+msgid "Random Images"
+msgstr "Случайные изображения"
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:1173
+#: src/DataTypes/DisplayedGallery.php:912
+msgid "Source not compatible with selected display type"
+msgstr "Источник не совместим с выбранным типом дисплея"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:69
+#: src/Display/DisplayManager.php:330 src/Legacy/admin/manage-images.php:179
+msgid "Gallery Settings"
+msgstr "Настройки галереи"
+
+#: src/DisplayedGallery/Renderer.php:249 src/DisplayedGallery/Renderer.php:251
+msgid "We cannot display this gallery"
+msgstr "Невозможно отобразить эту галерею"
+
+#: src/DataStorage/MetaData.php:511 src/Legacy/lib/meta.php:518
+msgid "Image Height"
+msgstr "Высота изображения"
+
+#: src/DataStorage/MetaData.php:526 src/Legacy/lib/meta.php:533
+msgid "Image Width"
+msgstr "Ширина изображения"
+
+#: src/DataStorage/MetaData.php:509 src/Legacy/lib/meta.php:516
+msgid "Format"
+msgstr "Формат"
+
+#: src/DataStorage/MetaData.php:525 src/Legacy/lib/meta.php:532
+msgid "Program tool"
+msgstr "Программный инструмент"
+
+#: src/DataStorage/MetaData.php:514 src/Legacy/lib/meta.php:521
+msgid "Last modified"
+msgstr "Последние изменения"
+
+#: src/DataStorage/MetaData.php:500 src/Legacy/lib/meta.php:507
+msgid "Copyright Notice"
+msgstr "Уведомление об авторских правах"
+
+#: src/DataStorage/MetaData.php:519 src/Legacy/lib/meta.php:526
+msgid "Source"
+msgstr "Источник"
+
+#: src/DataStorage/MetaData.php:510 src/Legacy/lib/meta.php:517
+msgid "Headline"
+msgstr "Заголовок"
+
+#: src/DataStorage/MetaData.php:502 src/Legacy/lib/meta.php:509
+msgid "Country code"
+msgstr "Код страны"
+
+#: src/DataStorage/MetaData.php:520 src/Legacy/lib/meta.php:527
+msgid "Province/State"
+msgstr "Область / Штат"
+
+#: src/DataStorage/MetaData.php:498 src/Legacy/lib/meta.php:505
+msgid "City"
+msgstr "Город"
+
+#: src/DataStorage/MetaData.php:504 src/Legacy/lib/meta.php:511
+msgid "Time Created"
+msgstr "Время создания"
+
+#: src/DataStorage/MetaData.php:503 src/Legacy/lib/meta.php:510
+msgid "Date Created"
+msgstr "Дата создания"
+
+#: src/DataStorage/MetaData.php:513 src/Legacy/lib/meta.php:520
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+#: src/DataStorage/MetaData.php:521 src/Legacy/lib/meta.php:528
+msgid "Edit Status"
+msgstr "Изменить статус"
+
+#: src/DataStorage/MetaData.php:508 src/Legacy/lib/meta.php:515
+msgid "Focal length"
+msgstr "Фокусное расстояние"
+
+#: src/DataStorage/MetaData.php:518 src/Legacy/lib/meta.php:525
+#: src/Legacy/view/imagebrowser-exif.php:58
+msgid "Shutter speed"
+msgstr "Скорость затвора"
+
+#: src/DataStorage/MetaData.php:496 src/Legacy/lib/meta.php:503
+msgid "Caption"
+msgstr "Подпись"
+
+#: src/DataStorage/MetaData.php:495 src/Legacy/lib/meta.php:502
+msgid "Camera"
+msgstr "Камера"
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:3330
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:3479
+#: src/DataStorage/Manager.php:2102 src/DataStorage/Manager.php:2717
+msgid "Invalid image file. Acceptable formats: JPG, GIF, and PNG."
+msgstr "Неверный файл изображения. Допустимые форматы: JPG, GIF и PNG."
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:3309
+#: src/DataStorage/Manager.php:2076
+msgid "Sorry, you have used your space allocation. Please delete some files to upload more files."
+msgstr "Извините, вы использовали выделенное место. Пожалуйста, удалите несколько файлов, чтобы загрузить больше файлов."
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:583
+msgid "No template selected"
+msgstr "Шаблон не выбран"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:557
+msgid "Use a legacy template when rendering (not recommended)."
+msgstr "Используйте устаревший шаблон при рендеринге (не рекомендуется)."
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:508
+msgid "The display type that the tagcloud will point its results to"
+msgstr "Тип отображения, на который tagcloud будет указывать свои результаты"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:357
+msgid "Float"
+msgstr "Плавающий"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:665
+msgid "Slideshow link text"
+msgstr "Текст ссылки слайд-шоу"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:655
+msgid "Show slideshow link"
+msgstr "Показать ссылку на слайд-шоу"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:213
+msgid "Browse images without reloading the page."
+msgstr "Просматривайте изображения без перезагрузки страницы."
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:645
+msgid "When active each image in the gallery will link to an imagebrowser display and lightbox effects will not be applied."
+msgstr "При активации каждое изображение в галерее будет связано с отображением браузера, и эффекты лайтбокса не будут применяться."
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:621
+msgid "Images per page"
+msgstr "Изображений на странице"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:465
+msgid "Thumbnail link text"
+msgstr "Текст ссылки миниатюры"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:445
+msgid "Certain themes may allow images to flow over their container if this setting is too large"
+msgstr "Некоторые темы могут позволять изображениям перетекать через их контейнер, если этот параметр слишком велик"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:445
+msgid "Maximum dimensions"
+msgstr "Максимальные размеры"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:681
+msgid "Font Family:"
+msgstr "Семейство шрифтов:"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:641
+msgid "If pagination is used this option will show all images in the modal window (Thickbox, Lightbox etc.) This increases page load."
+msgstr "Если используется разбиение на страницы, эта опция покажет все изображения в модальном окне (Thickbox, Lightbox и т.д.). Это увеличивает загрузку страницы."
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:641
+msgid "Add Hidden Images"
+msgstr "Добавить скрытые изображения"
+
+#: src/DataStorage/MetaData.php:524 src/Legacy/admin/album.php:839
+#: src/Legacy/lib/meta.php:531 templates/Widget/Form/Gallery.php:4
+#: templates/Widget/Form/MediaRSS.php:3 templates/Widget/Form/Slideshow.php:3
+msgid "Title"
+msgstr "Заголовок"
+
+#: src/DataStorage/MetaData.php:512 src/Legacy/lib/meta.php:519
+msgid "ISO"
+msgstr "ISO"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/templates/lightbox_library_tab.php:42
+msgid "Only apply to NextGEN and WordPress images"
+msgstr "Применяется только к изображениям NextGEN и WordPress"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:122
+msgid "Categories"
+msgstr "Рубрики"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:487
+msgid "Maximum number of tags"
+msgstr "Максимальное кол-во меток"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "Heading for related images"
+msgstr "Заголовок для связанных изображений"
+
+#: src/DataStorage/MetaData.php:143 src/Legacy/lib/meta.php:147
+msgid " mm"
+msgstr " мм"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:546
+msgid "Default thumbnail dimensions:"
+msgstr "Размеры миниатюр по умолчанию:"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "Delete Image Files?"
+msgstr "Удалить файлы изображений?"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:455
+msgid "Show thumbnail link"
+msgstr "Показать ссылку на миниатюру"
+
+#: src/XMLRPC/Controller.php:400
+msgid "Sorry, you must be able to manage galleries"
+msgstr "Извините, вы не можете управлять галереями"
+
+#: src/DataStorage/MetaData.php:151 src/Legacy/lib/meta.php:155
+msgid " sec"
+msgstr " сек"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:631
+msgid "# of columns"
+msgstr "# колонок"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:706
+msgid "(Hide Customization Options)"
+msgstr "(Скрыть параметры индивидуализации)"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "(Hide Customization Settings)"
+msgstr "(Скрыть настройки индивидуализации)"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:706
+msgid "(Show Customization Options)"
+msgstr "(Показать параметры индивидуализации)"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "(Show Customization Settings)"
+msgstr "(Показать настройки индивидуализации)"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "After images are uploaded, they will be resized to the above dimensions and quality"
+msgstr "После загрузки изображений они будут изменены в соответствии с указанными выше размерами и качеством"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:106
+msgid "Alt/Title Text"
+msgstr "Тест Alt/Заголовка"
+
+#: src/DataStorage/MetaData.php:517 src/Legacy/lib/meta.php:524
+msgid "Author Position"
+msgstr "Позиция автора"
+
+#: src/DataStorage/MetaData.php:493 src/Legacy/lib/meta.php:500
+#: src/Legacy/view/imagebrowser-exif.php:50
+msgid "Aperture"
+msgstr "Диафрагма"
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:2115
+#: src/DataStorage/Manager.php:638
+msgid "Could not calculate resized image dimensions"
+msgstr "Не удалось рассчитать размеры измененного изображения"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "Automatically resize images after upload"
+msgstr "Автоматическое изменение размера изображений после загрузки"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "Backup the original images?"
+msgstr "Резервное копирование исходных изображений?"
+
+#: src/DataStorage/MetaData.php:506 src/Legacy/lib/meta.php:513
+msgid "Credit"
+msgstr "Кредит"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:353
+msgid "Crop thumbnail"
+msgstr "Кадрировать миниатюру"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Display galleries in feeds"
+msgstr "Отображать галереи в feeds"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:349
+msgid "Display reflection"
+msgstr "Отобрать отражение"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:508
+msgid "Display type"
+msgstr "Тип отображения"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:345
+msgid "Display watermark"
+msgstr "Отображать водяной знак"
+
+#: src/Legacy/admin/manage.php:113 src/Legacy/view/imagebrowser-caption.php:35
+#: src/Legacy/view/imagebrowser-exif.php:39 src/Legacy/view/imagebrowser.php:35
+#: templates/ImageBrowser/nextgen_basic_imagebrowser.php:69
+msgid "Picture"
+msgstr "Рисунок"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "It is recommended that your images be resized to be web friendly"
+msgstr "Рекомендуется изменить размер изображений, чтобы они были удобны для использования в интернете"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:43
+msgid "Javascript URL"
+msgstr "URL JavaScript"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:337
+msgid "Link target"
+msgstr "Целевая ссылка"
+
+#: src/DataStorage/MetaData.php:516 src/Legacy/lib/meta.php:523
+msgid "Make"
+msgstr "Сделать"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:331
+msgid "Miscellaneous"
+msgstr "Разное"
+
+#: src/Legacy/admin/manage.php:785
+msgid "Moved %1$s picture(s) to gallery: %2$s ."
+msgstr "Перемещено %1$s изображений в галерею: %2$s ."
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/module.nextgen_other_options.php:75
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:395
+msgid "Other Options"
+msgstr "Другие параметры"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "What should images be resized to?"
+msgstr "Изменить размер изображения?"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "When enabled, image files will be removed after a Gallery has been deleted"
+msgstr "Если включено, файлы изображений будут удалены после удаления галереи"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "When enabled, related images will be appended to each post by matching the posts tags/categories to image tags"
+msgstr "Когда этот параметр включен, связанные изображения будут добавляться к каждому сообщению путем сопоставления тегов / категорий сообщений с тегами изображений"
+
+#: src/DisplayTypes/ImageBrowser.php:231
+msgid "NextGEN Basic ImageBrowser"
+msgstr "NextGEN основной браузер изображений"
+
+#: src/DisplayTypes/Slideshow.php:183
+msgid "NextGEN Basic Slideshow"
+msgstr "NextGEN основное слайд-шоу"
+
+#: src/DisplayTypes/TagCloud.php:169
+msgid "NextGEN Basic TagCloud"
+msgstr "NextGEN основное облако меток"
+
+#: src/DisplayTypes/Thumbnails.php:332
+msgid "NextGEN Basic Thumbnails"
+msgstr "NextGEN основные миниатюры"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "NextGEN hides its gallery displays in feeds other than MediaRSS. This enables image galleries in feeds."
+msgstr "NextGEN скрывает отображение галерей в фидах, отличных от MediaRSS. Это позволяет использовать галереи изображений в фидах."
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:631
+msgid "Number of columns to display"
+msgstr "Количество колонок для отображения"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "Permalink slug"
+msgstr "Ярлык постоянной ссылки"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:706
+msgid "Preview of saved settings:"
+msgstr "Предварительный просмотр сохраненных настроек:"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:706
+msgid "Refresh preview image"
+msgstr "Обновить изображение для предпросмотра"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:465
+msgid ""
+"Reset all options to default settings?\n"
+"\n"
+"Choose [Cancel] to Stop, [OK] to proceed."
+msgstr ""
+"Сбросить все параметры до настроек по умолчанию?\n"
+"\n"
+"[Cancel] для отмены, [OK] продолжить."
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:35
+msgid "Stylesheet URL"
+msgstr "URL-адрес таблицы стилей"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:645
+msgid "Use imagebrowser effect"
+msgstr "Использовать эффект браузера изображений"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+msgid "When enabled, adds a MediaRSS link to your header. Third-party web services can use this to publish your galleries"
+msgstr "При включении добавляет ссылку Media RSS в заголовок. Сторонние веб-сервисы могут использовать ее для публикации ваших галерей"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:666
+msgid "An absolute or relative (to the site document root) file system path"
+msgstr "Абсолютный или относительный (к корню документа сайта) путь к файловой системе"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:268
+msgid "Lightbox Effects"
+msgstr "Эффекты лайтбокса"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+msgid "Maximum # of related images to display"
+msgstr "Макс. кол-во связанных изображений для отображения"
+
+#: src/DisplayTypes/SinglePicture.php:222
+msgid "NextGEN Basic SinglePic"
+msgstr "NextGEN основное одиночное изображение"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:337
+msgid "Top"
+msgstr "Top"
+
+#: src/DataStorage/MetaData.php:507 src/Legacy/lib/meta.php:514
+msgid "Flash"
+msgstr "Запись"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:337
+msgid "Self"
+msgstr "Self"
+
+#: src/DataStorage/MetaData.php:159 src/Legacy/lib/meta.php:163
+msgid "Not fired"
+msgstr "Not fired"
+
+#: src/DataStorage/MetaData.php:157 src/DataStorage/MetaData.php:159
+#: src/Legacy/lib/meta.php:161 src/Legacy/lib/meta.php:163
+msgid "Fired"
+msgstr "Fired"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:546
+msgid "Ignore the aspect ratio, no portrait thumbnails?"
+msgstr "Игнорировать пропорции, нет портретных миниатюр?"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:106
+#: src/DataStorage/MetaData.php:505 src/Legacy/admin/manage-sort.php:190
+#: src/Legacy/lib/meta.php:512
+msgid "Date/Time"
+msgstr "Дата / время"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:621
+msgid "0 will display all images at once"
+msgstr "0 покажет все изображения одновременно"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:431
+msgid "Interval"
+msgstr "интервал"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:280
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:556
+msgid "Default"
+msgstr "По умолчанию"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:357
+#: src/Display/LightboxManager.php:34 src/Legacy/admin/media-upload.php:319
+msgid "None"
+msgstr "Отсутствует"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:39
+msgid "Items per page"
+msgstr "Элементов на странице"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/templates/nextgen_basic_singlepic_settings_radio.php:30
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:178
+#: products/photocrati_nextgen/modules/nextgen_admin/templates/field_generator/nextgen_settings_field_radio.php:30
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:706
+#: products/photocrati_nextgen/modules/nextgen_other_options/templates/image_options_tab.php:55
+#: products/photocrati_nextgen/modules/nextgen_other_options/templates/image_options_tab.php:81
+#: products/photocrati_nextgen/modules/nextgen_other_options/templates/image_options_tab.php:204
+#: products/photocrati_nextgen/modules/nextgen_other_options/templates/thumbnail_options_tab.php:50
+msgid "No"
+msgstr "Нет"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/templates/nextgen_basic_singlepic_settings_radio.php:22
+#: products/photocrati_nextgen/modules/marketing/package.module.marketing.php:177
+#: products/photocrati_nextgen/modules/nextgen_admin/templates/field_generator/nextgen_settings_field_radio.php:22
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:146
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:341
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:706
+#: products/photocrati_nextgen/modules/nextgen_other_options/templates/image_options_tab.php:48
+#: products/photocrati_nextgen/modules/nextgen_other_options/templates/image_options_tab.php:74
+#: products/photocrati_nextgen/modules/nextgen_other_options/templates/image_options_tab.php:197
+#: products/photocrati_nextgen/modules/nextgen_other_options/templates/thumbnail_options_tab.php:43
+msgid "Yes"
+msgstr "Да"
+
+#: src/Display/LightboxManager.php:93
+#: src/Legacy/view/imagebrowser-caption.php:33
+#: src/Legacy/view/imagebrowser-exif.php:37 src/Legacy/view/imagebrowser.php:33
+#: templates/ImageBrowser/nextgen_basic_imagebrowser.php:63
+msgid "Next"
+msgstr "Далее"
+
+#: src/Display/LightboxManager.php:94 src/Display/LightboxManager.php:118
+msgid "Close"
+msgstr "Закрыть"
+
+#: src/IGW/Controller.php:531
+msgid "NextGEN Gallery - Attach To Post"
+msgstr "NextGEN Gallery - Закрепить за записью"
+
+#: src/REST/Admin/AttachToPost.php:131
+msgid "Gallery: %s"
+msgstr "Галерея: %s"
+
+#: src/REST/Admin/AttachToPost.php:129
+msgid "Album: %s"
+msgstr "Альбом: %s"
+
+#. Translators: %d - NGG_CRON_SCHEDULE constant -- do not translate.
+#: nggallery.php:858
+msgid "Every %d seconds"
+msgstr "Каждые %d секунд"
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:1371
+#: src/Admin/Views/onboarding-wizard/step-2.php:64
+#: src/DisplayedGallery/SourceManager.php:44
+msgid "Albums"
+msgstr "Альбомы"
+
+#: products/photocrati_nextgen/modules/legacy_compat/package.module.legacy_compat.php:1364
+#: src/DisplayedGallery/SourceManager.php:36
+msgid "Galleries"
+msgstr "Галереи"
+
+#: src/IGW/Controller.php:411
+msgid "Slug"
+msgstr "Ярлык"
+
+#: src/Legacy/admin/admin.php:110 src/Legacy/admin/admin.php:188
+msgid "Manage Tags"
+msgstr "Управление метками"
+
+#: src/Display/LightboxManager.php:74 src/Legacy/admin/admin.php:296
+msgid "L O A D I N G"
+msgstr "ЗАГРУЗКА"
+
+#: src/Display/LightboxManager.php:75 src/Legacy/admin/admin.php:297
+#: templates/AttachToPost/display_tab.php:36
+msgid "Click to Close"
+msgstr "Нажмите, чтобы закрыть"
+
+#: src/Display/LightboxManager.php:99
+#: static/IGW/Block/src/components/ngg-post-thumbnail.jsx:12
+#: static/IGW/Block/build/post-thumbnail.min.js:710
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: src/Display/LightboxManager.php:98 src/Display/LightboxManager.php:117
+#: src/Legacy/view/imagebrowser-caption.php:35
+#: src/Legacy/view/imagebrowser-exif.php:39 src/Legacy/view/imagebrowser.php:35
+#: templates/ImageBrowser/default-view.php:70
+#: templates/ImageBrowser/nextgen_basic_imagebrowser.php:71
+msgid "of"
+msgstr "из"
+
+#: src/Display/LightboxManager.php:96
+msgid "Fit to Screen"
+msgstr "По размеру экрана"
+
+#: src/Display/LightboxManager.php:95
+msgid "Full Size"
+msgstr "Полный размер"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:147
+msgid "Failed to extract images from ZIP"
+msgstr "Не удалось извлечь изображения из ZIP"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:108
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:134
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:299
+msgid "No gallery name specified"
+msgstr "Не указано название галереи"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/import_folder.php:79
+msgid "Upload complete"
+msgstr "Загрузка завершена"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:45
+msgid "{count} images were uploaded successfully. <a href=\"%s\" target=\"_blank\">Manage gallery</a>"
+msgstr "{count} изображения были успешно загружены. <a href=\"%s\" target=\"_blank\">Manage gallery</a>"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:29
+msgid "How would you like galleries to be displayed?"
+msgstr "Как бы вы хотели, чтобы галереи отображались?"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:402
+msgid "Saved successfully"
+msgstr "Успешно сохранено"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:182
+msgid "Average"
+msgstr "Средний"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:182
+msgid "First Image"
+msgstr "Первое изображение"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:178
+msgid "Pixels"
+msgstr "Пиксели"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:178
+msgid "Percent"
+msgstr "Проценты"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:178
+msgid "Gallery width"
+msgstr "Ширина галереи"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:244
+msgid "Image watermark"
+msgstr "Водяной знак изображения"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:242
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:341
+msgid "Image quality"
+msgstr "Качество изображения"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:407
+#: src/IGW/Controller.php:552
+msgid "Upload Images"
+msgstr "Загрузить изображения"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:269
+msgid "No folder specified"
+msgstr "Папка не указана"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:260
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:272
+msgid "No permissions to import folders. Try refreshing the page or ensuring that your user account has sufficient roles/privileges."
+msgstr "Нет разрешений на импорт папок. Попробуйте обновить страницу или убедиться, что ваша учетная запись имеет достаточные привилегии."
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:232
+msgid "No directory specified."
+msgstr "Каталог не указан."
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:229
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:235
+msgid "No permissions to browse folders. Try refreshing the page or ensuring that your user account has sufficient roles/privileges."
+msgstr "Нет разрешений на просмотр папок. Попробуйте обновить страницу или убедиться, что ваша учетная запись имеет достаточные привилегии."
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:265
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:287
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:338
+msgid "An unexpected error occured."
+msgstr "Произошла непредвиденная ошибка."
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:165
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:312
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:329
+msgid "Image generation failed"
+msgstr "Ошибка генерации изображения"
+
+#: src/Display/LightboxManager.php:119
+msgid "This feature requires inline frames. You have iframes disabled or your browser does not support them."
+msgstr "Эта функция требует встроенных кадров. У вас отключены фреймы или ваш браузер их не поддерживает."
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:97
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:181
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:344
+msgid "No permissions to upload images. Try refreshing the page or ensuring that your user account has sufficient roles/privileges."
+msgstr "Нет разрешений для загрузки изображений. Попробуйте обновить страницу или убедиться, что ваша учетная запись имеет достаточные привилегии."
+
+#: src/Display/LightboxManager.php:63
+msgid "Shutter"
+msgstr "Затвор"
+
+#: src/IGW/Controller.php:844
+msgid "Sort or Exclude Images"
+msgstr "Сортировать или исключить изображения"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:223
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:329
+msgid "Thumbnail dimensions"
+msgstr "Размер миниатюры"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:222
+msgid "This does not affect existing thumbnails; overriding the thumbnail settings will create an additional set of thumbnails. To change the size of existing thumbnails please visit 'Manage Galleries' and choose 'Create new thumbnails' for all images in the gallery."
+msgstr "Это не влияет на существующие эскизы; переопределение настроек миниатюр создаст дополнительный набор миниатюр. Чтобы изменить размер существующих миниатюр, посетите «Управление галереями» и выберите «Создать новые миниатюры» для всех изображений в галерее."
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/import_media_library.php:4
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/upload_images.php:18
+msgid "Create a new gallery"
+msgstr "Создать новую галерею"
+
+#: src/IGW/Controller.php:824
+msgid "No display type selected"
+msgstr "Не выбран тип отображения"
+
+#: src/IGW/Controller.php:414
+msgid "Select a Gallery"
+msgstr "Выбрать галерею"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:43
+msgid "Enable breadcrumbs"
+msgstr "Включить цепочку навигации"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/import_media_library.php:2
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/upload_images.php:12
+#: src/Legacy/admin/admin.php:119 src/Legacy/admin/admin.php:141
+#: src/Legacy/admin/admin.php:384 src/Legacy/admin/manage-galleries.php:676
+msgid "Gallery"
+msgid_plural "Galleries"
+msgstr[0] "Галерея"
+msgstr[1] "Галереи"
+msgstr[2] "Галерей"
+
+#: src/Display/LightboxManager.php:97 src/Display/LightboxManager.php:116
+#: src/Legacy/admin/manage-galleries.php:680
+#: templates/ImageBrowser/default-view.php:68
+msgid "Image"
+msgid_plural "Images"
+msgstr[0] "Изображение"
+msgstr[1] "Изображения"
+msgstr[2] "Изображений"
+
+#: src/IGW/Controller.php:566 src/Legacy/admin/admin.php:109
+#: src/Legacy/admin/admin.php:178 src/Legacy/admin/album.php:528
+msgid "Manage Albums"
+msgid_plural "Albums"
+msgstr[0] "Управление альбомами"
+msgstr[1] "Управление альбомами"
+msgstr[2] "Управление альбомами"
+
+#: src/IGW/Controller.php:559 src/Legacy/admin/admin.php:108
+#: src/Legacy/admin/admin.php:168 src/Legacy/admin/manage-galleries.php:202
+msgid "Manage Galleries"
+msgid_plural "Manage Galleries"
+msgstr[0] "Управление галереями"
+msgstr[1] "Управление галереями"
+msgstr[2] "Управление галереями"
+
+#: src/Display/LightboxManager.php:114
+msgid "Next &gt;"
+msgstr "Далее &gt;"
+
+#: src/IGW/Controller.php:412
+msgid "No entities to display for this source"
+msgstr "Нет объектов для отображения для этого источника"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:178
+msgid "An empty or 0 setting will make the gallery full width"
+msgstr "Пустое или 0 значение сделает галерею полноразмерной"
+
+#: products/photocrati_nextgen/modules/nextgen_admin/package.module.nextgen_admin.php:178
+#: src/IGW/Controller.php:409
+msgid "(optional)"
+msgstr "(необязательно)"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:39
+msgid "Maximum number of galleries or sub-albums to appear on a single page"
+msgstr "Максимальное кол-во галерей или вложенных альбомов на страницу"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:226
+msgid "Directory does not exist."
+msgstr "Каталог не существует."
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:237
+msgid "Override image settings"
+msgstr "Переопределить настройки изображения"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:222
+msgid "Override thumbnail settings"
+msgstr "Отменить настройки миниатюр"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:237
+msgid "Overriding the image settings will create an additional set of images"
+msgstr "Переопределение настроек изображения создаст дополнительный набор изображений"
+
+#: src/Display/LightboxManager.php:115
+msgid "&lt; Prev"
+msgstr "&lt; Назад"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:45
+msgid "0 images were uploaded"
+msgstr "Загружено 0 изображений"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:45
+msgid "1 image was uploaded successfully. <a href=\"%s\" target=\"_blank\">Manage gallery</a>"
+msgstr "Успешно загружено 1 изображение. <a href=\"%s\" target=\"_blank\">Управление галереей</a>"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:243
+msgid "Image crop"
+msgstr "Кадрирование изображения"
+
+#: src/IGW/ATPManager.php:376
+msgid "Attach NextGEN Gallery to Post"
+msgstr "Прикрепить NextGEN Gallery к записи"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/import_folder.php:74
+msgid "Done! Successfully imported {count} images. <a href=\"%s\" target=\"_blank\">Manage gallery</a>"
+msgstr "Готово! Успешно импортировано {count} изображений. <a href=\"%s\" target=\"_blank\">Управление галереей</a>"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:213
+msgid "Enable AJAX pagination"
+msgstr "Включить AJAX пагинацию"
+
+#: src/Display/LightboxManager.php:50
+msgid "Fancybox"
+msgstr "Fancybox"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:45
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/import_folder.php:54
+msgid "In Progress..."
+msgstr "В обработке..."
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:50
+msgid "Import %d image(s)"
+msgstr "Импорт %d изображения(й)"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:45
+msgid "Import %s images"
+msgstr "Импорт %s изображений"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:45
+msgid "Import 1 image"
+msgstr "Импорт 1 изображения"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:45
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/import_folder.php:52
+msgid "Importing gallery"
+msgstr "Импортирование галереи"
+
+#: src/IGW/ATPManager.php:196
+msgid "Invalid Displayed Gallery"
+msgstr "Неверное отображение галереи"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:12
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/templates/import_folder.php:12
+msgid "Import Folder"
+msgstr "Папка для импорта"
+
+#: src/Display/LightboxManager.php:92
+msgid "Previous"
+msgstr "Предыдущая"
+
+#: src/IGW/Controller.php:410
+msgid "Sets an SEO-friendly name to this gallery for URLs. Currently only in use by the Pro Lightbox"
+msgstr "Устанавливает SEO-дружественное название для этой галереи для URL. В настоящее время только используется Pro Lightbox"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:224
+msgid "Thumbnail crop"
+msgstr "Кадрирование миниатюр"
+
+#: src/Admin/Notifications/Manager.php:196
+msgid "Not a valid notice name"
+msgstr "Недопустимое название уведомления"
+
+#: src/DisplayTypes/CompactAlbum.php:55
+msgid "NextGEN Basic Compact Album"
+msgstr "NextGEN основной компактный альбом"
+
+#: src/DisplayTypes/ExtendedAlbum.php:55
+msgid "NextGEN Basic Extended Album"
+msgstr "NextGEN основной расширенный альбом"
+
+#: src/Legacy/view/album-compact.php:69 src/Legacy/view/album-extend.php:35
+#: templates/CompactAlbum/compact.php:61
+#: templates/CompactAlbum/default-view.php:64
+#: templates/ExtendedAlbum/default-view.php:48
+#: templates/ExtendedAlbum/extended.php:51
+msgid "Photos"
+msgstr "Фотографии"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:50
+msgid "Please make a selection to continue"
+msgstr "Сделайте выбор, чтобы продолжить"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:50
+msgid "Select images"
+msgstr "Выбрать изображения"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:45
+msgid "Import Images into NextGen Gallery"
+msgstr "Импорт изображений в NextGen Gallery"
+
+#: src/Display/LightboxManager.php:105
+msgid "Thickbox"
+msgstr "Thickbox"
+
+#: src/Display/LightboxManager.php:81
+msgid "Shutter Reloaded"
+msgstr "Перезапуск затвора"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:29
+msgid "Galleries per page"
+msgstr "Галерей на странице"
+
+#: products/photocrati_nextgen/modules/displaytype_admin/package.module.displaytype_admin.php:29
+msgid "Display galleries as"
+msgstr "Показывать галереи как"
+
+#: products/photocrati_nextgen/modules/nextgen_other_options/package.module.nextgen_other_options.php:106
+#: src/Display/LightboxManager.php:129
+#: src/Legacy/admin/thumbnails-template.php:75
+msgid "Custom"
+msgstr "Произвольный"
+
+#: products/photocrati_nextgen/modules/nextgen_addgallery_page/package.module.nextgen_addgallery_page.php:364
+#: src/Legacy/admin/admin.php:158
+msgid "Add Gallery / Images"
+msgstr "Добавить галерею / альбом"

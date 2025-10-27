@@ -1,0 +1,84 @@
+2025-09-22T02:31:19+05:00 | Effective log: /opt/adaptive/log.txt
+2025-09-22T02:31:19+05:00 | POST: name=Иванов Иван, phone=+7 (922) 123-4567, email=s.volchkov@dvvs-ekb.ru, birth=12.03.2016, parent=Иванова Мария Сергеевна, diagnosis-len=62, wishes-len=42, ip=10.18.15.226
+2025-09-22T02:31:19+05:00 | CH insert into spt.adaptive: {"iterator":0}
+2025-09-22 02:31:19 | Иванов Иван | +7 (922) 123-4567 | s.volchkov@dvvs-ekb.ru | 12.03.2016 | Иванова Мария Сергеевна | Имеется справка от невролога, требуется индивидуальный подход. | Удобно после 18:00. Желательно будние дни. | 10.18.15.226
+2025-09-22T02:31:21+05:00 | Mail sent to s.volchkov@dvvs-ekb.ru
+2025-09-22T02:31:21+05:00 | END OK
+2025-09-22T02:31:21+05:00 | SHUTDOWN ERROR: type=2 file=/var/www/html/wordpress/adaptive/save-form.php line=29 message=file_put_contents(/opt/adaptive/log.txt): Failed to open stream: Permission denied
+2025-09-22T02:44:54+05:00 | Effective log: /opt/adaptive/log.txt
+2025-09-22T02:44:54+05:00 | POST: name=Иванов Иван, phone=+7 (922) 123-4567, email=s.volchkov@dvvs-ekb.ru, birth=12.03.2017, parent=Иванова Мария Сергеевна, diagnosis-len=62, wishes-len=42, ip=10.18.15.226
+2025-09-22T02:44:54+05:00 | CH insert into spt.adaptive: {"iterator":0}
+2025-09-22 02:44:54 | Иванов Иван | +7 (922) 123-4567 | s.volchkov@dvvs-ekb.ru | 12.03.2017 | Иванова Мария Сергеевна | Имеется справка от невролога, требуется индивидуальный подход. | Удобно после 18:00. Желательно будние дни. | 10.18.15.226
+2025-09-22T02:44:56+05:00 | Mail sent to s.volchkov@dvvs-ekb.ru
+2025-09-22T02:44:56+05:00 | END OK
+2025-09-22T02:44:56+05:00 | SHUTDOWN ERROR: type=2 file=/var/www/html/wordpress/adaptive/save-form.php line=29 message=file_put_contents(/opt/adaptive/log.txt): Failed to open stream: Permission denied
+2025-09-22T03:36:46+05:00 | Effective log: /opt/adaptive/log.txt
+2025-09-22T03:36:46+05:00 | POST: name=Иванов Иван, phone=+7 (922) 123-4567, email=s.volchkov@dvvs-ekb.ru, birth=12.03.2018, parent=Иванова Мария Сергеевна, diagnosis-len=62, wishes-len=42, ip=10.18.15.110
+2025-09-22T03:36:48+05:00 | CH insert into spt.adaptive: {"iterator":0}
+2025-09-22 03:36:49 | Иванов Иван | +7 (922) 123-4567 | s.volchkov@dvvs-ekb.ru | 12.03.2018 | Иванова Мария Сергеевна | Имеется справка от невролога, требуется индивидуальный подход. | Удобно после 18:00. Желательно будние дни. | 10.18.15.110
+2025-09-22T03:36:51+05:00 | Mail sent to s.volchkov@dvvs-ekb.ru
+2025-09-22T03:36:51+05:00 | END OK
+2025-09-22T03:36:51+05:00 | SHUTDOWN ERROR: type=2 file=/var/www/html/wordpress/adaptive/save-form.php line=29 message=file_put_contents(/opt/adaptive/log.txt): Failed to open stream: Permission denied
+2025-09-22T03:37:15+05:00 | Effective log: /opt/adaptive/log.txt
+2025-09-22T03:37:15+05:00 | POST: name=Иванов Иван, phone=+7 (922) 123-4567, email=s.volchkov@dvvs-ekb.ru, birth=12.03.2018, parent=Иванова Мария Сергеевна, diagnosis-len=62, wishes-len=42, ip=10.18.15.226
+2025-09-22T03:37:16+05:00 | CH insert into spt.adaptive: {"iterator":0}
+2025-09-22 03:37:17 | Иванов Иван | +7 (922) 123-4567 | s.volchkov@dvvs-ekb.ru | 12.03.2018 | Иванова Мария Сергеевна | Имеется справка от невролога, требуется индивидуальный подход. | Удобно после 18:00. Желательно будние дни. | 10.18.15.226
+2025-09-22T03:37:19+05:00 | Mail sent to s.volchkov@dvvs-ekb.ru
+2025-09-22T03:37:19+05:00 | END OK
+2025-09-22T03:37:19+05:00 | SHUTDOWN ERROR: type=2 file=/var/www/html/wordpress/adaptive/save-form.php line=29 message=file_put_contents(/opt/adaptive/log.txt): Failed to open stream: Permission denied
+2025-09-22T03:47:16+05:00 | Effective log: /opt/adaptive/log.txt
+2025-09-22T03:47:16+05:00 | POST: name=Иванов Иван, phone=+7 (922) 123-4567, email=s.volchkov@dvvs-ekb.ru, birth=12.03.2018, parent=Иванова Мария Сергеевна, diagnosis-len=62, wishes-len=42, ip=10.18.15.226
+2025-09-22T03:47:16+05:00 | CH insert into spt.adaptive: {"iterator":0}
+2025-09-22 03:47:17 | Иванов Иван | +7 (922) 123-4567 | s.volchkov@dvvs-ekb.ru | 12.03.2018 | Иванова Мария Сергеевна | Имеется справка от невролога, требуется индивидуальный подход. | Удобно после 18:00. Желательно будние дни. | 10.18.15.226
+2025-09-22T03:47:18+05:00 | Mail sent to s.volchkov@dvvs-ekb.ru
+2025-09-22T03:47:18+05:00 | END OK
+2025-09-22T03:47:18+05:00 | SHUTDOWN ERROR: type=2 file=/var/www/html/wordpress/adaptive/save-form.php line=29 message=file_put_contents(/opt/adaptive/log.txt): Failed to open stream: Permission denied
+2025-09-22T03:48:16+05:00 | Effective log: /opt/adaptive/log.txt
+2025-09-22T03:48:16+05:00 | POST: name=Иванов Иван, phone=+7 (922) 123-4567, email=s.volchkov@dvvs-ekb.ru, birth=12.03.2018, parent=Иванова Мария Сергеевна, diagnosis-len=62, wishes-len=42, ip=10.18.15.226
+2025-09-22T03:48:17+05:00 | CH insert into spt.adaptive: {"iterator":0}
+2025-09-22 03:48:17 | Иванов Иван | +7 (922) 123-4567 | s.volchkov@dvvs-ekb.ru | 12.03.2018 | Иванова Мария Сергеевна | Имеется справка от невролога, требуется индивидуальный подход. | Удобно после 18:00. Желательно будние дни. | 10.18.15.226
+2025-09-22T03:48:18+05:00 | Mail sent to s.volchkov@dvvs-ekb.ru
+2025-09-22T03:48:18+05:00 | END OK
+2025-09-22T03:48:18+05:00 | SHUTDOWN ERROR: type=2 file=/var/www/html/wordpress/adaptive/save-form.php line=29 message=file_put_contents(/opt/adaptive/log.txt): Failed to open stream: Permission denied
+2025-09-22T03:51:31+05:00 | Effective log: /opt/adaptive/log.txt
+2025-09-22T03:51:31+05:00 | POST: name=Иванов Иван, phone=+7 (922) 123-4567, email=s.volchkov@dvvs-ekb.ru, birth=12.03.2018, parent=Иванова Мария Сергеевна, diagnosis-len=62, wishes-len=42, ip=10.18.15.226
+2025-09-22T03:51:32+05:00 | CH insert into spt.adaptive: {"iterator":0}
+2025-09-22 03:51:32 | Иванов Иван | +7 (922) 123-4567 | s.volchkov@dvvs-ekb.ru | 12.03.2018 | Иванова Мария Сергеевна | Имеется справка от невролога, требуется индивидуальный подход. | Удобно после 18:00. Желательно будние дни. | 10.18.15.226
+2025-09-22T03:51:33+05:00 | Mail sent to s.volchkov@dvvs-ekb.ru
+2025-09-22T03:51:33+05:00 | END OK
+2025-09-22T03:51:33+05:00 | SHUTDOWN ERROR: type=2 file=/var/www/html/wordpress/adaptive/save-form.php line=29 message=file_put_contents(/opt/adaptive/log.txt): Failed to open stream: Permission denied
+2025-09-22T04:02:26+05:00 | Effective log: /opt/adaptive/log.txt
+2025-09-22T04:02:26+05:00 | POST: name=Иванов Иван, phone=+7 (922) 123-4567, email=s.volchkov@dvvs-ekb.ru, birth=12.03.2018, parent=Иванова Мария Сергеевна, diagnosis-len=62, wishes-len=42, ip=10.18.15.226
+2025-09-22T04:02:26+05:00 | CH insert into spt.adaptive: {"iterator":0}
+2025-09-22 04:02:26 | Иванов Иван | +7 (922) 123-4567 | s.volchkov@dvvs-ekb.ru | 12.03.2018 | Иванова Мария Сергеевна | Имеется справка от невролога, требуется индивидуальный подход. | Удобно после 18:00. Желательно будние дни. | 10.18.15.226
+2025-09-22T04:02:27+05:00 | Mail sent to s.volchkov@dvvs-ekb.ru
+2025-09-22T04:02:27+05:00 | END OK
+2025-09-22T04:02:27+05:00 | SHUTDOWN ERROR: type=2 file=/var/www/html/wordpress/adaptive/save-form.php line=29 message=file_put_contents(/opt/adaptive/log.txt): Failed to open stream: Permission denied
+2025-09-22T04:03:09+05:00 | Effective log: /opt/adaptive/log.txt
+2025-09-22T04:03:09+05:00 | POST: name=Иванов Иван, phone=+7 (922) 123-4567, email=s.volchkov@dvvs-ekb.ru, birth=12.03.2018, parent=Иванова Мария Сергеевна, diagnosis-len=62, wishes-len=42, ip=10.18.15.226
+2025-09-22T04:03:09+05:00 | CH insert into spt.adaptive: {"iterator":0}
+2025-09-22 04:03:09 | Иванов Иван | +7 (922) 123-4567 | s.volchkov@dvvs-ekb.ru | 12.03.2018 | Иванова Мария Сергеевна | Имеется справка от невролога, требуется индивидуальный подход. | Удобно после 18:00. Желательно будние дни. | 10.18.15.226
+2025-09-22T04:03:10+05:00 | Mail sent to s.volchkov@dvvs-ekb.ru
+2025-09-22T04:03:10+05:00 | END OK
+2025-09-22T04:03:10+05:00 | SHUTDOWN ERROR: type=2 file=/var/www/html/wordpress/adaptive/save-form.php line=29 message=file_put_contents(/opt/adaptive/log.txt): Failed to open stream: Permission denied
+2025-09-22T04:04:20+05:00 | Effective log: /opt/adaptive/log.txt
+2025-09-22T04:04:20+05:00 | POST: name=Иванов Иван, phone=+7 (922) 123-4567, email=s.volchkov@dvvs-ekb.ru, birth=12.03.2018, parent=Иванова Мария Сергеевна, diagnosis-len=62, wishes-len=42, ip=10.18.15.226
+2025-09-22T04:04:20+05:00 | CH insert into spt.adaptive: {"iterator":0}
+2025-09-22 04:04:20 | Иванов Иван | +7 (922) 123-4567 | s.volchkov@dvvs-ekb.ru | 12.03.2018 | Иванова Мария Сергеевна | Имеется справка от невролога, требуется индивидуальный подход. | Удобно после 18:00. Желательно будние дни. | 10.18.15.226
+2025-09-22T04:04:22+05:00 | Mail sent to s.volchkov@dvvs-ekb.ru
+2025-09-22T04:04:22+05:00 | END OK
+2025-09-22T04:04:22+05:00 | SHUTDOWN ERROR: type=2 file=/var/www/html/wordpress/adaptive/save-form.php line=29 message=file_put_contents(/opt/adaptive/log.txt): Failed to open stream: Permission denied
+2025-09-22T04:07:15+05:00 | Effective log: /opt/adaptive/log.txt
+2025-09-22T04:07:15+05:00 | POST: name=Иванов Иван, phone=+7 (922) 123-4567, email=s.volchkov@dvvs-ekb.ru, birth=12.03.2018, parent=Иванова Мария Сергеевна, diagnosis-len=62, wishes-len=42, ip=10.18.15.226
+2025-09-22T04:07:15+05:00 | CH insert into spt.adaptive: {"iterator":0}
+2025-09-22 04:07:15 | Иванов Иван | +7 (922) 123-4567 | s.volchkov@dvvs-ekb.ru | 12.03.2018 | Иванова Мария Сергеевна | Имеется справка от невролога, требуется индивидуальный подход. | Удобно после 18:00. Желательно будние дни. | 10.18.15.226
+2025-09-22T04:07:16+05:00 | Mail sent to s.volchkov@dvvs-ekb.ru
+2025-09-22T04:07:16+05:00 | END OK
+2025-09-22T04:07:16+05:00 | SHUTDOWN ERROR: type=2 file=/var/www/html/wordpress/adaptive/save-form.php line=29 message=file_put_contents(/opt/adaptive/log.txt): Failed to open stream: Permission denied
+2025-09-22T04:09:57+05:00 | Effective log: /opt/adaptive/log.txt
+2025-09-22T04:09:57+05:00 | POST: name=Иванов Иван, phone=+7 (922) 123-4567, email=s.volchkov@dvvs-ekb.ru, birth=12.03.2018, parent=Иванова Мария Сергеевна, diagnosis-len=62, wishes-len=42, ip=10.18.15.226
+2025-09-22T04:09:57+05:00 | CH insert into spt.adaptive: {"iterator":0}
+2025-09-22 04:09:57 | Иванов Иван | +7 (922) 123-4567 | s.volchkov@dvvs-ekb.ru | 12.03.2018 | Иванова Мария Сергеевна | Имеется справка от невролога, требуется индивидуальный подход. | Удобно после 18:00. Желательно будние дни. | 10.18.15.226
+2025-09-22T04:09:59+05:00 | Mail sent to s.volchkov@dvvs-ekb.ru
+2025-09-22T04:09:59+05:00 | END OK
+2025-09-22T04:09:59+05:00 | SHUTDOWN ERROR: type=2 file=/var/www/html/wordpress/adaptive/save-form.php line=29 message=file_put_contents(/opt/adaptive/log.txt): Failed to open stream: Permission denied
