@@ -11,6 +11,7 @@
     "paths": {
       "@app1/api-client/*": ["api-client/src/*"],
       "@app1/booking/*": ["booking/src/*"],
+      "@app1/poolworkload/*": ["poolworkload/src/*"],
       "@app1/schedule/*": ["schedule/src/*"]
     }
   }

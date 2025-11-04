@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { fetchPoolWorkload, PoolWorkloadSlot, PoolWorkloadResponse } from "/app1/api-client/poolWorkload";
+import { fetchPoolWorkload, PoolWorkloadSlot, PoolWorkloadResponse } from "@app1/api-client/poolWorkload";
 
 /* ---------- Константы ---------- */
 const HOUR_START = 7;
@@ -213,8 +213,9 @@ const PoolWheelWidgetEmbed: React.FC<Props> = ({ onSelectSlot }) => {
 
       if (loaded.length) {
         if (selectedHour == null) {
-          const first = loaded.map(s=>s.hour).sort((a,b)=>a-b)[0];
-          setSelectedHour(first);
+          const first = loaded
+            .map((s: PoolWorkloadSlot) => s.hour)
+            .sort((a: number, b: number) => a - b)[0];
         }
       } else {
         if (selectedHour != null) setSelectedHour(null);
