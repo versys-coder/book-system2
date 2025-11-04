@@ -1,9 +1,5 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import {
-  fetchPoolWorkload,
-  PoolWorkloadSlot,
-  PoolWorkloadResponse,
-} from "../../src/api/poolWorkload";
+import { fetchPoolWorkload, PoolWorkloadSlot, PoolWorkloadResponse } from "/app1/api-client/poolWorkload";
 
 /* ---------- Константы ---------- */
 const HOUR_START = 7;
