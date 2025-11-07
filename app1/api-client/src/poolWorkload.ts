@@ -24,7 +24,7 @@ export interface FetchPoolWorkloadParams {
  * Ожидается, что вернётся массив слотов с полями date, hour, freePlaces.
  */
 export async function fetchPoolWorkload(params: FetchPoolWorkloadParams = {}): Promise<PoolWorkloadResponse> {
-  const { data } = await http.get<PoolWorkloadResponse>("/api/pool/workload", { params });
+  const { data } = await http.get<PoolWorkloadResponse>("/api/pool-workload", { params });
   // При необходимости трансформируйте data здесь.
   return data;
 }
