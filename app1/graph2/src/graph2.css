@@ -1,9 +1,8 @@
-/* Контейнер и заголовок */
 .graph2-wrap {
   max-width: 1200px;
   margin: 24px auto 64px;
   padding: 0 16px;
-  font-family: "Roboto", "Inter", system-ui, -apple-system, Arial, sans-serif;
+  font-family: "Roboto","Inter",system-ui,-apple-system,Arial,sans-serif;
   color: #0e2538;
 }
 .graph2-title {
@@ -13,7 +12,7 @@
   margin: 8px 0 16px;
 }
 
-/* Сетка часов/дат/столбиков — по аналогии с вариантом 2 (PoolWorkload2) */
+/* Сетка */
 .graph2-grid-scroll { width: 100%; overflow-x: auto; }
 .graph2-grid { position: relative; }
 
@@ -21,8 +20,12 @@
   display: flex;
   flex-direction: row;
   gap: 5px;
-  margin-left: 90px; /* под место для колонки даты */
+  margin-left: 90px;
   margin-bottom: 8px;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 10;
 }
 .graph2-hour {
   min-width: 50px;
@@ -30,6 +33,13 @@
   color: #185a90;
   font-weight: 700;
   white-space: nowrap;
+  padding: 4px 0;
+  border-radius: 6px;
+  transition: background .15s;
+}
+.graph2-hour.current-hour {
+  background: #ffe79e;
+  box-shadow: 0 0 0 2px #ffc23b55;
 }
 
 .graph2-rows { display: flex; flex-direction: column; gap: 10px; }
@@ -45,7 +55,18 @@
 }
 
 .graph2-bars { display: flex; flex-direction: row; align-items: flex-end; }
-.graph2-bar { display: flex; align-items: flex-end; justify-content: center; }
+.graph2-bar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: default;
+  transition: transform .15s;
+}
+.graph2-bar:hover { transform: translateY(-3px); }
+.graph2-bar.current-hour-bar .graph2-seg:first-child {
+  outline: 2px solid #ffc23bcc;
+  outline-offset: -2px;
+}
 .graph2-bar-inner { display: flex; flex-direction: column; justify-content: flex-end; }
 .graph2-seg {
   width: 100%;
@@ -65,7 +86,7 @@
 }
 .graph2-error { color: #b00020; background: #fdecec; }
 
-/* Попап/стрелочка — классы как в варианте 2 */
+/* Попап (на основе variant2) */
 .poolworkload-popup-wrapper {
   position: fixed;
   transform: translate(-50%, -100%);
@@ -81,7 +102,7 @@
   border: 1px solid #eaf1f8;
   border-radius: 12px;
   box-shadow: 0 8px 28px rgba(2,159,251,0.12);
-  padding: 12px 14px;
+  padding: 12px 14px 16px;
   text-align: center;
   pointer-events: none;
 }
@@ -120,4 +141,27 @@
   width: 18px; height: 12px;
   overflow: visible;
   pointer-events: none;
+}
+
+/* Кнопка брони (заглушка) */
+.graph2-book-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 9px;
+  background: #185a90;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  pointer-events: auto;
+  transition: background .18s;
+}
+.graph2-book-btn:disabled {
+  background: #8fa7b9;
+  cursor: not-allowed;
+}
+.graph2-book-btn:not(:disabled):hover {
+  background: #0f476f;
 }

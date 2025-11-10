@@ -1,0 +1,7 @@
+/* Скопировано из booking-main/styles/poolBooking.css для визуальной консистентности.
+   Если в оригинале будут обновления — синхронизируй вручную. Ниже только примерная структура;
+   при необходимости вставь полный файл. */
+.pool-booking-area { margin-top: 24px; width: 100%; display: flex; justify-content: center; padding: 0 16px; box-sizing: border-box; }
+.booking-variant { width: 100%; max-width: 1200px; background: transparent; border-radius: 12px; padding: 24px; box-sizing: border-box; }
+.booking-variant h2 { color: #185a90; font-family: 'Roboto Condensed', Arial, sans-serif; font-size: 2.6rem; font-weight: 700; margin: 32px 0 24px 0; }
+/* Добавь сюда остальные селекторы из исходного файла по необходимости. */
