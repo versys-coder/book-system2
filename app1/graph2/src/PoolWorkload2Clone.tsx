@@ -1,3 +1,4 @@
+/// <reference types="react" />
 import React, { useEffect, useMemo, useRef, useState } from "react";
 
 // Константы как в оригинальном PoolWorkload2
@@ -226,7 +227,7 @@ const PoolWorkload2Clone: React.FC = () => {
                       : Math.max(0, Math.min(TOTAL_LANES, slot?.freeLanes ?? 0));
 
                     // Сегменты: абсолютное позиционирование снизу вверх
-                    const segs: JSX.Element[] = [];
+                    const segs = [] as React.ReactElement[];
                     for (let i = 0; i < TOTAL_LANES; i++) {
                       const isFree = i < freeLanes;
                       const t =
