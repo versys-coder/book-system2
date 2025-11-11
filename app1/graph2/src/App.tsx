@@ -1,8 +1,16 @@
 import React from "react";
-import Graph2 from "./graph2";
-import "./poolBooking.css"; // общий стиль для консистентности
-import "./graph2.css";
+import PoolWorkload2Clone from "./PoolWorkload2Clone";
+import BookingPanelPlaceholder from "./BookingPanelPlaceholder";
 
 export default function App() {
-  return <Graph2 />;
+  return (
+    <div className="booking-variant booking-variant1-row">
+      <div className="booking-variant1-chart">
+        <PoolWorkload2Clone />
+      </div>
+      <div className="booking-variant1-side">
+        <BookingPanelPlaceholder />
+      </div>
+    </div>
+  );
 }

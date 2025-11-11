@@ -1,6 +1,6 @@
 import React from "react";
-import PoolHistogram from "./PoolHistogram";
+import PoolWorkload3Clone from "./PoolWorkload3Clone";
 
 export default function App() {
-  return <PoolHistogram />;
+  return <PoolWorkload3Clone />;
 }
